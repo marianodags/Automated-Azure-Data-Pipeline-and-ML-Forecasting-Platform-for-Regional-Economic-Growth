@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regional Economic Intelligence Dashboard - Region IX</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-slate-100 font-sans text-slate-800 min-h-screen flex flex-col">
+
+    <!-- Header Navigation -->
+    <header class="bg-slate-900 text-white shadow-lg border-b border-slate-700 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-blue-600 p-2 rounded-lg text-white">
+                    <i class="fa-solid me-0 fa-chart-line text-xl"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg leading-tight">Region IX Economic Intelligence Dashboard</h1>
+                    <p class="text-xs text-slate-400">Zamboanga Peninsula AI-Powered Economic Analytics & Forecasts</p>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-2 mt-2 sm:mt-0">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                    <span class="w-1.5 h-1.5 mr-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                    API Connected
+                </span>
+                <a href="/docs" target="_blank" class="text-xs text-slate-300 hover:text-white px-3 py-1.5 rounded bg-slate-800 hover:bg-slate-700 transition">
+                    <i class="fa-solid fa-code border-b border-transparent"></i> API Docs
+                </a>
+            </div>
+        </div>
+
+        <!-- Dashboard View Tabs -->
+        <div class="max-w-7xl mx-auto px-4 flex space-x-1 overflow-x-auto border-t border-slate-800 pt-1">
+            <button onclick="switchTab('executive')" id="tab-executive" class="tab-btn active px-4 py-2.5 text-sm font-medium border-b-2 border-blue-500 text-blue-400 flex items-center space-x-2 whitespace-nowrap">
+                <i class="fa-solid fa-gauge-high"></i> <span>Executive Overview</span>
+            </button>
+            <button onclick="switchTab('forecast')" id="tab-forecast" class="tab-btn px-4 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-slate-200 flex items-center space-x-2 whitespace-nowrap">
+                <i class="fa-solid fa-chart-line"></i> <span>2026-2030 Forecasts</span>
+            </button>
+            <button onclick="switchTab('industry')" id="tab-industry" class="tab-btn px-4 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-slate-200 flex items-center space-x-2 whitespace-nowrap">
+                <i class="fa-solid fa-industry"></i> <span>Industry Sectors</span>
+            </button>
+            <button onclick="switchTab('geographic')" id="tab-geographic" class="tab-btn px-4 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-slate-200 flex items-center space-x-2 whitespace-nowrap">
+                <i class="fa-solid fa-map-location-dot"></i> <span>Provinces & LGUs</span>
+            </button>
+            <button onclick="switchTab('scenario')" id="tab-scenario" class="tab-btn px-4 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-slate-200 flex items-center space-x-2 whitespace-nowrap">
+                <i class="fa-solid fa-wand-magic-sparkles"></i> <span>AI Insights & Simulator</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-7xl mx-auto px-4 py-6 flex-1 w-full">
+
+        <!-- Tab 1: Executive Dashboard -->
+        <section id="view-executive" class="tab-content block space-y-6">
+            <!-- KPI Summary Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                    <div class="flex items-center justify-between text-slate-500 text-xs font-semibold uppercase tracking-wider mb-2">
+                        <span>Regional GDP (2025)</span>
+                        <i class="fa-solid fa-coins text-blue-500 text-base"></i>
+                    </div>
+                    <div class="text-2xl font-extrabold text-slate-900" id="kpi-gdp">₱412,500M</div>
+                    <div class="mt-2 text-xs flex items-center text-emerald-600 font-medium">
+                        <i class="fa-solid fa-arrow-trend-up mr-1"></i>
+                        <span>+6.2% YoY Growth</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                    <div class="flex items-center justify-between text-slate-500 text-xs font-semibold uppercase tracking-wider mb-2">
+                        <span>2026 Forecast GDP</span>
+                        <i class="fa-solid fa-chart-pie text-indigo-500 text-base"></i>
+                    </div>
+                    <div class="text-2xl font-extrabold text-slate-900" id="kpi-forecast-2026">₱438,900M</div>
+                    <div class="mt-2 text-xs text-slate-500">
+                        95% CI: <span class="font-semibold text-slate-700" id="kpi-ci-2026">₱421B - ₱456B</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                    <div class="flex items-center justify-between text-slate-500 text-xs font-semibold uppercase tracking-wider mb-2">
+                        <span>Inflation Rate</span>
+                        <i class="fa-solid fa-arrow-up-right-dots text-amber-500 text-base"></i>
+                    </div>
+                    <div class="text-2xl font-extrabold text-slate-900" id="kpi-inflation">3.8%</div>
+                    <div class="mt-2 text-xs text-amber-600 font-medium">
+                        <span>Within target 2.0% - 4.0%</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                    <div class="flex items-center justify-between text-slate-500 text-xs font-semibold uppercase tracking-wider mb-2">
+                        <span>Employment Rate</span>
+                        <i class="fa-solid fa-users text-emerald-500 text-base"></i>
+                    </div>
+                    <div class="text-2xl font-extrabold text-slate-900" id="kpi-employment">96.4%</div>
+                    <div class="mt-2 text-xs text-emerald-600 font-medium">
+                        <i class="fa-solid fa-check mr-1"></i> High Labor Participation
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Row -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="lg:col-span-2 bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                    <h3 class="text-base font-bold text-slate-800 mb-1">Regional GDP Trend (2018 - 2030*)</h3>
+                    <p class="text-xs text-slate-500 mb-4">Historical quarterly GDP and ML projections with 95% Confidence Intervals</p>
+                    <div class="h-80 relative">
+                        <canvas id="chart-exec-gdp"></canvas>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                    <h3 class="text-base font-bold text-slate-800 mb-1">Provincial GDP Breakdown</h3>
+                    <p class="text-xs text-slate-500 mb-4">Relative economic contribution across Region IX provinces</p>
+                    <div class="h-80 relative flex items-center justify-center">
+                        <canvas id="chart-exec-provinces"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab 2: Forecast Dashboard -->
+        <section id="view-forecast" class="tab-content hidden space-y-6">
+            <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-800">ML Forecast Engine & Confidence Intervals</h3>
+                        <p class="text-xs text-slate-500">2026-2030 Predictions derived from XGBoost, ARIMA, and Random Forest Ensemble Models</p>
+                    </div>
+
+                    <div class="flex items-center space-x-3">
+                        <label for="metric-selector" class="text-xs font-semibold text-slate-600">Metric Type:</label>
+                        <select id="metric-selector" onchange="loadForecastData()" class="bg-slate-50 border border-slate-300 text-slate-800 text-xs rounded-lg p-2 focus:ring-blue-500 focus:border-blue-500 font-medium">
+                            <option value="GDP">Regional GDP (M PHP)</option>
+                            <option value="Industry_Growth">Industry Growth (%)</option>
+                            <option value="Revenue">Local Revenue (M PHP)</option>
+                            <option value="Inflation">Inflation Rate (%)</option>
+                            <option value="Employment">Employment Rate (%)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="h-96 relative">
+                    <canvas id="chart-forecast-main"></canvas>
+                </div>
+            </div>
+
+            <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                <h4 class="font-bold text-slate-800 mb-3 text-sm">Forecast Data Table (2026 - 2030)</h4>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse text-xs">
+                        <thead>
+                            <tr class="bg-slate-50 border-b border-slate-200 text-slate-600 uppercase font-semibold">
+                                <th class="p-3">Year</th>
+                                <th class="p-3">Metric Type</th>
+                                <th class="p-3">Model Used</th>
+                                <th class="p-3">Forecast Value</th>
+                                <th class="p-3">Lower Bound (95% CI)</th>
+                                <th class="p-3">Upper Bound (95% CI)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="forecast-table-body" class="divide-y divide-slate-100 font-medium">
+                            <tr><td colspan="6" class="p-4 text-center text-slate-400">Loading forecast data...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab 3: Industry Sector Dashboard -->
+        <section id="view-industry" class="tab-content hidden space-y-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                    <h3 class="text-base font-bold text-slate-800 mb-1">Industry Share Breakdown</h3>
+                    <p class="text-xs text-slate-500 mb-4">Economic composition by major industry sector (PSIC Standard)</p>
+                    <div class="h-80 relative flex items-center justify-center">
+                        <canvas id="chart-industry-donut"></canvas>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                    <h3 class="text-base font-bold text-slate-800 mb-1">Sectoral Growth Comparison</h3>
+                    <p class="text-xs text-slate-500 mb-4">Projected Annual Growth Rates by Sector (2025 vs 2026)</p>
+                    <div class="h-80 relative">
+                        <canvas id="chart-industry-growth"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                <h4 class="font-bold text-slate-800 mb-3 text-sm">Key Economic Industry Sectors (Region IX)</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-xs">
+                    <div class="p-3 bg-blue-50/50 rounded-lg border border-blue-100">
+                        <div class="font-bold text-blue-900 mb-1"><i class="fa-solid fa-wheat-awn mr-1.5 text-blue-600"></i> Agriculture, Forestry & Fishing</div>
+                        <p class="text-slate-600">Primary driver in Zamboanga del Norte & Sibugay. Key products include rubber, coconut, and fisheries.</p>
+                    </div>
+                    <div class="p-3 bg-indigo-50/50 rounded-lg border border-indigo-100">
+                        <div class="font-bold text-indigo-900 mb-1"><i class="fa-solid fa-industry mr-1.5 text-indigo-600"></i> Manufacturing</div>
+                        <p class="text-slate-600">Centered around Zamboanga City (Canning capital of the Philippines) and food processing.</p>
+                    </div>
+                    <div class="p-3 bg-emerald-50/50 rounded-lg border border-emerald-100">
+                        <div class="font-bold text-emerald-900 mb-1"><i class="fa-solid fa-building mr-1.5 text-emerald-600"></i> Construction & Infrastructure</div>
+                        <p class="text-slate-600">Boosted by government public works infrastructure projects and urban developments.</p>
+                    </div>
+                    <div class="p-3 bg-amber-50/50 rounded-lg border border-amber-100">
+                        <div class="font-bold text-amber-900 mb-1"><i class="fa-solid fa-shop mr-1.5 text-amber-600"></i> Wholesale & Retail Trade</div>
+                        <p class="text-slate-600">Commercial hubs across Pagadian City, Dipolog City, and Zamboanga City urban zones.</p>
+                    </div>
+                    <div class="p-3 bg-rose-50/50 rounded-lg border border-rose-100">
+                        <div class="font-bold text-rose-900 mb-1"><i class="fa-solid fa-umbrella-beach mr-1.5 text-rose-600"></i> Tourism & Hospitality</div>
+                        <p class="text-slate-600">Coastal tourism, cultural heritage sites, eco-tours, and hotel accommodation services.</p>
+                    </div>
+                    <div class="p-3 bg-cyan-50/50 rounded-lg border border-cyan-100">
+                        <div class="font-bold text-cyan-900 mb-1"><i class="fa-solid fa-laptop-code mr-1.5 text-cyan-600"></i> ICT & Digital Services</div>
+                        <p class="text-slate-600">Emerging BPO and digital economy ecosystem in key urbanized cities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab 4: Geographic / Provincial Dashboard -->
+        <section id="view-geographic" class="tab-content hidden space-y-6">
+            <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-800">Provinces & Local Government Units (LGUs)</h3>
+                        <p class="text-xs text-slate-500">Philippine Standard Geographic Code (PSGC) Level Drilldown</p>
+                    </div>
+
+                    <div class="flex items-center space-x-3">
+                        <label for="province-filter" class="text-xs font-semibold text-slate-600">Filter Province:</label>
+                        <select id="province-filter" onchange="loadMunicipalities()" class="bg-slate-50 border border-slate-300 text-slate-800 text-xs rounded-lg p-2 focus:ring-blue-500 focus:border-blue-500 font-medium">
+                            <option value="">All Provinces</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Provinces Summary Cards -->
+                <div id="provinces-cards-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-6">
+                    <!-- Populated via JS -->
+                </div>
+
+                <!-- Municipalities Table -->
+                <h4 class="font-bold text-slate-800 mb-3 text-sm">Municipalities & Cities Directory</h4>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse text-xs">
+                        <thead>
+                            <tr class="bg-slate-50 border-b border-slate-200 text-slate-600 uppercase font-semibold">
+                                <th class="p-3">ID</th>
+                                <th class="p-3">PSGC Code</th>
+                                <th class="p-3">Municipality / City Name</th>
+                                <th class="p-3">LGU Classification</th>
+                            </tr>
+                        </thead>
+                        <tbody id="municipalities-table-body" class="divide-y divide-slate-100 font-medium">
+                            <tr><td colspan="4" class="p-4 text-center text-slate-400">Loading LGU data...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab 5: AI Insights & What-If Simulator -->
+        <section id="view-scenario" class="tab-content hidden space-y-6">
+            <!-- AI Insights Column -->
+            <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                <div class="flex items-center space-x-2 mb-4">
+                    <div class="p-2 bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-lg">
+                        <i class="fa-solid fa-brain text-lg"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-800">AI-Generated Narrative Insights</h3>
+                        <p class="text-xs text-slate-500">Automated machine-synthesized economic headlines and strategic recommendations</p>
+                    </div>
+                </div>
+
+                <div id="ai-insights-container" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Cards dynamically populated -->
+                </div>
+            </div>
+
+            <!-- What-If Simulator -->
+            <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
+                <div class="flex items-center space-x-2 mb-4">
+                    <div class="p-2 bg-blue-600 text-white rounded-lg">
+                        <i class="fa-solid fa-sliders text-lg"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-800">Economic Scenario Analysis Simulator ("What-If" Engine)</h3>
+                        <p class="text-xs text-slate-500">Simulate economic shocks across key sectors to quantify impact on 2026 Regional GDP</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <!-- Controls Form -->
+                    <form id="scenario-form" onsubmit="runSimulation(event)" class="space-y-4 bg-slate-50 p-4 rounded-xl border border-slate-200">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 mb-1">Target Simulation Year</label>
+                            <input type="number" id="sim-year" value="2026" min="2026" max="2030" class="w-full bg-white border border-slate-300 rounded p-2 text-xs font-semibold">
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-xs font-semibold text-slate-700 mb-1">
+                                <span>Agriculture Growth Delta:</span>
+                                <span id="val-agri" class="text-blue-600 font-bold">+5.0%</span>
+                            </div>
+                            <input type="range" id="sim-agri" min="-10" max="15" step="0.5" value="5" oninput="document.getElementById('val-agri').innerText = (this.value >= 0 ? '+' : '') + this.value + '%'" class="w-full accent-blue-600">
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-xs font-semibold text-slate-700 mb-1">
+                                <span>Manufacturing Growth Delta:</span>
+                                <span id="val-mfg" class="text-indigo-600 font-bold">0.0%</span>
+                            </div>
+                            <input type="range" id="sim-mfg" min="-10" max="15" step="0.5" value="0" oninput="document.getElementById('val-mfg').innerText = (this.value >= 0 ? '+' : '') + this.value + '%'" class="w-full accent-indigo-600">
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-xs font-semibold text-slate-700 mb-1">
+                                <span>Construction Growth Delta:</span>
+                                <span id="val-const" class="text-emerald-600 font-bold">0.0%</span>
+                            </div>
+                            <input type="range" id="sim-const" min="-10" max="15" step="0.5" value="0" oninput="document.getElementById('val-const').innerText = (this.value >= 0 ? '+' : '') + this.value + '%'" class="w-full accent-emerald-600">
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-xs font-semibold text-slate-700 mb-1">
+                                <span>Inflation Rate Shock Delta:</span>
+                                <span id="val-inf" class="text-amber-600 font-bold">0.0%</span>
+                            </div>
+                            <input type="range" id="sim-inf" min="-5" max="10" step="0.5" value="0" oninput="document.getElementById('val-inf').innerText = (this.value >= 0 ? '+' : '') + this.value + '%'" class="w-full accent-amber-600">
+                        </div>
+
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-lg shadow text-xs transition flex items-center justify-center space-x-2">
+                            <i class="fa-solid fa-play"></i> <span>Run Scenario Simulation</span>
+                        </button>
+                    </form>
+
+                    <!-- Results Output -->
+                    <div class="lg:col-span-2 bg-slate-900 text-white p-5 rounded-xl flex flex-col justify-between">
+                        <div>
+                            <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Simulation Output Results</div>
+                            <div id="sim-status" class="text-xs text-slate-300 mb-4">Click "Run Scenario Simulation" to execute engine parameters.</div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+                                <div class="bg-slate-800 p-4 rounded-lg border border-slate-700">
+                                    <div class="text-xs text-slate-400 mb-1">Baseline GDP (2026)</div>
+                                    <div id="res-base-gdp" class="text-xl font-bold text-slate-100">₱438,900M</div>
+                                </div>
+                                <div class="bg-slate-800 p-4 rounded-lg border border-slate-700">
+                                    <div class="text-xs text-slate-400 mb-1">Simulated GDP</div>
+                                    <div id="res-sim-gdp" class="text-xl font-bold text-emerald-400">₱0M</div>
+                                </div>
+                                <div class="bg-slate-800 p-4 rounded-lg border border-slate-700">
+                                    <div class="text-xs text-slate-400 mb-1">Net Economic Impact</div>
+                                    <div id="res-delta-gdp" class="text-xl font-bold text-blue-400">+₱0M</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-4 bg-slate-800/80 rounded-lg border border-slate-700 text-xs leading-relaxed text-slate-300">
+                            <span class="font-bold text-white"><i class="fa-solid fa-lightbulb text-amber-400 mr-1.5"></i> Model Note:</span>
+                            The What-If scenario engine computes non-linear elasticities across primary, secondary, and tertiary sectors, calculating macro impact on regional output.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 text-xs py-4 border-t border-slate-800 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 flex flex-wrap justify-between items-center">
+            <div>AI-Powered Regional Economic Intelligence Platform &copy; 2026 Region IX</div>
+            <div class="mt-2 sm:mt-0 space-x-4">
+                <span>FastAPI REST Backend</span>
+                <span>FastAPI + Chart.js Dashboard</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Application Script -->
+    <script>
+        // Global Chart instances
+        let execGdpChart = null;
+        let execProvChart = null;
+        let forecastMainChart = null;
+        let industryDonutChart = null;
+        let industryGrowthChart = null;
+
+        // Data caches
+        let provincesData = [];
+        let municipalitiesData = [];
+
+        // Tab Switching
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active', 'border-blue-500', 'text-blue-400');
+                btn.classList.add('border-transparent', 'text-slate-400');
+            });
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.add('hidden');
+            });
+
+            const activeBtn = document.getElementById(`tab-${tabId}`);
+            const activeContent = document.getElementById(`view-${tabId}`);
+
+            if (activeBtn) {
+                activeBtn.classList.add('active', 'border-blue-500', 'text-blue-400');
+                activeBtn.classList.remove('border-transparent', 'text-slate-400');
+            }
+            if (activeContent) {
+                activeContent.classList.remove('hidden');
+            }
+
+            // Trigger chart resize / reload if needed
+            if (tabId === 'forecast' && forecastMainChart) forecastMainChart.resize();
+            if (tabId === 'industry' && industryDonutChart) {
+                industryDonutChart.resize();
+                industryGrowthChart.resize();
+            }
+        }
+
+        // Initialize App
+        document.addEventListener('DOMContentLoaded', async () => {
+            await Promise.all([
+                loadProvinces(),
+                loadExecutiveOverview(),
+                loadForecastData(),
+                loadIndustryOverview(),
+                loadAIInsights()
+            ]);
+        });
+
+        // 1. Executive Overview
+        async function loadExecutiveOverview() {
+            try {
+                const [gdpRes, forecastRes] = await Promise.all([
+                    fetch('/api/gdp/quarterly'),
+                    fetch('/api/forecasts?metric_type=GDP')
+                ]);
+
+                const gdpData = await gdpRes.json();
+                const forecastData = await forecastRes.json();
+
+                // Build trend series
+                // Compute actual annual GDP sums from DB
+                const actualsByYear = {};
+                gdpData.forEach(r => {
+                    const y = r.year;
+                    actualsByYear[y] = (actualsByYear[y] || 0) + (r.gdp_value_m_php || 0);
+                });
+
+                const gdp2025 = actualsByYear[2025] || 117026.82;
+                document.getElementById('kpi-gdp').innerText = `₱${Math.round(gdp2025).toLocaleString()}M`;
+
+                // Sum forecast values per year across all provinces/industries
+                const totalsByYear = {};
+                const lowersByYear = {};
+                const uppersByYear = {};
+
+                forecastData.forEach(f => {
+                    const y = f.year;
+                    totalsByYear[y] = (totalsByYear[y] || 0) + (f.forecast_value || 0);
+                    lowersByYear[y] = (lowersByYear[y] || 0) + (f.lower_bound_95 || 0);
+                    uppersByYear[y] = (uppersByYear[y] || 0) + (f.upper_bound_95 || 0);
+                });
+
+                if (totalsByYear[2026]) {
+                    document.getElementById('kpi-forecast-2026').innerText = `₱${Math.round(totalsByYear[2026]).toLocaleString()}M`;
+                    document.getElementById('kpi-ci-2026').innerText = `₱${Math.round(lowersByYear[2026]/1000)}B - ₱${Math.round(uppersByYear[2026]/1000)}B`;
+                }
+
+                const years = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030];
+                const actualSeries = years.map(y => y <= 2025 ? (actualsByYear[y] || null) : null);
+                const forecastSeries = years.map(y => {
+                    if (y === 2025) return actualsByYear[2025] || null;
+                    if (y >= 2026) return totalsByYear[y] || null;
+                    return null;
+                });
+
+                // Executive GDP Trend Chart
+                const ctx1 = document.getElementById('chart-exec-gdp').getContext('2d');
+                if (execGdpChart) execGdpChart.destroy();
+                execGdpChart = new Chart(ctx1, {
+                    type: 'line',
+                    data: {
+                        labels: years,
+                        datasets: [
+                            {
+                                label: 'Actual GDP (M PHP)',
+                                data: actualSeries,
+                                borderColor: '#2563eb',
+                                backgroundColor: '#2563eb',
+                                borderWidth: 3,
+                                tension: 0.3,
+                                pointRadius: 4
+                            },
+                            {
+                                label: 'Forecast GDP (M PHP)',
+                                data: forecastSeries,
+                                borderColor: '#818cf8',
+                                borderDash: [5, 5],
+                                backgroundColor: '#818cf8',
+                                borderWidth: 3,
+                                tension: 0.3,
+                                pointRadius: 4
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { position: 'top' }
+                        },
+                        scales: {
+                            y: { beginAtZero: false }
+                        }
+                    }
+                });
+
+                // Provincial Pie/Bar Chart
+                const ctx2 = document.getElementById('chart-exec-provinces').getContext('2d');
+                if (execProvChart) execProvChart.destroy();
+                execProvChart = new Chart(ctx2, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Zamboanga City', 'Zamboanga del Norte', 'Zamboanga del Sur', 'Zamboanga Sibugay', 'Isabela City'],
+                        datasets: [{
+                            data: [35, 22, 25, 13, 5],
+                            backgroundColor: ['#2563eb', '#3b82f6', '#60a5fa', '#93c5fd', '#c7d2fe']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { position: 'bottom' }
+                        }
+                    }
+                });
+            } catch (err) {
+                console.error("Error loading executive overview:", err);
+            }
+        }
+
+        // 2. Forecast Tab
+        async function loadForecastData() {
+            try {
+                const metric = document.getElementById('metric-selector').value;
+                const res = await fetch(`/api/forecasts?metric_type=${metric}`);
+                const data = await res.json();
+
+                const tableBody = document.getElementById('forecast-table-body');
+                tableBody.innerHTML = '';
+
+                const labels = data.map(d => `${d.year}${d.quarter ? ' Q' + d.quarter : ''}`);
+                const forecasts = data.map(d => d.forecast_value);
+                const uppers = data.map(d => d.upper_bound_95);
+                const lowers = data.map(d => d.lower_bound_95);
+
+                data.forEach(item => {
+                    const row = document.createElement('tr');
+                    row.className = "hover:bg-slate-50";
+                    row.innerHTML = `
+                        <td class="p-3 font-bold">${item.year}</td>
+                        <td class="p-3"><span class="px-2 py-1 rounded-full bg-slate-100 text-slate-700 font-semibold text-[10px]">${item.metric_type}</span></td>
+                        <td class="p-3">${item.model_used || 'XGBoost / ARIMA'}</td>
+                        <td class="p-3 font-bold text-blue-600">${Number(item.forecast_value).toFixed(2)}</td>
+                        <td class="p-3 text-slate-500">${Number(item.lower_bound_95).toFixed(2)}</td>
+                        <td class="p-3 text-slate-500">${Number(item.upper_bound_95).toFixed(2)}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+
+                // Render Chart
+                const ctx = document.getElementById('chart-forecast-main').getContext('2d');
+                if (forecastMainChart) forecastMainChart.destroy();
+
+                forecastMainChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [
+                            {
+                                label: 'Upper 95% CI',
+                                data: uppers,
+                                borderColor: 'transparent',
+                                backgroundColor: 'rgba(99, 102, 241, 0.15)',
+                                pointRadius: 0,
+                                fill: '+1'
+                            },
+                            {
+                                label: 'Lower 95% CI',
+                                data: lowers,
+                                borderColor: 'transparent',
+                                backgroundColor: 'transparent',
+                                pointRadius: 0,
+                                fill: false
+                            },
+                            {
+                                label: `${metric} Forecast Value`,
+                                data: forecasts,
+                                borderColor: '#4f46e5',
+                                backgroundColor: '#4f46e5',
+                                borderWidth: 3,
+                                pointRadius: 5
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { position: 'top' }
+                        }
+                    }
+                });
+            } catch (err) {
+                console.error("Error loading forecast data:", err);
+            }
+        }
+
+        // 3. Industry Tab
+        async function loadIndustryOverview() {
+            const sectors = ['Agriculture', 'Manufacturing', 'Construction', 'Trade', 'Tourism', 'ICT Services'];
+            const shares = [28, 24, 18, 16, 8, 6];
+            const growthRates = [4.2, 5.8, 7.1, 6.0, 8.5, 9.2];
+
+            // Donut Chart
+            const ctx1 = document.getElementById('chart-industry-donut').getContext('2d');
+            if (industryDonutChart) industryDonutChart.destroy();
+            industryDonutChart = new Chart(ctx1, {
+                type: 'doughnut',
+                data: {
+                    labels: sectors,
+                    datasets: [{
+                        data: shares,
+                        backgroundColor: ['#2563eb', '#4f46e5', '#10b981', '#f59e0b', '#f43f5e', '#06b6d4']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { position: 'right' } }
+                }
+            });
+
+            // Growth Bar Chart
+            const ctx2 = document.getElementById('chart-industry-growth').getContext('2d');
+            if (industryGrowthChart) industryGrowthChart.destroy();
+            industryGrowthChart = new Chart(ctx2, {
+                type: 'bar',
+                data: {
+                    labels: sectors,
+                    datasets: [{
+                        label: 'Projected YoY Growth (%)',
+                        data: growthRates,
+                        backgroundColor: '#3b82f6',
+                        borderRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: { y: { beginAtZero: true } }
+                }
+            });
+        }
+
+        // 4. Provinces & Municipalities Tab
+        async function loadProvinces() {
+            try {
+                const res = await fetch('/api/provinces');
+                provincesData = await res.json();
+
+                const filter = document.getElementById('province-filter');
+                filter.innerHTML = '<option value="">All Provinces</option>';
+
+                const cardsGrid = document.getElementById('provinces-cards-grid');
+                cardsGrid.innerHTML = '';
+
+                provincesData.forEach(prov => {
+                    // Populate filter select
+                    const opt = document.createElement('option');
+                    opt.value = prov.id;
+                    opt.innerText = prov.name;
+                    filter.appendChild(opt);
+
+                    // Card
+                    const card = document.createElement('div');
+                    card.className = "bg-slate-50 p-4 rounded-xl border border-slate-200";
+                    card.innerHTML = `
+                        <div class="font-bold text-slate-800 text-sm mb-1">${prov.name}</div>
+                        <div class="text-[11px] text-slate-500 mb-2">PSGC: ${prov.psgc_code}</div>
+                        <div class="text-[11px] font-semibold text-blue-600">${prov.region}</div>
+                    `;
+                    cardsGrid.appendChild(card);
+                });
+
+                await loadMunicipalities();
+            } catch (err) {
+                console.error("Error loading provinces:", err);
+            }
+        }
+
+        async function loadMunicipalities() {
+            try {
+                const provId = document.getElementById('province-filter').value;
+                const url = provId ? `/api/municipalities?province_id=${provId}` : '/api/municipalities';
+                const res = await fetch(url);
+                municipalitiesData = await res.json();
+
+                const tbody = document.getElementById('municipalities-table-body');
+                tbody.innerHTML = '';
+
+                if (municipalitiesData.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="4" class="p-4 text-center text-slate-400">No municipalities found</td></tr>';
+                    return;
+                }
+
+                municipalitiesData.forEach(m => {
+                    const prov = provincesData.find(p => p.id === m.province_id);
+                    const row = document.createElement('tr');
+                    row.className = "hover:bg-slate-50";
+                    row.innerHTML = `
+                        <td class="p-3 text-slate-400">${m.id}</td>
+                        <td class="p-3 font-mono text-slate-500">${m.psgc_code}</td>
+                        <td class="p-3 font-bold text-slate-800">${m.name} ${prov ? `<span class="text-slate-400 font-normal">(${prov.name})</span>` : ''}</td>
+                        <td class="p-3"><span class="px-2 py-0.5 rounded bg-blue-50 text-blue-700 font-semibold text-[10px]">${m.lgu_class || 'LGU'}</span></td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            } catch (err) {
+                console.error("Error loading municipalities:", err);
+            }
+        }
+
+        // 5. AI Insights & What-If Simulator
+        async function loadAIInsights() {
+            try {
+                const res = await fetch('/api/ai-insights');
+                const insights = await res.json();
+                const container = document.getElementById('ai-insights-container');
+                container.innerHTML = '';
+
+                insights.forEach(insight => {
+                    const card = document.createElement('div');
+                    card.className = "p-4 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-slate-50 transition";
+                    card.innerHTML = `
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-blue-100 text-blue-800">${insight.category}</span>
+                            <span class="text-[10px] font-semibold px-2 py-0.5 rounded ${insight.impact_level === 'HIGH' ? 'bg-rose-100 text-rose-700' : 'bg-amber-100 text-amber-700'}">${insight.impact_level || 'INFO'}</span>
+                        </div>
+                        <h4 class="font-bold text-slate-800 text-xs mb-1.5">${insight.headline}</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">${insight.insight_text}</p>
+                    `;
+                    container.appendChild(card);
+                });
+            } catch (err) {
+                console.error("Error loading AI insights:", err);
+            }
+        }
+
+        async function runSimulation(e) {
+            e.preventDefault();
+            const year = document.getElementById('sim-year').value;
+            const agri = document.getElementById('sim-agri').value;
+            const mfg = document.getElementById('sim-mfg').value;
+            const constr = document.getElementById('sim-const').value;
+            const inf = document.getElementById('sim-inf').value;
+
+            document.getElementById('sim-status').innerHTML = '<span class="text-amber-400 font-semibold animate-pulse"><i class="fa-solid fa-spinner fa-spin mr-1"></i> Running economic shock scenario simulation...</span>';
+
+            try {
+                const url = `/api/scenario/simulate?target_year=${year}&agri_growth_delta_pct=${agri}&mfg_growth_delta_pct=${mfg}&const_growth_delta_pct=${constr}&inflation_delta_pct=${inf}`;
+                const res = await fetch(url, { method: 'POST' });
+                const data = await res.json();
+
+                if (data.error) {
+                    document.getElementById('sim-status').innerText = `Error: ${data.error}`;
+                    return;
+                }
+
+                document.getElementById('sim-status').innerText = `Simulation executed for ${data.target_year || year}.`;
+                document.getElementById('res-base-gdp').innerText = `₱${Math.round(data.baseline_regional_gdp_m_php).toLocaleString()}M`;
+                document.getElementById('res-sim-gdp').innerText = `₱${Math.round(data.simulated_regional_gdp_m_php).toLocaleString()}M`;
+
+                const diff = data.gdp_difference_m_php;
+                const pct = data.regional_gdp_growth_delta_pct;
+                const sign = diff >= 0 ? '+' : '';
+                document.getElementById('res-delta-gdp').innerText = `${sign}₱${Math.round(diff).toLocaleString()}M (${sign}${pct.toFixed(2)}%)`;
+                document.getElementById('res-delta-gdp').className = `text-xl font-bold ${diff >= 0 ? 'text-emerald-400' : 'text-rose-400'}`;
+            } catch (err) {
+                console.error("Scenario simulation error:", err);
+                document.getElementById('sim-status').innerText = 'Simulation failed. Check API server connection.';
+            }
+        }
+    </script>
+</body>
+</html>
