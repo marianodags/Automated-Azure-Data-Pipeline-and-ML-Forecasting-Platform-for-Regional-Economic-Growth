@@ -82,6 +82,11 @@ def test_api_endpoints():
     res_root = client.get("/")
     assert res_root.status_code == 200
 
+    # 1b. Web Dashboard Endpoint
+    res_dash = client.get("/dashboard")
+    assert res_dash.status_code == 200
+    assert "Region IX Economic Intelligence Platform" in res_dash.text
+
     # 2. Provinces
     res_prov = client.get("/api/provinces")
     assert res_prov.status_code == 200

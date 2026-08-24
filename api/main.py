@@ -42,6 +42,11 @@ def get_dashboard():
     return FileResponse(dashboard_path)
 
 
+# Serve dashboard static assets
+if os.path.exists("dashboard"):
+    app.mount("/static", StaticFiles(directory="dashboard"), name="static")
+
+
 @app.get("/")
 def read_root():
     return {
@@ -51,6 +56,15 @@ def read_root():
         "dashboard_url": "/dashboard",
         "docs_url": "/docs"
     }
+
+
+@app.get("/dashboard")
+def get_dashboard():
+    """Serves the interactive web dashboard HTML UI."""
+    dashboard_path = os.path.join("dashboard", "index.html")
+    if os.path.exists(dashboard_path):
+        return FileResponse(dashboard_path)
+    raise HTTPException(status_code=404, detail="Dashboard UI file not found")
 
 
 @app.get("/api/provinces")

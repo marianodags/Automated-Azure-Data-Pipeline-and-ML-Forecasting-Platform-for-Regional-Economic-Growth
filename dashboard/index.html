@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regional Economic Intelligence Platform - Region IX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background-color: #f4f6f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .navbar-brand {
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+        }
+        .kpi-card {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+        }
+        .kpi-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.85;
+        }
+        .kpi-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        .kpi-sub {
+            font-size: 0.8rem;
+            opacity: 0.9;
+        }
+        .insight-card {
+            border-left: 5px solid #2a5298;
+        }
+        .badge-high {
+            background-color: #dc3545;
+        }
+        .badge-medium {
+            background-color: #ffc107;
+            color: #000;
+        }
+        .badge-low {
+            background-color: #198754;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <i class="bi bi-graph-up-arrow text-warning fs-4"></i>
+                <span>Region IX Economic Intelligence Platform</span>
+            </a>
+            <span class="navbar-text text-light small d-none d-md-inline">
+                Zamboanga Peninsula (2018–2030*)
+            </span>
+        </div>
+    </nav>
+
+    <!-- Main Dashboard Container -->
+    <div class="container-fluid px-4 py-4">
+
+        <!-- KPI Summary Cards Row -->
+        <div class="row g-3 mb-4">
+            <div class="col-md-3">
+                <div class="card kpi-card p-3">
+                    <div class="kpi-title">2026 Forecasted Regional GDP</div>
+                    <div class="kpi-value" id="kpi-gdp">₱117.4 B</div>
+                    <div class="kpi-sub"><i class="bi bi-arrow-up-short text-success"></i> +6.1% YoY Projected Growth</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card kpi-card p-3" style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);">
+                    <div class="kpi-title">Projected Employment Rate</div>
+                    <div class="kpi-value" id="kpi-emp">95.4%</div>
+                    <div class="kpi-sub"><i class="bi bi-person-check-fill"></i> Labor Force Stability</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card kpi-card p-3" style="background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%);">
+                    <div class="kpi-title">2026 Inflation Target</div>
+                    <div class="kpi-value" id="kpi-inflation">3.8%</div>
+                    <div class="kpi-sub"><i class="bi bi-shield-check"></i> Within PSA Target Band</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card kpi-card p-3" style="background: linear-gradient(135deg, #8E2DE2 0%, #4A00E0 100%);">
+                    <div class="kpi-title">Total Local Revenues</div>
+                    <div class="kpi-value" id="kpi-revenue">₱12.8 B</div>
+                    <div class="kpi-sub"><i class="bi bi-cash-stack"></i> Provincial & LGU Inflows</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Chart & AI Insights Row -->
+        <div class="row g-4 mb-4">
+            <!-- Economic Forecast & Historical GDP Chart -->
+            <div class="col-lg-8">
+                <div class="card p-4 h-100">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="fw-bold mb-0">Regional GDP Trend & ML Forecast (2018–2030*)</h5>
+                        <span class="badge bg-primary">XGBoost & ARIMA Engine</span>
+                    </div>
+                    <div style="position: relative; height: 320px;">
+                        <canvas id="gdpForecastChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Automated Narrative Insights -->
+            <div class="col-lg-4">
+                <div class="card p-4 h-100">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="fw-bold mb-0">AI Economic Insights</h5>
+                        <i class="bi bi-cpu-fill text-primary fs-5"></i>
+                    </div>
+                    <div id="ai-insights-container" class="d-flex flex-column gap-3 overflow-auto" style="max-height: 320px;">
+                        <!-- Insights dynamically loaded -->
+                        <div class="spinner-border text-primary mx-auto my-auto" role="status"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Economic "What-If" Scenario Simulator -->
+        <div class="row g-4 mb-4">
+            <div class="col-12">
+                <div class="card p-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div>
+                            <h5 class="fw-bold mb-1"><i class="bi bi-sliders text-warning me-2"></i>What-If Economic Scenario Simulator</h5>
+                            <p class="text-muted small mb-0">Simulate structural shocks to model regional GDP impact and job creation estimates in Region IX.</p>
+                        </div>
+                        <button class="btn btn-outline-secondary btn-sm" onclick="resetScenario()"><i class="bi bi-arrow-counterclockwise me-1"></i>Reset Sliders</button>
+                    </div>
+
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label class="form-label d-flex justify-content-between">
+                                    <span>Agriculture Sector Growth Delta:</span>
+                                    <span class="fw-bold text-primary" id="agri-val">+0%</span>
+                                </label>
+                                <input type="range" class="form-range" id="agri-slider" min="-10" max="10" step="1" value="0" oninput="updateScenario()">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label d-flex justify-content-between">
+                                    <span>Manufacturing Growth Delta:</span>
+                                    <span class="fw-bold text-primary" id="mfg-val">+0%</span>
+                                </label>
+                                <input type="range" class="form-range" id="mfg-slider" min="-10" max="10" step="1" value="0" oninput="updateScenario()">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label d-flex justify-content-between">
+                                    <span>Construction Investment Growth Delta:</span>
+                                    <span class="fw-bold text-primary" id="const-val">+0%</span>
+                                </label>
+                                <input type="range" class="form-range" id="const-slider" min="-10" max="10" step="1" value="0" oninput="updateScenario()">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 border-start ps-md-4">
+                            <div class="p-3 bg-light rounded-3 text-center">
+                                <h6 class="text-muted text-uppercase mb-2">Simulated Regional GDP Output (2026)</h6>
+                                <div class="display-6 fw-bold text-success mb-2" id="sim-gdp">₱412,500.0 M</div>
+                                <div class="d-flex justify-content-center gap-3">
+                                    <div>
+                                        <span class="text-muted small">GDP Difference:</span>
+                                        <span class="fw-bold text-primary ms-1" id="sim-diff">+0.0 M PHP</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted small">Est. Jobs Impact:</span>
+                                        <span class="fw-bold text-dark ms-1" id="sim-jobs">0 jobs</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Dashboard JavaScript -->
+    <script>
+        let chartInstance = null;
+
+        document.addEventListener("DOMContentLoaded", function () {
+            loadForecastChart();
+            loadAIInsights();
+            updateScenario();
+        });
+
+        async function loadForecastChart() {
+            try {
+                const response = await fetch("/api/forecasts?metric_type=GDP");
+                const data = await response.json();
+
+                // Aggregate annual actuals (2018-2025 simulated) and forecasts (2026-2030)
+                const years = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030];
+                const historicalGdp = [85000, 90100, 84700, 86400, 92800, 97600, 103500, 110200, null, null, null, null, null];
+
+                const forecastMap = {};
+                const lowerMap = {};
+                const upperMap = {};
+
+                data.forEach(item => {
+                    if (!forecastMap[item.year]) {
+                        forecastMap[item.year] = 0;
+                        lowerMap[item.year] = 0;
+                        upperMap[item.year] = 0;
+                    }
+                    forecastMap[item.year] += item.forecast_value;
+                    lowerMap[item.year] += item.lower_bound_95;
+                    upperMap[item.year] += item.upper_bound_95;
+                });
+
+                const forecastGdp = years.map(y => y >= 2026 ? forecastMap[y] || 0 : null);
+                const lowerCI = years.map(y => y >= 2026 ? lowerMap[y] || 0 : null);
+                const upperCI = years.map(y => y >= 2026 ? upperMap[y] || 0 : null);
+
+                // Connect 2025 to 2026 on chart
+                forecastGdp[7] = historicalGdp[7];
+                lowerCI[7] = historicalGdp[7];
+                upperCI[7] = historicalGdp[7];
+
+                const ctx = document.getElementById('gdpForecastChart').getContext('2d');
+                chartInstance = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: years,
+                        datasets: [
+                            {
+                                label: 'Historical Regional GDP (Million PHP)',
+                                data: historicalGdp,
+                                borderColor: '#1e3c72',
+                                backgroundColor: '#1e3c72',
+                                borderWidth: 3,
+                                pointRadius: 4,
+                                tension: 0.2
+                            },
+                            {
+                                label: 'ML Forecast GDP (Million PHP)',
+                                data: forecastGdp,
+                                borderColor: '#00c6ff',
+                                backgroundColor: '#00c6ff',
+                                borderWidth: 3,
+                                borderDash: [5, 5],
+                                pointRadius: 4,
+                                tension: 0.2
+                            },
+                            {
+                                label: '95% CI Upper Bound',
+                                data: upperCI,
+                                borderColor: 'rgba(0, 198, 255, 0.3)',
+                                backgroundColor: 'rgba(0, 198, 255, 0.15)',
+                                fill: '+1',
+                                pointRadius: 0,
+                                tension: 0.2
+                            },
+                            {
+                                label: '95% CI Lower Bound',
+                                data: lowerCI,
+                                borderColor: 'rgba(0, 198, 255, 0.3)',
+                                fill: false,
+                                pointRadius: 0,
+                                tension: 0.2
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                labels: {
+                                    filter: item => !item.text.includes('CI')
+                                }
+                            }
+                        },
+                        scales: {
+                            y: {
+                                title: {
+                                    display: true,
+                                    text: 'Regional GDP (Million PHP)'
+                                }
+                            }
+                        }
+                    }
+                });
+
+            } catch (err) {
+                console.error("Error loading forecast chart:", err);
+            }
+        }
+
+        async function loadAIInsights() {
+            try {
+                const response = await fetch("/api/ai-insights");
+                const insights = await response.json();
+
+                const container = document.getElementById("ai-insights-container");
+                container.innerHTML = "";
+
+                if (insights.length === 0) {
+                    container.innerHTML = "<p class='text-muted'>No insights generated yet.</p>";
+                    return;
+                }
+
+                insights.forEach(item => {
+                    const badgeClass = item.impact_level === "High" ? "badge-high" : (item.impact_level === "Medium" ? "badge-medium" : "badge-low");
+                    const card = `
+                        <div class="card p-3 insight-card">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="badge ${badgeClass}">${item.impact_level} Impact</span>
+                                <small class="text-muted">${item.category}</small>
+                            </div>
+                            <h6 class="fw-bold mb-1">${item.headline}</h6>
+                            <p class="small text-muted mb-0">${item.insight_text}</p>
+                        </div>
+                    `;
+                    container.innerHTML += card;
+                });
+            } catch (err) {
+                console.error("Error loading AI insights:", err);
+            }
+        }
+
+        async function updateScenario() {
+            const agri = parseFloat(document.getElementById("agri-slider").value);
+            const mfg = parseFloat(document.getElementById("mfg-slider").value);
+            const constr = parseFloat(document.getElementById("const-slider").value);
+
+            document.getElementById("agri-val").innerText = (agri >= 0 ? "+" : "") + agri + "%";
+            document.getElementById("mfg-val").innerText = (mfg >= 0 ? "+" : "") + mfg + "%";
+            document.getElementById("const-val").innerText = (constr >= 0 ? "+" : "") + constr + "%";
+
+            try {
+                const response = await fetch(`/api/scenario/simulate?target_year=2026&agri_growth_delta_pct=${agri}&mfg_growth_delta_pct=${mfg}&const_growth_delta_pct=${constr}`, {
+                    method: 'POST'
+                });
+                const res = await response.json();
+
+                if (res.simulated_regional_gdp_m_php) {
+                    document.getElementById("sim-gdp").innerText = "₱" + res.simulated_regional_gdp_m_php.toLocaleString('en-US', {minimumFractionDigits: 1}) + " M";
+                    document.getElementById("sim-diff").innerText = (res.gdp_difference_m_php >= 0 ? "+" : "") + res.gdp_difference_m_php.toLocaleString('en-US') + " M PHP";
+                    document.getElementById("sim-jobs").innerText = (res.estimated_employment_impact_jobs >= 0 ? "+" : "") + res.estimated_employment_impact_jobs.toLocaleString('en-US') + " jobs";
+                }
+            } catch (err) {
+                console.error("Error running scenario simulation:", err);
+            }
+        }
+
+        function resetScenario() {
+            document.getElementById("agri-slider").value = 0;
+            document.getElementById("mfg-slider").value = 0;
+            document.getElementById("const-slider").value = 0;
+            updateScenario();
+        }
+    </script>
+</body>
+</html>
