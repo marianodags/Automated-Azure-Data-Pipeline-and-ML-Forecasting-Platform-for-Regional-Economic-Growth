@@ -1,0 +1,2561 @@
+year,quarter,province_name,sector_name,gdp_value_m_php,growth_rate_pct
+2018,1,Zamboanga del Norte,Agriculture,4533.02,0.0
+2018,2,Zamboanga del Norte,Agriculture,4730.11,0.0
+2018,3,Zamboanga del Norte,Agriculture,4927.2,0.0
+2018,4,Zamboanga del Norte,Agriculture,5518.46,0.0
+2019,1,Zamboanga del Norte,Agriculture,4410.71,0.0
+2019,2,Zamboanga del Norte,Agriculture,4602.48,0.0
+2019,3,Zamboanga del Norte,Agriculture,4794.25,0.0
+2019,4,Zamboanga del Norte,Agriculture,5369.56,0.0
+2020,1,Zamboanga del Norte,Agriculture,4309.59,0.0
+2020,2,Zamboanga del Norte,Agriculture,4496.97,0.0
+2020,3,Zamboanga del Norte,Agriculture,4684.34,0.0
+2020,4,Zamboanga del Norte,Agriculture,5246.46,0.0
+2021,1,Zamboanga del Norte,Agriculture,3996.22,0.0
+2021,2,Zamboanga del Norte,Agriculture,4169.97,0.0
+2021,3,Zamboanga del Norte,Agriculture,4343.71,0.0
+2021,4,Zamboanga del Norte,Agriculture,4864.96,0.0
+2022,1,Zamboanga del Norte,Agriculture,4009.49,0.0
+2022,2,Zamboanga del Norte,Agriculture,4183.81,0.0
+2022,3,Zamboanga del Norte,Agriculture,4358.14,0.0
+2022,4,Zamboanga del Norte,Agriculture,4881.12,0.0
+2023,1,Zamboanga del Norte,Agriculture,4325.55,0.0
+2023,2,Zamboanga del Norte,Agriculture,4513.62,0.0
+2023,3,Zamboanga del Norte,Agriculture,4701.69,0.0
+2023,4,Zamboanga del Norte,Agriculture,5265.89,0.0
+2024,1,Zamboanga del Norte,Agriculture,4245.17,0.0
+2024,2,Zamboanga del Norte,Agriculture,4429.74,0.0
+2024,3,Zamboanga del Norte,Agriculture,4614.31,0.0
+2024,4,Zamboanga del Norte,Agriculture,5168.03,0.0
+2018,1,Zamboanga del Norte,Industry,56.61,0.0
+2018,2,Zamboanga del Norte,Industry,59.08,0.0
+2018,3,Zamboanga del Norte,Industry,61.54,0.0
+2018,4,Zamboanga del Norte,Industry,68.92,0.0
+2019,1,Zamboanga del Norte,Industry,41.1,0.0
+2019,2,Zamboanga del Norte,Industry,42.89,0.0
+2019,3,Zamboanga del Norte,Industry,44.67,0.0
+2019,4,Zamboanga del Norte,Industry,50.03,0.0
+2020,1,Zamboanga del Norte,Industry,36.51,0.0
+2020,2,Zamboanga del Norte,Industry,38.1,0.0
+2020,3,Zamboanga del Norte,Industry,39.68,0.0
+2020,4,Zamboanga del Norte,Industry,44.45,0.0
+2021,1,Zamboanga del Norte,Industry,38.36,0.0
+2021,2,Zamboanga del Norte,Industry,40.03,0.0
+2021,3,Zamboanga del Norte,Industry,41.7,0.0
+2021,4,Zamboanga del Norte,Industry,46.7,0.0
+2022,1,Zamboanga del Norte,Industry,41.33,0.0
+2022,2,Zamboanga del Norte,Industry,43.13,0.0
+2022,3,Zamboanga del Norte,Industry,44.92,0.0
+2022,4,Zamboanga del Norte,Industry,50.31,0.0
+2023,1,Zamboanga del Norte,Industry,41.74,0.0
+2023,2,Zamboanga del Norte,Industry,43.56,0.0
+2023,3,Zamboanga del Norte,Industry,45.37,0.0
+2023,4,Zamboanga del Norte,Industry,50.82,0.0
+2024,1,Zamboanga del Norte,Industry,45.64,0.0
+2024,2,Zamboanga del Norte,Industry,47.62,0.0
+2024,3,Zamboanga del Norte,Industry,49.61,0.0
+2024,4,Zamboanga del Norte,Industry,55.56,0.0
+2018,1,Zamboanga del Norte,Manufacturing,4594.73,0.0
+2018,2,Zamboanga del Norte,Manufacturing,4794.5,0.0
+2018,3,Zamboanga del Norte,Manufacturing,4994.27,0.0
+2018,4,Zamboanga del Norte,Manufacturing,5593.59,0.0
+2019,1,Zamboanga del Norte,Manufacturing,4568.67,0.0
+2019,2,Zamboanga del Norte,Manufacturing,4767.31,0.0
+2019,3,Zamboanga del Norte,Manufacturing,4965.95,0.0
+2019,4,Zamboanga del Norte,Manufacturing,5561.86,0.0
+2020,1,Zamboanga del Norte,Manufacturing,5870.2,0.0
+2020,2,Zamboanga del Norte,Manufacturing,6125.42,0.0
+2020,3,Zamboanga del Norte,Manufacturing,6380.65,0.0
+2020,4,Zamboanga del Norte,Manufacturing,7146.33,0.0
+2021,1,Zamboanga del Norte,Manufacturing,5182.88,0.0
+2021,2,Zamboanga del Norte,Manufacturing,5408.23,0.0
+2021,3,Zamboanga del Norte,Manufacturing,5633.57,0.0
+2021,4,Zamboanga del Norte,Manufacturing,6309.6,0.0
+2022,1,Zamboanga del Norte,Manufacturing,5339.13,0.0
+2022,2,Zamboanga del Norte,Manufacturing,5571.27,0.0
+2022,3,Zamboanga del Norte,Manufacturing,5803.4,0.0
+2022,4,Zamboanga del Norte,Manufacturing,6499.81,0.0
+2023,1,Zamboanga del Norte,Manufacturing,4862.1,0.0
+2023,2,Zamboanga del Norte,Manufacturing,5073.5,0.0
+2023,3,Zamboanga del Norte,Manufacturing,5284.9,0.0
+2023,4,Zamboanga del Norte,Manufacturing,5919.08,0.0
+2024,1,Zamboanga del Norte,Manufacturing,5139.02,0.0
+2024,2,Zamboanga del Norte,Manufacturing,5362.46,0.0
+2024,3,Zamboanga del Norte,Manufacturing,5585.89,0.0
+2024,4,Zamboanga del Norte,Manufacturing,6256.2,0.0
+2018,1,Zamboanga del Norte,Industry,244.09,0.0
+2018,2,Zamboanga del Norte,Industry,254.71,0.0
+2018,3,Zamboanga del Norte,Industry,265.32,0.0
+2018,4,Zamboanga del Norte,Industry,297.16,0.0
+2019,1,Zamboanga del Norte,Industry,258.62,0.0
+2019,2,Zamboanga del Norte,Industry,269.86,0.0
+2019,3,Zamboanga del Norte,Industry,281.11,0.0
+2019,4,Zamboanga del Norte,Industry,314.84,0.0
+2020,1,Zamboanga del Norte,Industry,285.02,0.0
+2020,2,Zamboanga del Norte,Industry,297.41,0.0
+2020,3,Zamboanga del Norte,Industry,309.81,0.0
+2020,4,Zamboanga del Norte,Industry,346.98,0.0
+2021,1,Zamboanga del Norte,Industry,291.33,0.0
+2021,2,Zamboanga del Norte,Industry,304.0,0.0
+2021,3,Zamboanga del Norte,Industry,316.66,0.0
+2021,4,Zamboanga del Norte,Industry,354.66,0.0
+2022,1,Zamboanga del Norte,Industry,282.78,0.0
+2022,2,Zamboanga del Norte,Industry,295.08,0.0
+2022,3,Zamboanga del Norte,Industry,307.37,0.0
+2022,4,Zamboanga del Norte,Industry,344.26,0.0
+2023,1,Zamboanga del Norte,Industry,282.89,0.0
+2023,2,Zamboanga del Norte,Industry,295.19,0.0
+2023,3,Zamboanga del Norte,Industry,307.49,0.0
+2023,4,Zamboanga del Norte,Industry,344.39,0.0
+2024,1,Zamboanga del Norte,Industry,302.3,0.0
+2024,2,Zamboanga del Norte,Industry,315.44,0.0
+2024,3,Zamboanga del Norte,Industry,328.58,0.0
+2024,4,Zamboanga del Norte,Industry,368.01,0.0
+2018,1,Zamboanga del Norte,Construction,3479.72,0.0
+2018,2,Zamboanga del Norte,Construction,3631.02,0.0
+2018,3,Zamboanga del Norte,Construction,3782.31,0.0
+2018,4,Zamboanga del Norte,Construction,4236.19,0.0
+2019,1,Zamboanga del Norte,Construction,3294.68,0.0
+2019,2,Zamboanga del Norte,Construction,3437.93,0.0
+2019,3,Zamboanga del Norte,Construction,3581.18,0.0
+2019,4,Zamboanga del Norte,Construction,4010.92,0.0
+2020,1,Zamboanga del Norte,Construction,3352.4,0.0
+2020,2,Zamboanga del Norte,Construction,3498.16,0.0
+2020,3,Zamboanga del Norte,Construction,3643.91,0.0
+2020,4,Zamboanga del Norte,Construction,4081.18,0.0
+2021,1,Zamboanga del Norte,Construction,3262.78,0.0
+2021,2,Zamboanga del Norte,Construction,3404.64,0.0
+2021,3,Zamboanga del Norte,Construction,3546.5,0.0
+2021,4,Zamboanga del Norte,Construction,3972.08,0.0
+2022,1,Zamboanga del Norte,Construction,3961.46,0.0
+2022,2,Zamboanga del Norte,Construction,4133.7,0.0
+2022,3,Zamboanga del Norte,Construction,4305.94,0.0
+2022,4,Zamboanga del Norte,Construction,4822.65,0.0
+2023,1,Zamboanga del Norte,Construction,4544.25,0.0
+2023,2,Zamboanga del Norte,Construction,4741.82,0.0
+2023,3,Zamboanga del Norte,Construction,4939.4,0.0
+2023,4,Zamboanga del Norte,Construction,5532.13,0.0
+2024,1,Zamboanga del Norte,Construction,4661.69,0.0
+2024,2,Zamboanga del Norte,Construction,4864.37,0.0
+2024,3,Zamboanga del Norte,Construction,5067.05,0.0
+2024,4,Zamboanga del Norte,Construction,5675.1,0.0
+2018,1,Zamboanga del Norte,Trade,4740.98,0.0
+2018,2,Zamboanga del Norte,Trade,4947.11,0.0
+2018,3,Zamboanga del Norte,Trade,5153.24,0.0
+2018,4,Zamboanga del Norte,Trade,5771.63,0.0
+2019,1,Zamboanga del Norte,Trade,4983.79,0.0
+2019,2,Zamboanga del Norte,Trade,5200.48,0.0
+2019,3,Zamboanga del Norte,Trade,5417.16,0.0
+2019,4,Zamboanga del Norte,Trade,6067.22,0.0
+2020,1,Zamboanga del Norte,Trade,4899.1,0.0
+2020,2,Zamboanga del Norte,Trade,5112.1,0.0
+2020,3,Zamboanga del Norte,Trade,5325.11,0.0
+2020,4,Zamboanga del Norte,Trade,5964.12,0.0
+2021,1,Zamboanga del Norte,Trade,4963.69,0.0
+2021,2,Zamboanga del Norte,Trade,5179.5,0.0
+2021,3,Zamboanga del Norte,Trade,5395.31,0.0
+2021,4,Zamboanga del Norte,Trade,6042.75,0.0
+2022,1,Zamboanga del Norte,Trade,5215.89,0.0
+2022,2,Zamboanga del Norte,Trade,5442.67,0.0
+2022,3,Zamboanga del Norte,Trade,5669.45,0.0
+2022,4,Zamboanga del Norte,Trade,6349.78,0.0
+2023,1,Zamboanga del Norte,Trade,5548.78,0.0
+2023,2,Zamboanga del Norte,Trade,5790.03,0.0
+2023,3,Zamboanga del Norte,Trade,6031.28,0.0
+2023,4,Zamboanga del Norte,Trade,6755.03,0.0
+2024,1,Zamboanga del Norte,Trade,5778.33,0.0
+2024,2,Zamboanga del Norte,Trade,6029.57,0.0
+2024,3,Zamboanga del Norte,Trade,6280.8,0.0
+2024,4,Zamboanga del Norte,Trade,7034.49,0.0
+2018,1,Zamboanga del Norte,Services,764.45,0.0
+2018,2,Zamboanga del Norte,Services,797.68,0.0
+2018,3,Zamboanga del Norte,Services,830.92,0.0
+2018,4,Zamboanga del Norte,Services,930.63,0.0
+2019,1,Zamboanga del Norte,Services,853.76,0.0
+2019,2,Zamboanga del Norte,Services,890.88,0.0
+2019,3,Zamboanga del Norte,Services,928.0,0.0
+2019,4,Zamboanga del Norte,Services,1039.37,0.0
+2020,1,Zamboanga del Norte,Services,510.35,0.0
+2020,2,Zamboanga del Norte,Services,532.54,0.0
+2020,3,Zamboanga del Norte,Services,554.72,0.0
+2020,4,Zamboanga del Norte,Services,621.29,0.0
+2021,1,Zamboanga del Norte,Services,495.23,0.0
+2021,2,Zamboanga del Norte,Services,516.76,0.0
+2021,3,Zamboanga del Norte,Services,538.29,0.0
+2021,4,Zamboanga del Norte,Services,602.89,0.0
+2022,1,Zamboanga del Norte,Services,600.07,0.0
+2022,2,Zamboanga del Norte,Services,626.16,0.0
+2022,3,Zamboanga del Norte,Services,652.25,0.0
+2022,4,Zamboanga del Norte,Services,730.53,0.0
+2023,1,Zamboanga del Norte,Services,669.32,0.0
+2023,2,Zamboanga del Norte,Services,698.42,0.0
+2023,3,Zamboanga del Norte,Services,727.52,0.0
+2023,4,Zamboanga del Norte,Services,814.82,0.0
+2024,1,Zamboanga del Norte,Services,751.84,0.0
+2024,2,Zamboanga del Norte,Services,784.53,0.0
+2024,3,Zamboanga del Norte,Services,817.22,0.0
+2024,4,Zamboanga del Norte,Services,915.29,0.0
+2018,1,Zamboanga del Norte,Tourism,390.72,0.0
+2018,2,Zamboanga del Norte,Tourism,407.71,0.0
+2018,3,Zamboanga del Norte,Tourism,424.7,0.0
+2018,4,Zamboanga del Norte,Tourism,475.67,0.0
+2019,1,Zamboanga del Norte,Tourism,452.67,0.0
+2019,2,Zamboanga del Norte,Tourism,472.35,0.0
+2019,3,Zamboanga del Norte,Tourism,492.03,0.0
+2019,4,Zamboanga del Norte,Tourism,551.08,0.0
+2020,1,Zamboanga del Norte,Tourism,248.75,0.0
+2020,2,Zamboanga del Norte,Tourism,259.56,0.0
+2020,3,Zamboanga del Norte,Tourism,270.38,0.0
+2020,4,Zamboanga del Norte,Tourism,302.82,0.0
+2021,1,Zamboanga del Norte,Tourism,253.46,0.0
+2021,2,Zamboanga del Norte,Tourism,264.48,0.0
+2021,3,Zamboanga del Norte,Tourism,275.5,0.0
+2021,4,Zamboanga del Norte,Tourism,308.56,0.0
+2022,1,Zamboanga del Norte,Tourism,333.11,0.0
+2022,2,Zamboanga del Norte,Tourism,347.59,0.0
+2022,3,Zamboanga del Norte,Tourism,362.08,0.0
+2022,4,Zamboanga del Norte,Tourism,405.52,0.0
+2023,1,Zamboanga del Norte,Tourism,392.13,0.0
+2023,2,Zamboanga del Norte,Tourism,409.18,0.0
+2023,3,Zamboanga del Norte,Tourism,426.23,0.0
+2023,4,Zamboanga del Norte,Tourism,477.37,0.0
+2024,1,Zamboanga del Norte,Tourism,441.42,0.0
+2024,2,Zamboanga del Norte,Tourism,460.62,0.0
+2024,3,Zamboanga del Norte,Tourism,479.81,0.0
+2024,4,Zamboanga del Norte,Tourism,537.38,0.0
+2018,1,Zamboanga del Norte,ICT,498.83,0.0
+2018,2,Zamboanga del Norte,ICT,520.52,0.0
+2018,3,Zamboanga del Norte,ICT,542.21,0.0
+2018,4,Zamboanga del Norte,ICT,607.27,0.0
+2019,1,Zamboanga del Norte,ICT,552.66,0.0
+2019,2,Zamboanga del Norte,ICT,576.69,0.0
+2019,3,Zamboanga del Norte,ICT,600.72,0.0
+2019,4,Zamboanga del Norte,ICT,672.81,0.0
+2020,1,Zamboanga del Norte,ICT,582.76,0.0
+2020,2,Zamboanga del Norte,ICT,608.09,0.0
+2020,3,Zamboanga del Norte,ICT,633.43,0.0
+2020,4,Zamboanga del Norte,ICT,709.44,0.0
+2021,1,Zamboanga del Norte,ICT,631.15,0.0
+2021,2,Zamboanga del Norte,ICT,658.59,0.0
+2021,3,Zamboanga del Norte,ICT,686.03,0.0
+2021,4,Zamboanga del Norte,ICT,768.35,0.0
+2022,1,Zamboanga del Norte,ICT,696.55,0.0
+2022,2,Zamboanga del Norte,ICT,726.84,0.0
+2022,3,Zamboanga del Norte,ICT,757.12,0.0
+2022,4,Zamboanga del Norte,ICT,847.98,0.0
+2023,1,Zamboanga del Norte,ICT,724.0,0.0
+2023,2,Zamboanga del Norte,ICT,755.47,0.0
+2023,3,Zamboanga del Norte,ICT,786.95,0.0
+2023,4,Zamboanga del Norte,ICT,881.39,0.0
+2024,1,Zamboanga del Norte,ICT,764.31,0.0
+2024,2,Zamboanga del Norte,ICT,797.54,0.0
+2024,3,Zamboanga del Norte,ICT,830.78,0.0
+2024,4,Zamboanga del Norte,ICT,930.47,0.0
+2018,1,Zamboanga del Norte,Services,549.3,0.0
+2018,2,Zamboanga del Norte,Services,573.18,0.0
+2018,3,Zamboanga del Norte,Services,597.06,0.0
+2018,4,Zamboanga del Norte,Services,668.71,0.0
+2019,1,Zamboanga del Norte,Services,649.74,0.0
+2019,2,Zamboanga del Norte,Services,677.99,0.0
+2019,3,Zamboanga del Norte,Services,706.24,0.0
+2019,4,Zamboanga del Norte,Services,790.98,0.0
+2020,1,Zamboanga del Norte,Services,702.8,0.0
+2020,2,Zamboanga del Norte,Services,733.35,0.0
+2020,3,Zamboanga del Norte,Services,763.91,0.0
+2020,4,Zamboanga del Norte,Services,855.58,0.0
+2021,1,Zamboanga del Norte,Services,753.25,0.0
+2021,2,Zamboanga del Norte,Services,786.0,0.0
+2021,3,Zamboanga del Norte,Services,818.75,0.0
+2021,4,Zamboanga del Norte,Services,917.0,0.0
+2022,1,Zamboanga del Norte,Services,842.55,0.0
+2022,2,Zamboanga del Norte,Services,879.19,0.0
+2022,3,Zamboanga del Norte,Services,915.82,0.0
+2022,4,Zamboanga del Norte,Services,1025.72,0.0
+2023,1,Zamboanga del Norte,Services,917.73,0.0
+2023,2,Zamboanga del Norte,Services,957.63,0.0
+2023,3,Zamboanga del Norte,Services,997.53,0.0
+2023,4,Zamboanga del Norte,Services,1117.24,0.0
+2024,1,Zamboanga del Norte,Services,1011.2,0.0
+2024,2,Zamboanga del Norte,Services,1055.16,0.0
+2024,3,Zamboanga del Norte,Services,1099.13,0.0
+2024,4,Zamboanga del Norte,Services,1231.02,0.0
+2018,1,Zamboanga del Norte,Services,1028.49,0.0
+2018,2,Zamboanga del Norte,Services,1073.21,0.0
+2018,3,Zamboanga del Norte,Services,1117.92,0.0
+2018,4,Zamboanga del Norte,Services,1252.07,0.0
+2019,1,Zamboanga del Norte,Services,1059.07,0.0
+2019,2,Zamboanga del Norte,Services,1105.12,0.0
+2019,3,Zamboanga del Norte,Services,1151.17,0.0
+2019,4,Zamboanga del Norte,Services,1289.31,0.0
+2020,1,Zamboanga del Norte,Services,1032.14,0.0
+2020,2,Zamboanga del Norte,Services,1077.02,0.0
+2020,3,Zamboanga del Norte,Services,1121.89,0.0
+2020,4,Zamboanga del Norte,Services,1256.52,0.0
+2021,1,Zamboanga del Norte,Services,941.62,0.0
+2021,2,Zamboanga del Norte,Services,982.56,0.0
+2021,3,Zamboanga del Norte,Services,1023.5,0.0
+2021,4,Zamboanga del Norte,Services,1146.32,0.0
+2022,1,Zamboanga del Norte,Services,955.79,0.0
+2022,2,Zamboanga del Norte,Services,997.35,0.0
+2022,3,Zamboanga del Norte,Services,1038.91,0.0
+2022,4,Zamboanga del Norte,Services,1163.57,0.0
+2023,1,Zamboanga del Norte,Services,989.39,0.0
+2023,2,Zamboanga del Norte,Services,1032.41,0.0
+2023,3,Zamboanga del Norte,Services,1075.42,0.0
+2023,4,Zamboanga del Norte,Services,1204.47,0.0
+2024,1,Zamboanga del Norte,Services,1032.64,0.0
+2024,2,Zamboanga del Norte,Services,1077.54,0.0
+2024,3,Zamboanga del Norte,Services,1122.43,0.0
+2024,4,Zamboanga del Norte,Services,1257.13,0.0
+2018,1,Zamboanga del Norte,Services,150.26,0.0
+2018,2,Zamboanga del Norte,Services,156.79,0.0
+2018,3,Zamboanga del Norte,Services,163.32,0.0
+2018,4,Zamboanga del Norte,Services,182.92,0.0
+2019,1,Zamboanga del Norte,Services,157.76,0.0
+2019,2,Zamboanga del Norte,Services,164.62,0.0
+2019,3,Zamboanga del Norte,Services,171.48,0.0
+2019,4,Zamboanga del Norte,Services,192.06,0.0
+2020,1,Zamboanga del Norte,Services,137.19,0.0
+2020,2,Zamboanga del Norte,Services,143.15,0.0
+2020,3,Zamboanga del Norte,Services,149.12,0.0
+2020,4,Zamboanga del Norte,Services,167.01,0.0
+2021,1,Zamboanga del Norte,Services,153.15,0.0
+2021,2,Zamboanga del Norte,Services,159.81,0.0
+2021,3,Zamboanga del Norte,Services,166.47,0.0
+2021,4,Zamboanga del Norte,Services,186.45,0.0
+2022,1,Zamboanga del Norte,Services,163.35,0.0
+2022,2,Zamboanga del Norte,Services,170.45,0.0
+2022,3,Zamboanga del Norte,Services,177.55,0.0
+2022,4,Zamboanga del Norte,Services,198.86,0.0
+2023,1,Zamboanga del Norte,Services,175.44,0.0
+2023,2,Zamboanga del Norte,Services,183.06,0.0
+2023,3,Zamboanga del Norte,Services,190.69,0.0
+2023,4,Zamboanga del Norte,Services,213.57,0.0
+2024,1,Zamboanga del Norte,Services,195.77,0.0
+2024,2,Zamboanga del Norte,Services,204.28,0.0
+2024,3,Zamboanga del Norte,Services,212.79,0.0
+2024,4,Zamboanga del Norte,Services,238.33,0.0
+2018,1,Zamboanga del Norte,Services,863.82,0.0
+2018,2,Zamboanga del Norte,Services,901.38,0.0
+2018,3,Zamboanga del Norte,Services,938.94,0.0
+2018,4,Zamboanga del Norte,Services,1051.61,0.0
+2019,1,Zamboanga del Norte,Services,964.19,0.0
+2019,2,Zamboanga del Norte,Services,1006.12,0.0
+2019,3,Zamboanga del Norte,Services,1048.04,0.0
+2019,4,Zamboanga del Norte,Services,1173.8,0.0
+2020,1,Zamboanga del Norte,Services,1045.8,0.0
+2020,2,Zamboanga del Norte,Services,1091.27,0.0
+2020,3,Zamboanga del Norte,Services,1136.74,0.0
+2020,4,Zamboanga del Norte,Services,1273.14,0.0
+2021,1,Zamboanga del Norte,Services,1072.75,0.0
+2021,2,Zamboanga del Norte,Services,1119.39,0.0
+2021,3,Zamboanga del Norte,Services,1166.04,0.0
+2021,4,Zamboanga del Norte,Services,1305.96,0.0
+2022,1,Zamboanga del Norte,Services,1097.87,0.0
+2022,2,Zamboanga del Norte,Services,1145.61,0.0
+2022,3,Zamboanga del Norte,Services,1193.34,0.0
+2022,4,Zamboanga del Norte,Services,1336.54,0.0
+2023,1,Zamboanga del Norte,Services,1152.75,0.0
+2023,2,Zamboanga del Norte,Services,1202.87,0.0
+2023,3,Zamboanga del Norte,Services,1252.98,0.0
+2023,4,Zamboanga del Norte,Services,1403.34,0.0
+2024,1,Zamboanga del Norte,Services,1189.21,0.0
+2024,2,Zamboanga del Norte,Services,1240.92,0.0
+2024,3,Zamboanga del Norte,Services,1292.62,0.0
+2024,4,Zamboanga del Norte,Services,1447.74,0.0
+2018,1,Zamboanga del Norte,Services,1560.42,0.0
+2018,2,Zamboanga del Norte,Services,1628.27,0.0
+2018,3,Zamboanga del Norte,Services,1696.11,0.0
+2018,4,Zamboanga del Norte,Services,1899.65,0.0
+2019,1,Zamboanga del Norte,Services,1617.28,0.0
+2019,2,Zamboanga del Norte,Services,1687.6,0.0
+2019,3,Zamboanga del Norte,Services,1757.91,0.0
+2019,4,Zamboanga del Norte,Services,1968.86,0.0
+2020,1,Zamboanga del Norte,Services,1605.77,0.0
+2020,2,Zamboanga del Norte,Services,1675.59,0.0
+2020,3,Zamboanga del Norte,Services,1745.4,0.0
+2020,4,Zamboanga del Norte,Services,1954.85,0.0
+2021,1,Zamboanga del Norte,Services,1950.34,0.0
+2021,2,Zamboanga del Norte,Services,2035.13,0.0
+2021,3,Zamboanga del Norte,Services,2119.93,0.0
+2021,4,Zamboanga del Norte,Services,2374.32,0.0
+2022,1,Zamboanga del Norte,Services,2124.93,0.0
+2022,2,Zamboanga del Norte,Services,2217.32,0.0
+2022,3,Zamboanga del Norte,Services,2309.71,0.0
+2022,4,Zamboanga del Norte,Services,2586.87,0.0
+2023,1,Zamboanga del Norte,Services,2256.97,0.0
+2023,2,Zamboanga del Norte,Services,2355.1,0.0
+2023,3,Zamboanga del Norte,Services,2453.22,0.0
+2023,4,Zamboanga del Norte,Services,2747.61,0.0
+2024,1,Zamboanga del Norte,Services,2324.14,0.0
+2024,2,Zamboanga del Norte,Services,2425.19,0.0
+2024,3,Zamboanga del Norte,Services,2526.24,0.0
+2024,4,Zamboanga del Norte,Services,2829.39,0.0
+2018,1,Zamboanga del Norte,Services,380.88,0.0
+2018,2,Zamboanga del Norte,Services,397.44,0.0
+2018,3,Zamboanga del Norte,Services,414.0,0.0
+2018,4,Zamboanga del Norte,Services,463.67,0.0
+2019,1,Zamboanga del Norte,Services,412.07,0.0
+2019,2,Zamboanga del Norte,Services,429.99,0.0
+2019,3,Zamboanga del Norte,Services,447.9,0.0
+2019,4,Zamboanga del Norte,Services,501.65,0.0
+2020,1,Zamboanga del Norte,Services,466.24,0.0
+2020,2,Zamboanga del Norte,Services,486.51,0.0
+2020,3,Zamboanga del Norte,Services,506.79,0.0
+2020,4,Zamboanga del Norte,Services,567.6,0.0
+2021,1,Zamboanga del Norte,Services,528.32,0.0
+2021,2,Zamboanga del Norte,Services,551.29,0.0
+2021,3,Zamboanga del Norte,Services,574.26,0.0
+2021,4,Zamboanga del Norte,Services,643.18,0.0
+2022,1,Zamboanga del Norte,Services,570.66,0.0
+2022,2,Zamboanga del Norte,Services,595.47,0.0
+2022,3,Zamboanga del Norte,Services,620.29,0.0
+2022,4,Zamboanga del Norte,Services,694.72,0.0
+2023,1,Zamboanga del Norte,Services,608.34,0.0
+2023,2,Zamboanga del Norte,Services,634.79,0.0
+2023,3,Zamboanga del Norte,Services,661.24,0.0
+2023,4,Zamboanga del Norte,Services,740.59,0.0
+2024,1,Zamboanga del Norte,Services,672.88,0.0
+2024,2,Zamboanga del Norte,Services,702.13,0.0
+2024,3,Zamboanga del Norte,Services,731.39,0.0
+2024,4,Zamboanga del Norte,Services,819.16,0.0
+2018,1,Zamboanga del Norte,Services,263.83,0.0
+2018,2,Zamboanga del Norte,Services,275.3,0.0
+2018,3,Zamboanga del Norte,Services,286.77,0.0
+2018,4,Zamboanga del Norte,Services,321.18,0.0
+2019,1,Zamboanga del Norte,Services,303.64,0.0
+2019,2,Zamboanga del Norte,Services,316.84,0.0
+2019,3,Zamboanga del Norte,Services,330.04,0.0
+2019,4,Zamboanga del Norte,Services,369.64,0.0
+2020,1,Zamboanga del Norte,Services,86.89,0.0
+2020,2,Zamboanga del Norte,Services,90.66,0.0
+2020,3,Zamboanga del Norte,Services,94.44,0.0
+2020,4,Zamboanga del Norte,Services,105.77,0.0
+2021,1,Zamboanga del Norte,Services,85.77,0.0
+2021,2,Zamboanga del Norte,Services,89.5,0.0
+2021,3,Zamboanga del Norte,Services,93.22,0.0
+2021,4,Zamboanga del Norte,Services,104.41,0.0
+2022,1,Zamboanga del Norte,Services,118.29,0.0
+2022,2,Zamboanga del Norte,Services,123.43,0.0
+2022,3,Zamboanga del Norte,Services,128.58,0.0
+2022,4,Zamboanga del Norte,Services,144.0,0.0
+2023,1,Zamboanga del Norte,Services,156.65,0.0
+2023,2,Zamboanga del Norte,Services,163.46,0.0
+2023,3,Zamboanga del Norte,Services,170.27,0.0
+2023,4,Zamboanga del Norte,Services,190.7,0.0
+2024,1,Zamboanga del Norte,Services,168.81,0.0
+2024,2,Zamboanga del Norte,Services,176.15,0.0
+2024,3,Zamboanga del Norte,Services,183.49,0.0
+2024,4,Zamboanga del Norte,Services,205.5,0.0
+2025,1,Zamboanga del Norte,Agriculture,4457.42,5.0
+2025,2,Zamboanga del Norte,Agriculture,4651.22,5.0
+2025,3,Zamboanga del Norte,Agriculture,4845.03,5.0
+2025,4,Zamboanga del Norte,Agriculture,5426.43,5.0
+2025,1,Zamboanga del Norte,Industry,47.92,5.0
+2025,2,Zamboanga del Norte,Industry,50.0,5.0
+2025,3,Zamboanga del Norte,Industry,52.09,5.0
+2025,4,Zamboanga del Norte,Industry,58.34,5.0
+2025,1,Zamboanga del Norte,Manufacturing,5395.97,5.0
+2025,2,Zamboanga del Norte,Manufacturing,5630.58,5.0
+2025,3,Zamboanga del Norte,Manufacturing,5865.19,5.0
+2025,4,Zamboanga del Norte,Manufacturing,6569.01,5.0
+2025,1,Zamboanga del Norte,Industry,317.41,5.0
+2025,2,Zamboanga del Norte,Industry,331.21,5.0
+2025,3,Zamboanga del Norte,Industry,345.01,5.0
+2025,4,Zamboanga del Norte,Industry,386.41,5.0
+2025,1,Zamboanga del Norte,Construction,4894.77,5.0
+2025,2,Zamboanga del Norte,Construction,5107.59,5.0
+2025,3,Zamboanga del Norte,Construction,5320.4,5.0
+2025,4,Zamboanga del Norte,Construction,5958.85,5.0
+2025,1,Zamboanga del Norte,Trade,6067.25,5.0
+2025,2,Zamboanga del Norte,Trade,6331.04,5.0
+2025,3,Zamboanga del Norte,Trade,6594.84,5.0
+2025,4,Zamboanga del Norte,Trade,7386.22,5.0
+2025,1,Zamboanga del Norte,Services,789.44,5.0
+2025,2,Zamboanga del Norte,Services,823.76,5.0
+2025,3,Zamboanga del Norte,Services,858.08,5.0
+2025,4,Zamboanga del Norte,Services,961.05,5.0
+2025,1,Zamboanga del Norte,Tourism,463.49,5.0
+2025,2,Zamboanga del Norte,Tourism,483.65,5.0
+2025,3,Zamboanga del Norte,Tourism,503.8,5.0
+2025,4,Zamboanga del Norte,Tourism,564.25,5.0
+2025,1,Zamboanga del Norte,ICT,802.53,5.0
+2025,2,Zamboanga del Norte,ICT,837.42,5.0
+2025,3,Zamboanga del Norte,ICT,872.31,5.0
+2025,4,Zamboanga del Norte,ICT,976.99,5.0
+2025,1,Zamboanga del Norte,Services,1061.76,5.0
+2025,2,Zamboanga del Norte,Services,1107.92,5.0
+2025,3,Zamboanga del Norte,Services,1154.08,5.0
+2025,4,Zamboanga del Norte,Services,1292.57,5.0
+2025,1,Zamboanga del Norte,Services,1084.27,5.0
+2025,2,Zamboanga del Norte,Services,1131.41,5.0
+2025,3,Zamboanga del Norte,Services,1178.56,5.0
+2025,4,Zamboanga del Norte,Services,1319.98,5.0
+2025,1,Zamboanga del Norte,Services,205.56,5.0
+2025,2,Zamboanga del Norte,Services,214.5,5.0
+2025,3,Zamboanga del Norte,Services,223.43,5.0
+2025,4,Zamboanga del Norte,Services,250.24,5.0
+2025,1,Zamboanga del Norte,Services,1248.67,5.0
+2025,2,Zamboanga del Norte,Services,1302.96,5.0
+2025,3,Zamboanga del Norte,Services,1357.25,5.0
+2025,4,Zamboanga del Norte,Services,1520.12,5.0
+2025,1,Zamboanga del Norte,Services,2440.35,5.0
+2025,2,Zamboanga del Norte,Services,2546.45,5.0
+2025,3,Zamboanga del Norte,Services,2652.55,5.0
+2025,4,Zamboanga del Norte,Services,2970.86,5.0
+2025,1,Zamboanga del Norte,Services,706.52,5.0
+2025,2,Zamboanga del Norte,Services,737.24,5.0
+2025,3,Zamboanga del Norte,Services,767.96,5.0
+2025,4,Zamboanga del Norte,Services,860.11,5.0
+2025,1,Zamboanga del Norte,Services,177.25,5.0
+2025,2,Zamboanga del Norte,Services,184.95,5.0
+2025,3,Zamboanga del Norte,Services,192.66,5.0
+2025,4,Zamboanga del Norte,Services,215.78,5.0
+2018,1,Zamboanga del Sur,Agriculture,5075.74,4.0
+2018,2,Zamboanga del Sur,Agriculture,5075.74,4.0
+2018,3,Zamboanga del Sur,Agriculture,5075.74,4.0
+2018,4,Zamboanga del Sur,Agriculture,5075.74,4.0
+2019,1,Zamboanga del Sur,Agriculture,5278.77,4.0
+2019,2,Zamboanga del Sur,Agriculture,5278.77,4.0
+2019,3,Zamboanga del Sur,Agriculture,5278.77,4.0
+2019,4,Zamboanga del Sur,Agriculture,5278.77,4.0
+2020,1,Zamboanga del Sur,Agriculture,5489.92,4.0
+2020,2,Zamboanga del Sur,Agriculture,5489.92,4.0
+2020,3,Zamboanga del Sur,Agriculture,5489.92,4.0
+2020,4,Zamboanga del Sur,Agriculture,5489.92,4.0
+2021,1,Zamboanga del Sur,Agriculture,5709.52,4.0
+2021,2,Zamboanga del Sur,Agriculture,5709.52,4.0
+2021,3,Zamboanga del Sur,Agriculture,5709.52,4.0
+2021,4,Zamboanga del Sur,Agriculture,5709.52,4.0
+2022,1,Zamboanga del Sur,Agriculture,5937.9,4.0
+2022,2,Zamboanga del Sur,Agriculture,5937.9,4.0
+2022,3,Zamboanga del Sur,Agriculture,5937.9,4.0
+2022,4,Zamboanga del Sur,Agriculture,5937.9,4.0
+2023,1,Zamboanga del Sur,Agriculture,6175.42,4.0
+2023,2,Zamboanga del Sur,Agriculture,6175.42,4.0
+2023,3,Zamboanga del Sur,Agriculture,6175.42,4.0
+2023,4,Zamboanga del Sur,Agriculture,6175.42,4.0
+2024,1,Zamboanga del Sur,Agriculture,6422.43,4.0
+2024,2,Zamboanga del Sur,Agriculture,6422.43,4.0
+2024,3,Zamboanga del Sur,Agriculture,6422.43,4.0
+2024,4,Zamboanga del Sur,Agriculture,6422.43,4.0
+2025,1,Zamboanga del Sur,Agriculture,6679.33,4.0
+2025,2,Zamboanga del Sur,Agriculture,6679.33,4.0
+2025,3,Zamboanga del Sur,Agriculture,6679.33,4.0
+2025,4,Zamboanga del Sur,Agriculture,6679.33,4.0
+2018,1,Zamboanga del Sur,Industry,54.57,4.0
+2018,2,Zamboanga del Sur,Industry,54.57,4.0
+2018,3,Zamboanga del Sur,Industry,54.57,4.0
+2018,4,Zamboanga del Sur,Industry,54.57,4.0
+2019,1,Zamboanga del Sur,Industry,56.75,4.0
+2019,2,Zamboanga del Sur,Industry,56.75,4.0
+2019,3,Zamboanga del Sur,Industry,56.75,4.0
+2019,4,Zamboanga del Sur,Industry,56.75,4.0
+2020,1,Zamboanga del Sur,Industry,59.02,4.0
+2020,2,Zamboanga del Sur,Industry,59.02,4.0
+2020,3,Zamboanga del Sur,Industry,59.02,4.0
+2020,4,Zamboanga del Sur,Industry,59.02,4.0
+2021,1,Zamboanga del Sur,Industry,61.38,4.0
+2021,2,Zamboanga del Sur,Industry,61.38,4.0
+2021,3,Zamboanga del Sur,Industry,61.38,4.0
+2021,4,Zamboanga del Sur,Industry,61.38,4.0
+2022,1,Zamboanga del Sur,Industry,63.84,4.0
+2022,2,Zamboanga del Sur,Industry,63.84,4.0
+2022,3,Zamboanga del Sur,Industry,63.84,4.0
+2022,4,Zamboanga del Sur,Industry,63.84,4.0
+2023,1,Zamboanga del Sur,Industry,66.39,4.0
+2023,2,Zamboanga del Sur,Industry,66.39,4.0
+2023,3,Zamboanga del Sur,Industry,66.39,4.0
+2023,4,Zamboanga del Sur,Industry,66.39,4.0
+2024,1,Zamboanga del Sur,Industry,69.05,4.0
+2024,2,Zamboanga del Sur,Industry,69.05,4.0
+2024,3,Zamboanga del Sur,Industry,69.05,4.0
+2024,4,Zamboanga del Sur,Industry,69.05,4.0
+2025,1,Zamboanga del Sur,Industry,71.81,4.0
+2025,2,Zamboanga del Sur,Industry,71.81,4.0
+2025,3,Zamboanga del Sur,Industry,71.81,4.0
+2025,4,Zamboanga del Sur,Industry,71.81,4.0
+2018,1,Zamboanga del Sur,Manufacturing,6144.48,4.0
+2018,2,Zamboanga del Sur,Manufacturing,6144.48,4.0
+2018,3,Zamboanga del Sur,Manufacturing,6144.48,4.0
+2018,4,Zamboanga del Sur,Manufacturing,6144.48,4.0
+2019,1,Zamboanga del Sur,Manufacturing,6390.26,4.0
+2019,2,Zamboanga del Sur,Manufacturing,6390.26,4.0
+2019,3,Zamboanga del Sur,Manufacturing,6390.26,4.0
+2019,4,Zamboanga del Sur,Manufacturing,6390.26,4.0
+2020,1,Zamboanga del Sur,Manufacturing,6645.87,4.0
+2020,2,Zamboanga del Sur,Manufacturing,6645.87,4.0
+2020,3,Zamboanga del Sur,Manufacturing,6645.87,4.0
+2020,4,Zamboanga del Sur,Manufacturing,6645.87,4.0
+2021,1,Zamboanga del Sur,Manufacturing,6911.7,4.0
+2021,2,Zamboanga del Sur,Manufacturing,6911.7,4.0
+2021,3,Zamboanga del Sur,Manufacturing,6911.7,4.0
+2021,4,Zamboanga del Sur,Manufacturing,6911.7,4.0
+2022,1,Zamboanga del Sur,Manufacturing,7188.17,4.0
+2022,2,Zamboanga del Sur,Manufacturing,7188.17,4.0
+2022,3,Zamboanga del Sur,Manufacturing,7188.17,4.0
+2022,4,Zamboanga del Sur,Manufacturing,7188.17,4.0
+2023,1,Zamboanga del Sur,Manufacturing,7475.7,4.0
+2023,2,Zamboanga del Sur,Manufacturing,7475.7,4.0
+2023,3,Zamboanga del Sur,Manufacturing,7475.7,4.0
+2023,4,Zamboanga del Sur,Manufacturing,7475.7,4.0
+2024,1,Zamboanga del Sur,Manufacturing,7774.73,4.0
+2024,2,Zamboanga del Sur,Manufacturing,7774.73,4.0
+2024,3,Zamboanga del Sur,Manufacturing,7774.73,4.0
+2024,4,Zamboanga del Sur,Manufacturing,7774.73,4.0
+2025,1,Zamboanga del Sur,Manufacturing,8085.72,4.0
+2025,2,Zamboanga del Sur,Manufacturing,8085.72,4.0
+2025,3,Zamboanga del Sur,Manufacturing,8085.72,4.0
+2025,4,Zamboanga del Sur,Manufacturing,8085.72,4.0
+2018,1,Zamboanga del Sur,Industry,361.44,4.0
+2018,2,Zamboanga del Sur,Industry,361.44,4.0
+2018,3,Zamboanga del Sur,Industry,361.44,4.0
+2018,4,Zamboanga del Sur,Industry,361.44,4.0
+2019,1,Zamboanga del Sur,Industry,375.9,4.0
+2019,2,Zamboanga del Sur,Industry,375.9,4.0
+2019,3,Zamboanga del Sur,Industry,375.9,4.0
+2019,4,Zamboanga del Sur,Industry,375.9,4.0
+2020,1,Zamboanga del Sur,Industry,390.93,4.0
+2020,2,Zamboanga del Sur,Industry,390.93,4.0
+2020,3,Zamboanga del Sur,Industry,390.93,4.0
+2020,4,Zamboanga del Sur,Industry,390.93,4.0
+2021,1,Zamboanga del Sur,Industry,406.57,4.0
+2021,2,Zamboanga del Sur,Industry,406.57,4.0
+2021,3,Zamboanga del Sur,Industry,406.57,4.0
+2021,4,Zamboanga del Sur,Industry,406.57,4.0
+2022,1,Zamboanga del Sur,Industry,422.84,4.0
+2022,2,Zamboanga del Sur,Industry,422.84,4.0
+2022,3,Zamboanga del Sur,Industry,422.84,4.0
+2022,4,Zamboanga del Sur,Industry,422.84,4.0
+2023,1,Zamboanga del Sur,Industry,439.75,4.0
+2023,2,Zamboanga del Sur,Industry,439.75,4.0
+2023,3,Zamboanga del Sur,Industry,439.75,4.0
+2023,4,Zamboanga del Sur,Industry,439.75,4.0
+2024,1,Zamboanga del Sur,Industry,457.34,4.0
+2024,2,Zamboanga del Sur,Industry,457.34,4.0
+2024,3,Zamboanga del Sur,Industry,457.34,4.0
+2024,4,Zamboanga del Sur,Industry,457.34,4.0
+2025,1,Zamboanga del Sur,Industry,475.63,4.0
+2025,2,Zamboanga del Sur,Industry,475.63,4.0
+2025,3,Zamboanga del Sur,Industry,475.63,4.0
+2025,4,Zamboanga del Sur,Industry,475.63,4.0
+2018,1,Zamboanga del Sur,Construction,5573.76,4.0
+2018,2,Zamboanga del Sur,Construction,5573.76,4.0
+2018,3,Zamboanga del Sur,Construction,5573.76,4.0
+2018,4,Zamboanga del Sur,Construction,5573.76,4.0
+2019,1,Zamboanga del Sur,Construction,5796.71,4.0
+2019,2,Zamboanga del Sur,Construction,5796.71,4.0
+2019,3,Zamboanga del Sur,Construction,5796.71,4.0
+2019,4,Zamboanga del Sur,Construction,5796.71,4.0
+2020,1,Zamboanga del Sur,Construction,6028.57,4.0
+2020,2,Zamboanga del Sur,Construction,6028.57,4.0
+2020,3,Zamboanga del Sur,Construction,6028.57,4.0
+2020,4,Zamboanga del Sur,Construction,6028.57,4.0
+2021,1,Zamboanga del Sur,Construction,6269.72,4.0
+2021,2,Zamboanga del Sur,Construction,6269.72,4.0
+2021,3,Zamboanga del Sur,Construction,6269.72,4.0
+2021,4,Zamboanga del Sur,Construction,6269.72,4.0
+2022,1,Zamboanga del Sur,Construction,6520.51,4.0
+2022,2,Zamboanga del Sur,Construction,6520.51,4.0
+2022,3,Zamboanga del Sur,Construction,6520.51,4.0
+2022,4,Zamboanga del Sur,Construction,6520.51,4.0
+2023,1,Zamboanga del Sur,Construction,6781.33,4.0
+2023,2,Zamboanga del Sur,Construction,6781.33,4.0
+2023,3,Zamboanga del Sur,Construction,6781.33,4.0
+2023,4,Zamboanga del Sur,Construction,6781.33,4.0
+2024,1,Zamboanga del Sur,Construction,7052.58,4.0
+2024,2,Zamboanga del Sur,Construction,7052.58,4.0
+2024,3,Zamboanga del Sur,Construction,7052.58,4.0
+2024,4,Zamboanga del Sur,Construction,7052.58,4.0
+2025,1,Zamboanga del Sur,Construction,7334.68,4.0
+2025,2,Zamboanga del Sur,Construction,7334.68,4.0
+2025,3,Zamboanga del Sur,Construction,7334.68,4.0
+2025,4,Zamboanga del Sur,Construction,7334.68,4.0
+2018,1,Zamboanga del Sur,Trade,6908.88,4.0
+2018,2,Zamboanga del Sur,Trade,6908.88,4.0
+2018,3,Zamboanga del Sur,Trade,6908.88,4.0
+2018,4,Zamboanga del Sur,Trade,6908.88,4.0
+2019,1,Zamboanga del Sur,Trade,7185.23,4.0
+2019,2,Zamboanga del Sur,Trade,7185.23,4.0
+2019,3,Zamboanga del Sur,Trade,7185.23,4.0
+2019,4,Zamboanga del Sur,Trade,7185.23,4.0
+2020,1,Zamboanga del Sur,Trade,7472.64,4.0
+2020,2,Zamboanga del Sur,Trade,7472.64,4.0
+2020,3,Zamboanga del Sur,Trade,7472.64,4.0
+2020,4,Zamboanga del Sur,Trade,7472.64,4.0
+2021,1,Zamboanga del Sur,Trade,7771.55,4.0
+2021,2,Zamboanga del Sur,Trade,7771.55,4.0
+2021,3,Zamboanga del Sur,Trade,7771.55,4.0
+2021,4,Zamboanga del Sur,Trade,7771.55,4.0
+2022,1,Zamboanga del Sur,Trade,8082.41,4.0
+2022,2,Zamboanga del Sur,Trade,8082.41,4.0
+2022,3,Zamboanga del Sur,Trade,8082.41,4.0
+2022,4,Zamboanga del Sur,Trade,8082.41,4.0
+2023,1,Zamboanga del Sur,Trade,8405.71,4.0
+2023,2,Zamboanga del Sur,Trade,8405.71,4.0
+2023,3,Zamboanga del Sur,Trade,8405.71,4.0
+2023,4,Zamboanga del Sur,Trade,8405.71,4.0
+2024,1,Zamboanga del Sur,Trade,8741.93,4.0
+2024,2,Zamboanga del Sur,Trade,8741.93,4.0
+2024,3,Zamboanga del Sur,Trade,8741.93,4.0
+2024,4,Zamboanga del Sur,Trade,8741.93,4.0
+2025,1,Zamboanga del Sur,Trade,9091.61,4.0
+2025,2,Zamboanga del Sur,Trade,9091.61,4.0
+2025,3,Zamboanga del Sur,Trade,9091.61,4.0
+2025,4,Zamboanga del Sur,Trade,9091.61,4.0
+2018,1,Zamboanga del Sur,Services,898.94,4.0
+2018,2,Zamboanga del Sur,Services,898.94,4.0
+2018,3,Zamboanga del Sur,Services,898.94,4.0
+2018,4,Zamboanga del Sur,Services,898.94,4.0
+2019,1,Zamboanga del Sur,Services,934.9,4.0
+2019,2,Zamboanga del Sur,Services,934.9,4.0
+2019,3,Zamboanga del Sur,Services,934.9,4.0
+2019,4,Zamboanga del Sur,Services,934.9,4.0
+2020,1,Zamboanga del Sur,Services,972.3,4.0
+2020,2,Zamboanga del Sur,Services,972.3,4.0
+2020,3,Zamboanga del Sur,Services,972.3,4.0
+2020,4,Zamboanga del Sur,Services,972.3,4.0
+2021,1,Zamboanga del Sur,Services,1011.19,4.0
+2021,2,Zamboanga del Sur,Services,1011.19,4.0
+2021,3,Zamboanga del Sur,Services,1011.19,4.0
+2021,4,Zamboanga del Sur,Services,1011.19,4.0
+2022,1,Zamboanga del Sur,Services,1051.64,4.0
+2022,2,Zamboanga del Sur,Services,1051.64,4.0
+2022,3,Zamboanga del Sur,Services,1051.64,4.0
+2022,4,Zamboanga del Sur,Services,1051.64,4.0
+2023,1,Zamboanga del Sur,Services,1093.7,4.0
+2023,2,Zamboanga del Sur,Services,1093.7,4.0
+2023,3,Zamboanga del Sur,Services,1093.7,4.0
+2023,4,Zamboanga del Sur,Services,1093.7,4.0
+2024,1,Zamboanga del Sur,Services,1137.45,4.0
+2024,2,Zamboanga del Sur,Services,1137.45,4.0
+2024,3,Zamboanga del Sur,Services,1137.45,4.0
+2024,4,Zamboanga del Sur,Services,1137.45,4.0
+2025,1,Zamboanga del Sur,Services,1182.95,4.0
+2025,2,Zamboanga del Sur,Services,1182.95,4.0
+2025,3,Zamboanga del Sur,Services,1182.95,4.0
+2025,4,Zamboanga del Sur,Services,1182.95,4.0
+2018,1,Zamboanga del Sur,Tourism,527.79,4.0
+2018,2,Zamboanga del Sur,Tourism,527.79,4.0
+2018,3,Zamboanga del Sur,Tourism,527.79,4.0
+2018,4,Zamboanga del Sur,Tourism,527.79,4.0
+2019,1,Zamboanga del Sur,Tourism,548.9,4.0
+2019,2,Zamboanga del Sur,Tourism,548.9,4.0
+2019,3,Zamboanga del Sur,Tourism,548.9,4.0
+2019,4,Zamboanga del Sur,Tourism,548.9,4.0
+2020,1,Zamboanga del Sur,Tourism,570.86,4.0
+2020,2,Zamboanga del Sur,Tourism,570.86,4.0
+2020,3,Zamboanga del Sur,Tourism,570.86,4.0
+2020,4,Zamboanga del Sur,Tourism,570.86,4.0
+2021,1,Zamboanga del Sur,Tourism,593.69,4.0
+2021,2,Zamboanga del Sur,Tourism,593.69,4.0
+2021,3,Zamboanga del Sur,Tourism,593.69,4.0
+2021,4,Zamboanga del Sur,Tourism,593.69,4.0
+2022,1,Zamboanga del Sur,Tourism,617.44,4.0
+2022,2,Zamboanga del Sur,Tourism,617.44,4.0
+2022,3,Zamboanga del Sur,Tourism,617.44,4.0
+2022,4,Zamboanga del Sur,Tourism,617.44,4.0
+2023,1,Zamboanga del Sur,Tourism,642.14,4.0
+2023,2,Zamboanga del Sur,Tourism,642.14,4.0
+2023,3,Zamboanga del Sur,Tourism,642.14,4.0
+2023,4,Zamboanga del Sur,Tourism,642.14,4.0
+2024,1,Zamboanga del Sur,Tourism,667.82,4.0
+2024,2,Zamboanga del Sur,Tourism,667.82,4.0
+2024,3,Zamboanga del Sur,Tourism,667.82,4.0
+2024,4,Zamboanga del Sur,Tourism,667.82,4.0
+2025,1,Zamboanga del Sur,Tourism,694.53,4.0
+2025,2,Zamboanga del Sur,Tourism,694.53,4.0
+2025,3,Zamboanga del Sur,Tourism,694.53,4.0
+2025,4,Zamboanga del Sur,Tourism,694.53,4.0
+2018,1,Zamboanga del Sur,ICT,913.85,4.0
+2018,2,Zamboanga del Sur,ICT,913.85,4.0
+2018,3,Zamboanga del Sur,ICT,913.85,4.0
+2018,4,Zamboanga del Sur,ICT,913.85,4.0
+2019,1,Zamboanga del Sur,ICT,950.41,4.0
+2019,2,Zamboanga del Sur,ICT,950.41,4.0
+2019,3,Zamboanga del Sur,ICT,950.41,4.0
+2019,4,Zamboanga del Sur,ICT,950.41,4.0
+2020,1,Zamboanga del Sur,ICT,988.42,4.0
+2020,2,Zamboanga del Sur,ICT,988.42,4.0
+2020,3,Zamboanga del Sur,ICT,988.42,4.0
+2020,4,Zamboanga del Sur,ICT,988.42,4.0
+2021,1,Zamboanga del Sur,ICT,1027.96,4.0
+2021,2,Zamboanga del Sur,ICT,1027.96,4.0
+2021,3,Zamboanga del Sur,ICT,1027.96,4.0
+2021,4,Zamboanga del Sur,ICT,1027.96,4.0
+2022,1,Zamboanga del Sur,ICT,1069.08,4.0
+2022,2,Zamboanga del Sur,ICT,1069.08,4.0
+2022,3,Zamboanga del Sur,ICT,1069.08,4.0
+2022,4,Zamboanga del Sur,ICT,1069.08,4.0
+2023,1,Zamboanga del Sur,ICT,1111.84,4.0
+2023,2,Zamboanga del Sur,ICT,1111.84,4.0
+2023,3,Zamboanga del Sur,ICT,1111.84,4.0
+2023,4,Zamboanga del Sur,ICT,1111.84,4.0
+2024,1,Zamboanga del Sur,ICT,1156.32,4.0
+2024,2,Zamboanga del Sur,ICT,1156.32,4.0
+2024,3,Zamboanga del Sur,ICT,1156.32,4.0
+2024,4,Zamboanga del Sur,ICT,1156.32,4.0
+2025,1,Zamboanga del Sur,ICT,1202.57,4.0
+2025,2,Zamboanga del Sur,ICT,1202.57,4.0
+2025,3,Zamboanga del Sur,ICT,1202.57,4.0
+2025,4,Zamboanga del Sur,ICT,1202.57,4.0
+2018,1,Zamboanga del Sur,Services,1209.04,4.0
+2018,2,Zamboanga del Sur,Services,1209.04,4.0
+2018,3,Zamboanga del Sur,Services,1209.04,4.0
+2018,4,Zamboanga del Sur,Services,1209.04,4.0
+2019,1,Zamboanga del Sur,Services,1257.4,4.0
+2019,2,Zamboanga del Sur,Services,1257.4,4.0
+2019,3,Zamboanga del Sur,Services,1257.4,4.0
+2019,4,Zamboanga del Sur,Services,1257.4,4.0
+2020,1,Zamboanga del Sur,Services,1307.7,4.0
+2020,2,Zamboanga del Sur,Services,1307.7,4.0
+2020,3,Zamboanga del Sur,Services,1307.7,4.0
+2020,4,Zamboanga del Sur,Services,1307.7,4.0
+2021,1,Zamboanga del Sur,Services,1360.0,4.0
+2021,2,Zamboanga del Sur,Services,1360.0,4.0
+2021,3,Zamboanga del Sur,Services,1360.0,4.0
+2021,4,Zamboanga del Sur,Services,1360.0,4.0
+2022,1,Zamboanga del Sur,Services,1414.4,4.0
+2022,2,Zamboanga del Sur,Services,1414.4,4.0
+2022,3,Zamboanga del Sur,Services,1414.4,4.0
+2022,4,Zamboanga del Sur,Services,1414.4,4.0
+2023,1,Zamboanga del Sur,Services,1470.98,4.0
+2023,2,Zamboanga del Sur,Services,1470.98,4.0
+2023,3,Zamboanga del Sur,Services,1470.98,4.0
+2023,4,Zamboanga del Sur,Services,1470.98,4.0
+2024,1,Zamboanga del Sur,Services,1529.82,4.0
+2024,2,Zamboanga del Sur,Services,1529.82,4.0
+2024,3,Zamboanga del Sur,Services,1529.82,4.0
+2024,4,Zamboanga del Sur,Services,1529.82,4.0
+2025,1,Zamboanga del Sur,Services,1591.01,4.0
+2025,2,Zamboanga del Sur,Services,1591.01,4.0
+2025,3,Zamboanga del Sur,Services,1591.01,4.0
+2025,4,Zamboanga del Sur,Services,1591.01,4.0
+2018,1,Zamboanga del Sur,Services,1234.68,4.0
+2018,2,Zamboanga del Sur,Services,1234.68,4.0
+2018,3,Zamboanga del Sur,Services,1234.68,4.0
+2018,4,Zamboanga del Sur,Services,1234.68,4.0
+2019,1,Zamboanga del Sur,Services,1284.06,4.0
+2019,2,Zamboanga del Sur,Services,1284.06,4.0
+2019,3,Zamboanga del Sur,Services,1284.06,4.0
+2019,4,Zamboanga del Sur,Services,1284.06,4.0
+2020,1,Zamboanga del Sur,Services,1335.43,4.0
+2020,2,Zamboanga del Sur,Services,1335.43,4.0
+2020,3,Zamboanga del Sur,Services,1335.43,4.0
+2020,4,Zamboanga del Sur,Services,1335.43,4.0
+2021,1,Zamboanga del Sur,Services,1388.84,4.0
+2021,2,Zamboanga del Sur,Services,1388.84,4.0
+2021,3,Zamboanga del Sur,Services,1388.84,4.0
+2021,4,Zamboanga del Sur,Services,1388.84,4.0
+2022,1,Zamboanga del Sur,Services,1444.4,4.0
+2022,2,Zamboanga del Sur,Services,1444.4,4.0
+2022,3,Zamboanga del Sur,Services,1444.4,4.0
+2022,4,Zamboanga del Sur,Services,1444.4,4.0
+2023,1,Zamboanga del Sur,Services,1502.17,4.0
+2023,2,Zamboanga del Sur,Services,1502.17,4.0
+2023,3,Zamboanga del Sur,Services,1502.17,4.0
+2023,4,Zamboanga del Sur,Services,1502.17,4.0
+2024,1,Zamboanga del Sur,Services,1562.26,4.0
+2024,2,Zamboanga del Sur,Services,1562.26,4.0
+2024,3,Zamboanga del Sur,Services,1562.26,4.0
+2024,4,Zamboanga del Sur,Services,1562.26,4.0
+2025,1,Zamboanga del Sur,Services,1624.75,4.0
+2025,2,Zamboanga del Sur,Services,1624.75,4.0
+2025,3,Zamboanga del Sur,Services,1624.75,4.0
+2025,4,Zamboanga del Sur,Services,1624.75,4.0
+2018,1,Zamboanga del Sur,Services,234.07,4.0
+2018,2,Zamboanga del Sur,Services,234.07,4.0
+2018,3,Zamboanga del Sur,Services,234.07,4.0
+2018,4,Zamboanga del Sur,Services,234.07,4.0
+2019,1,Zamboanga del Sur,Services,243.44,4.0
+2019,2,Zamboanga del Sur,Services,243.44,4.0
+2019,3,Zamboanga del Sur,Services,243.44,4.0
+2019,4,Zamboanga del Sur,Services,243.44,4.0
+2020,1,Zamboanga del Sur,Services,253.17,4.0
+2020,2,Zamboanga del Sur,Services,253.17,4.0
+2020,3,Zamboanga del Sur,Services,253.17,4.0
+2020,4,Zamboanga del Sur,Services,253.17,4.0
+2021,1,Zamboanga del Sur,Services,263.3,4.0
+2021,2,Zamboanga del Sur,Services,263.3,4.0
+2021,3,Zamboanga del Sur,Services,263.3,4.0
+2021,4,Zamboanga del Sur,Services,263.3,4.0
+2022,1,Zamboanga del Sur,Services,273.83,4.0
+2022,2,Zamboanga del Sur,Services,273.83,4.0
+2022,3,Zamboanga del Sur,Services,273.83,4.0
+2022,4,Zamboanga del Sur,Services,273.83,4.0
+2023,1,Zamboanga del Sur,Services,284.79,4.0
+2023,2,Zamboanga del Sur,Services,284.79,4.0
+2023,3,Zamboanga del Sur,Services,284.79,4.0
+2023,4,Zamboanga del Sur,Services,284.79,4.0
+2024,1,Zamboanga del Sur,Services,296.18,4.0
+2024,2,Zamboanga del Sur,Services,296.18,4.0
+2024,3,Zamboanga del Sur,Services,296.18,4.0
+2024,4,Zamboanga del Sur,Services,296.18,4.0
+2025,1,Zamboanga del Sur,Services,308.02,4.0
+2025,2,Zamboanga del Sur,Services,308.02,4.0
+2025,3,Zamboanga del Sur,Services,308.02,4.0
+2025,4,Zamboanga del Sur,Services,308.02,4.0
+2018,1,Zamboanga del Sur,Services,1421.89,4.0
+2018,2,Zamboanga del Sur,Services,1421.89,4.0
+2018,3,Zamboanga del Sur,Services,1421.89,4.0
+2018,4,Zamboanga del Sur,Services,1421.89,4.0
+2019,1,Zamboanga del Sur,Services,1478.76,4.0
+2019,2,Zamboanga del Sur,Services,1478.76,4.0
+2019,3,Zamboanga del Sur,Services,1478.76,4.0
+2019,4,Zamboanga del Sur,Services,1478.76,4.0
+2020,1,Zamboanga del Sur,Services,1537.91,4.0
+2020,2,Zamboanga del Sur,Services,1537.91,4.0
+2020,3,Zamboanga del Sur,Services,1537.91,4.0
+2020,4,Zamboanga del Sur,Services,1537.91,4.0
+2021,1,Zamboanga del Sur,Services,1599.43,4.0
+2021,2,Zamboanga del Sur,Services,1599.43,4.0
+2021,3,Zamboanga del Sur,Services,1599.43,4.0
+2021,4,Zamboanga del Sur,Services,1599.43,4.0
+2022,1,Zamboanga del Sur,Services,1663.4,4.0
+2022,2,Zamboanga del Sur,Services,1663.4,4.0
+2022,3,Zamboanga del Sur,Services,1663.4,4.0
+2022,4,Zamboanga del Sur,Services,1663.4,4.0
+2023,1,Zamboanga del Sur,Services,1729.94,4.0
+2023,2,Zamboanga del Sur,Services,1729.94,4.0
+2023,3,Zamboanga del Sur,Services,1729.94,4.0
+2023,4,Zamboanga del Sur,Services,1729.94,4.0
+2024,1,Zamboanga del Sur,Services,1799.14,4.0
+2024,2,Zamboanga del Sur,Services,1799.14,4.0
+2024,3,Zamboanga del Sur,Services,1799.14,4.0
+2024,4,Zamboanga del Sur,Services,1799.14,4.0
+2025,1,Zamboanga del Sur,Services,1871.1,4.0
+2025,2,Zamboanga del Sur,Services,1871.1,4.0
+2025,3,Zamboanga del Sur,Services,1871.1,4.0
+2025,4,Zamboanga del Sur,Services,1871.1,4.0
+2018,1,Zamboanga del Sur,Services,2778.86,4.0
+2018,2,Zamboanga del Sur,Services,2778.86,4.0
+2018,3,Zamboanga del Sur,Services,2778.86,4.0
+2018,4,Zamboanga del Sur,Services,2778.86,4.0
+2019,1,Zamboanga del Sur,Services,2890.02,4.0
+2019,2,Zamboanga del Sur,Services,2890.02,4.0
+2019,3,Zamboanga del Sur,Services,2890.02,4.0
+2019,4,Zamboanga del Sur,Services,2890.02,4.0
+2020,1,Zamboanga del Sur,Services,3005.62,4.0
+2020,2,Zamboanga del Sur,Services,3005.62,4.0
+2020,3,Zamboanga del Sur,Services,3005.62,4.0
+2020,4,Zamboanga del Sur,Services,3005.62,4.0
+2021,1,Zamboanga del Sur,Services,3125.84,4.0
+2021,2,Zamboanga del Sur,Services,3125.84,4.0
+2021,3,Zamboanga del Sur,Services,3125.84,4.0
+2021,4,Zamboanga del Sur,Services,3125.84,4.0
+2022,1,Zamboanga del Sur,Services,3250.88,4.0
+2022,2,Zamboanga del Sur,Services,3250.88,4.0
+2022,3,Zamboanga del Sur,Services,3250.88,4.0
+2022,4,Zamboanga del Sur,Services,3250.88,4.0
+2023,1,Zamboanga del Sur,Services,3380.91,4.0
+2023,2,Zamboanga del Sur,Services,3380.91,4.0
+2023,3,Zamboanga del Sur,Services,3380.91,4.0
+2023,4,Zamboanga del Sur,Services,3380.91,4.0
+2024,1,Zamboanga del Sur,Services,3516.15,4.0
+2024,2,Zamboanga del Sur,Services,3516.15,4.0
+2024,3,Zamboanga del Sur,Services,3516.15,4.0
+2024,4,Zamboanga del Sur,Services,3516.15,4.0
+2025,1,Zamboanga del Sur,Services,3656.8,4.0
+2025,2,Zamboanga del Sur,Services,3656.8,4.0
+2025,3,Zamboanga del Sur,Services,3656.8,4.0
+2025,4,Zamboanga del Sur,Services,3656.8,4.0
+2018,1,Zamboanga del Sur,Services,804.53,4.0
+2018,2,Zamboanga del Sur,Services,804.53,4.0
+2018,3,Zamboanga del Sur,Services,804.53,4.0
+2018,4,Zamboanga del Sur,Services,804.53,4.0
+2019,1,Zamboanga del Sur,Services,836.71,4.0
+2019,2,Zamboanga del Sur,Services,836.71,4.0
+2019,3,Zamboanga del Sur,Services,836.71,4.0
+2019,4,Zamboanga del Sur,Services,836.71,4.0
+2020,1,Zamboanga del Sur,Services,870.18,4.0
+2020,2,Zamboanga del Sur,Services,870.18,4.0
+2020,3,Zamboanga del Sur,Services,870.18,4.0
+2020,4,Zamboanga del Sur,Services,870.18,4.0
+2021,1,Zamboanga del Sur,Services,904.98,4.0
+2021,2,Zamboanga del Sur,Services,904.98,4.0
+2021,3,Zamboanga del Sur,Services,904.98,4.0
+2021,4,Zamboanga del Sur,Services,904.98,4.0
+2022,1,Zamboanga del Sur,Services,941.18,4.0
+2022,2,Zamboanga del Sur,Services,941.18,4.0
+2022,3,Zamboanga del Sur,Services,941.18,4.0
+2022,4,Zamboanga del Sur,Services,941.18,4.0
+2023,1,Zamboanga del Sur,Services,978.83,4.0
+2023,2,Zamboanga del Sur,Services,978.83,4.0
+2023,3,Zamboanga del Sur,Services,978.83,4.0
+2023,4,Zamboanga del Sur,Services,978.83,4.0
+2024,1,Zamboanga del Sur,Services,1017.98,4.0
+2024,2,Zamboanga del Sur,Services,1017.98,4.0
+2024,3,Zamboanga del Sur,Services,1017.98,4.0
+2024,4,Zamboanga del Sur,Services,1017.98,4.0
+2025,1,Zamboanga del Sur,Services,1058.7,4.0
+2025,2,Zamboanga del Sur,Services,1058.7,4.0
+2025,3,Zamboanga del Sur,Services,1058.7,4.0
+2025,4,Zamboanga del Sur,Services,1058.7,4.0
+2018,1,Zamboanga del Sur,Services,201.83,4.0
+2018,2,Zamboanga del Sur,Services,201.83,4.0
+2018,3,Zamboanga del Sur,Services,201.83,4.0
+2018,4,Zamboanga del Sur,Services,201.83,4.0
+2019,1,Zamboanga del Sur,Services,209.91,4.0
+2019,2,Zamboanga del Sur,Services,209.91,4.0
+2019,3,Zamboanga del Sur,Services,209.91,4.0
+2019,4,Zamboanga del Sur,Services,209.91,4.0
+2020,1,Zamboanga del Sur,Services,218.3,4.0
+2020,2,Zamboanga del Sur,Services,218.3,4.0
+2020,3,Zamboanga del Sur,Services,218.3,4.0
+2020,4,Zamboanga del Sur,Services,218.3,4.0
+2021,1,Zamboanga del Sur,Services,227.04,4.0
+2021,2,Zamboanga del Sur,Services,227.04,4.0
+2021,3,Zamboanga del Sur,Services,227.04,4.0
+2021,4,Zamboanga del Sur,Services,227.04,4.0
+2022,1,Zamboanga del Sur,Services,236.12,4.0
+2022,2,Zamboanga del Sur,Services,236.12,4.0
+2022,3,Zamboanga del Sur,Services,236.12,4.0
+2022,4,Zamboanga del Sur,Services,236.12,4.0
+2023,1,Zamboanga del Sur,Services,245.56,4.0
+2023,2,Zamboanga del Sur,Services,245.56,4.0
+2023,3,Zamboanga del Sur,Services,245.56,4.0
+2023,4,Zamboanga del Sur,Services,245.56,4.0
+2024,1,Zamboanga del Sur,Services,255.38,4.0
+2024,2,Zamboanga del Sur,Services,255.38,4.0
+2024,3,Zamboanga del Sur,Services,255.38,4.0
+2024,4,Zamboanga del Sur,Services,255.38,4.0
+2025,1,Zamboanga del Sur,Services,265.6,4.0
+2025,2,Zamboanga del Sur,Services,265.6,4.0
+2025,3,Zamboanga del Sur,Services,265.6,4.0
+2025,4,Zamboanga del Sur,Services,265.6,4.0
+2018,1,Zamboanga Sibugay,Agriculture,3230.02,4.0
+2018,2,Zamboanga Sibugay,Agriculture,3230.02,4.0
+2018,3,Zamboanga Sibugay,Agriculture,3230.02,4.0
+2018,4,Zamboanga Sibugay,Agriculture,3230.02,4.0
+2019,1,Zamboanga Sibugay,Agriculture,3359.22,4.0
+2019,2,Zamboanga Sibugay,Agriculture,3359.22,4.0
+2019,3,Zamboanga Sibugay,Agriculture,3359.22,4.0
+2019,4,Zamboanga Sibugay,Agriculture,3359.22,4.0
+2020,1,Zamboanga Sibugay,Agriculture,3493.59,4.0
+2020,2,Zamboanga Sibugay,Agriculture,3493.59,4.0
+2020,3,Zamboanga Sibugay,Agriculture,3493.59,4.0
+2020,4,Zamboanga Sibugay,Agriculture,3493.59,4.0
+2021,1,Zamboanga Sibugay,Agriculture,3633.33,4.0
+2021,2,Zamboanga Sibugay,Agriculture,3633.33,4.0
+2021,3,Zamboanga Sibugay,Agriculture,3633.33,4.0
+2021,4,Zamboanga Sibugay,Agriculture,3633.33,4.0
+2022,1,Zamboanga Sibugay,Agriculture,3778.66,4.0
+2022,2,Zamboanga Sibugay,Agriculture,3778.66,4.0
+2022,3,Zamboanga Sibugay,Agriculture,3778.66,4.0
+2022,4,Zamboanga Sibugay,Agriculture,3778.66,4.0
+2023,1,Zamboanga Sibugay,Agriculture,3929.81,4.0
+2023,2,Zamboanga Sibugay,Agriculture,3929.81,4.0
+2023,3,Zamboanga Sibugay,Agriculture,3929.81,4.0
+2023,4,Zamboanga Sibugay,Agriculture,3929.81,4.0
+2024,1,Zamboanga Sibugay,Agriculture,4087.0,4.0
+2024,2,Zamboanga Sibugay,Agriculture,4087.0,4.0
+2024,3,Zamboanga Sibugay,Agriculture,4087.0,4.0
+2024,4,Zamboanga Sibugay,Agriculture,4087.0,4.0
+2025,1,Zamboanga Sibugay,Agriculture,4250.48,4.0
+2025,2,Zamboanga Sibugay,Agriculture,4250.48,4.0
+2025,3,Zamboanga Sibugay,Agriculture,4250.48,4.0
+2025,4,Zamboanga Sibugay,Agriculture,4250.48,4.0
+2018,1,Zamboanga Sibugay,Industry,34.72,4.0
+2018,2,Zamboanga Sibugay,Industry,34.72,4.0
+2018,3,Zamboanga Sibugay,Industry,34.72,4.0
+2018,4,Zamboanga Sibugay,Industry,34.72,4.0
+2019,1,Zamboanga Sibugay,Industry,36.11,4.0
+2019,2,Zamboanga Sibugay,Industry,36.11,4.0
+2019,3,Zamboanga Sibugay,Industry,36.11,4.0
+2019,4,Zamboanga Sibugay,Industry,36.11,4.0
+2020,1,Zamboanga Sibugay,Industry,37.56,4.0
+2020,2,Zamboanga Sibugay,Industry,37.56,4.0
+2020,3,Zamboanga Sibugay,Industry,37.56,4.0
+2020,4,Zamboanga Sibugay,Industry,37.56,4.0
+2021,1,Zamboanga Sibugay,Industry,39.06,4.0
+2021,2,Zamboanga Sibugay,Industry,39.06,4.0
+2021,3,Zamboanga Sibugay,Industry,39.06,4.0
+2021,4,Zamboanga Sibugay,Industry,39.06,4.0
+2022,1,Zamboanga Sibugay,Industry,40.62,4.0
+2022,2,Zamboanga Sibugay,Industry,40.62,4.0
+2022,3,Zamboanga Sibugay,Industry,40.62,4.0
+2022,4,Zamboanga Sibugay,Industry,40.62,4.0
+2023,1,Zamboanga Sibugay,Industry,42.25,4.0
+2023,2,Zamboanga Sibugay,Industry,42.25,4.0
+2023,3,Zamboanga Sibugay,Industry,42.25,4.0
+2023,4,Zamboanga Sibugay,Industry,42.25,4.0
+2024,1,Zamboanga Sibugay,Industry,43.94,4.0
+2024,2,Zamboanga Sibugay,Industry,43.94,4.0
+2024,3,Zamboanga Sibugay,Industry,43.94,4.0
+2024,4,Zamboanga Sibugay,Industry,43.94,4.0
+2025,1,Zamboanga Sibugay,Industry,45.7,4.0
+2025,2,Zamboanga Sibugay,Industry,45.7,4.0
+2025,3,Zamboanga Sibugay,Industry,45.7,4.0
+2025,4,Zamboanga Sibugay,Industry,45.7,4.0
+2018,1,Zamboanga Sibugay,Manufacturing,3910.12,4.0
+2018,2,Zamboanga Sibugay,Manufacturing,3910.12,4.0
+2018,3,Zamboanga Sibugay,Manufacturing,3910.12,4.0
+2018,4,Zamboanga Sibugay,Manufacturing,3910.12,4.0
+2019,1,Zamboanga Sibugay,Manufacturing,4066.53,4.0
+2019,2,Zamboanga Sibugay,Manufacturing,4066.53,4.0
+2019,3,Zamboanga Sibugay,Manufacturing,4066.53,4.0
+2019,4,Zamboanga Sibugay,Manufacturing,4066.53,4.0
+2020,1,Zamboanga Sibugay,Manufacturing,4229.19,4.0
+2020,2,Zamboanga Sibugay,Manufacturing,4229.19,4.0
+2020,3,Zamboanga Sibugay,Manufacturing,4229.19,4.0
+2020,4,Zamboanga Sibugay,Manufacturing,4229.19,4.0
+2021,1,Zamboanga Sibugay,Manufacturing,4398.36,4.0
+2021,2,Zamboanga Sibugay,Manufacturing,4398.36,4.0
+2021,3,Zamboanga Sibugay,Manufacturing,4398.36,4.0
+2021,4,Zamboanga Sibugay,Manufacturing,4398.36,4.0
+2022,1,Zamboanga Sibugay,Manufacturing,4574.29,4.0
+2022,2,Zamboanga Sibugay,Manufacturing,4574.29,4.0
+2022,3,Zamboanga Sibugay,Manufacturing,4574.29,4.0
+2022,4,Zamboanga Sibugay,Manufacturing,4574.29,4.0
+2023,1,Zamboanga Sibugay,Manufacturing,4757.26,4.0
+2023,2,Zamboanga Sibugay,Manufacturing,4757.26,4.0
+2023,3,Zamboanga Sibugay,Manufacturing,4757.26,4.0
+2023,4,Zamboanga Sibugay,Manufacturing,4757.26,4.0
+2024,1,Zamboanga Sibugay,Manufacturing,4947.55,4.0
+2024,2,Zamboanga Sibugay,Manufacturing,4947.55,4.0
+2024,3,Zamboanga Sibugay,Manufacturing,4947.55,4.0
+2024,4,Zamboanga Sibugay,Manufacturing,4947.55,4.0
+2025,1,Zamboanga Sibugay,Manufacturing,5145.46,4.0
+2025,2,Zamboanga Sibugay,Manufacturing,5145.46,4.0
+2025,3,Zamboanga Sibugay,Manufacturing,5145.46,4.0
+2025,4,Zamboanga Sibugay,Manufacturing,5145.46,4.0
+2018,1,Zamboanga Sibugay,Industry,230.01,4.0
+2018,2,Zamboanga Sibugay,Industry,230.01,4.0
+2018,3,Zamboanga Sibugay,Industry,230.01,4.0
+2018,4,Zamboanga Sibugay,Industry,230.01,4.0
+2019,1,Zamboanga Sibugay,Industry,239.21,4.0
+2019,2,Zamboanga Sibugay,Industry,239.21,4.0
+2019,3,Zamboanga Sibugay,Industry,239.21,4.0
+2019,4,Zamboanga Sibugay,Industry,239.21,4.0
+2020,1,Zamboanga Sibugay,Industry,248.78,4.0
+2020,2,Zamboanga Sibugay,Industry,248.78,4.0
+2020,3,Zamboanga Sibugay,Industry,248.78,4.0
+2020,4,Zamboanga Sibugay,Industry,248.78,4.0
+2021,1,Zamboanga Sibugay,Industry,258.73,4.0
+2021,2,Zamboanga Sibugay,Industry,258.73,4.0
+2021,3,Zamboanga Sibugay,Industry,258.73,4.0
+2021,4,Zamboanga Sibugay,Industry,258.73,4.0
+2022,1,Zamboanga Sibugay,Industry,269.08,4.0
+2022,2,Zamboanga Sibugay,Industry,269.08,4.0
+2022,3,Zamboanga Sibugay,Industry,269.08,4.0
+2022,4,Zamboanga Sibugay,Industry,269.08,4.0
+2023,1,Zamboanga Sibugay,Industry,279.84,4.0
+2023,2,Zamboanga Sibugay,Industry,279.84,4.0
+2023,3,Zamboanga Sibugay,Industry,279.84,4.0
+2023,4,Zamboanga Sibugay,Industry,279.84,4.0
+2024,1,Zamboanga Sibugay,Industry,291.03,4.0
+2024,2,Zamboanga Sibugay,Industry,291.03,4.0
+2024,3,Zamboanga Sibugay,Industry,291.03,4.0
+2024,4,Zamboanga Sibugay,Industry,291.03,4.0
+2025,1,Zamboanga Sibugay,Industry,302.67,4.0
+2025,2,Zamboanga Sibugay,Industry,302.67,4.0
+2025,3,Zamboanga Sibugay,Industry,302.67,4.0
+2025,4,Zamboanga Sibugay,Industry,302.67,4.0
+2018,1,Zamboanga Sibugay,Construction,3546.94,4.0
+2018,2,Zamboanga Sibugay,Construction,3546.94,4.0
+2018,3,Zamboanga Sibugay,Construction,3546.94,4.0
+2018,4,Zamboanga Sibugay,Construction,3546.94,4.0
+2019,1,Zamboanga Sibugay,Construction,3688.81,4.0
+2019,2,Zamboanga Sibugay,Construction,3688.81,4.0
+2019,3,Zamboanga Sibugay,Construction,3688.81,4.0
+2019,4,Zamboanga Sibugay,Construction,3688.81,4.0
+2020,1,Zamboanga Sibugay,Construction,3836.37,4.0
+2020,2,Zamboanga Sibugay,Construction,3836.37,4.0
+2020,3,Zamboanga Sibugay,Construction,3836.37,4.0
+2020,4,Zamboanga Sibugay,Construction,3836.37,4.0
+2021,1,Zamboanga Sibugay,Construction,3989.82,4.0
+2021,2,Zamboanga Sibugay,Construction,3989.82,4.0
+2021,3,Zamboanga Sibugay,Construction,3989.82,4.0
+2021,4,Zamboanga Sibugay,Construction,3989.82,4.0
+2022,1,Zamboanga Sibugay,Construction,4149.41,4.0
+2022,2,Zamboanga Sibugay,Construction,4149.41,4.0
+2022,3,Zamboanga Sibugay,Construction,4149.41,4.0
+2022,4,Zamboanga Sibugay,Construction,4149.41,4.0
+2023,1,Zamboanga Sibugay,Construction,4315.39,4.0
+2023,2,Zamboanga Sibugay,Construction,4315.39,4.0
+2023,3,Zamboanga Sibugay,Construction,4315.39,4.0
+2023,4,Zamboanga Sibugay,Construction,4315.39,4.0
+2024,1,Zamboanga Sibugay,Construction,4488.0,4.0
+2024,2,Zamboanga Sibugay,Construction,4488.0,4.0
+2024,3,Zamboanga Sibugay,Construction,4488.0,4.0
+2024,4,Zamboanga Sibugay,Construction,4488.0,4.0
+2025,1,Zamboanga Sibugay,Construction,4667.52,4.0
+2025,2,Zamboanga Sibugay,Construction,4667.52,4.0
+2025,3,Zamboanga Sibugay,Construction,4667.52,4.0
+2025,4,Zamboanga Sibugay,Construction,4667.52,4.0
+2018,1,Zamboanga Sibugay,Trade,4396.56,4.0
+2018,2,Zamboanga Sibugay,Trade,4396.56,4.0
+2018,3,Zamboanga Sibugay,Trade,4396.56,4.0
+2018,4,Zamboanga Sibugay,Trade,4396.56,4.0
+2019,1,Zamboanga Sibugay,Trade,4572.42,4.0
+2019,2,Zamboanga Sibugay,Trade,4572.42,4.0
+2019,3,Zamboanga Sibugay,Trade,4572.42,4.0
+2019,4,Zamboanga Sibugay,Trade,4572.42,4.0
+2020,1,Zamboanga Sibugay,Trade,4755.32,4.0
+2020,2,Zamboanga Sibugay,Trade,4755.32,4.0
+2020,3,Zamboanga Sibugay,Trade,4755.32,4.0
+2020,4,Zamboanga Sibugay,Trade,4755.32,4.0
+2021,1,Zamboanga Sibugay,Trade,4945.53,4.0
+2021,2,Zamboanga Sibugay,Trade,4945.53,4.0
+2021,3,Zamboanga Sibugay,Trade,4945.53,4.0
+2021,4,Zamboanga Sibugay,Trade,4945.53,4.0
+2022,1,Zamboanga Sibugay,Trade,5143.35,4.0
+2022,2,Zamboanga Sibugay,Trade,5143.35,4.0
+2022,3,Zamboanga Sibugay,Trade,5143.35,4.0
+2022,4,Zamboanga Sibugay,Trade,5143.35,4.0
+2023,1,Zamboanga Sibugay,Trade,5349.09,4.0
+2023,2,Zamboanga Sibugay,Trade,5349.09,4.0
+2023,3,Zamboanga Sibugay,Trade,5349.09,4.0
+2023,4,Zamboanga Sibugay,Trade,5349.09,4.0
+2024,1,Zamboanga Sibugay,Trade,5563.05,4.0
+2024,2,Zamboanga Sibugay,Trade,5563.05,4.0
+2024,3,Zamboanga Sibugay,Trade,5563.05,4.0
+2024,4,Zamboanga Sibugay,Trade,5563.05,4.0
+2025,1,Zamboanga Sibugay,Trade,5785.57,4.0
+2025,2,Zamboanga Sibugay,Trade,5785.57,4.0
+2025,3,Zamboanga Sibugay,Trade,5785.57,4.0
+2025,4,Zamboanga Sibugay,Trade,5785.57,4.0
+2018,1,Zamboanga Sibugay,Services,572.05,4.0
+2018,2,Zamboanga Sibugay,Services,572.05,4.0
+2018,3,Zamboanga Sibugay,Services,572.05,4.0
+2018,4,Zamboanga Sibugay,Services,572.05,4.0
+2019,1,Zamboanga Sibugay,Services,594.94,4.0
+2019,2,Zamboanga Sibugay,Services,594.94,4.0
+2019,3,Zamboanga Sibugay,Services,594.94,4.0
+2019,4,Zamboanga Sibugay,Services,594.94,4.0
+2020,1,Zamboanga Sibugay,Services,618.73,4.0
+2020,2,Zamboanga Sibugay,Services,618.73,4.0
+2020,3,Zamboanga Sibugay,Services,618.73,4.0
+2020,4,Zamboanga Sibugay,Services,618.73,4.0
+2021,1,Zamboanga Sibugay,Services,643.48,4.0
+2021,2,Zamboanga Sibugay,Services,643.48,4.0
+2021,3,Zamboanga Sibugay,Services,643.48,4.0
+2021,4,Zamboanga Sibugay,Services,643.48,4.0
+2022,1,Zamboanga Sibugay,Services,669.22,4.0
+2022,2,Zamboanga Sibugay,Services,669.22,4.0
+2022,3,Zamboanga Sibugay,Services,669.22,4.0
+2022,4,Zamboanga Sibugay,Services,669.22,4.0
+2023,1,Zamboanga Sibugay,Services,695.99,4.0
+2023,2,Zamboanga Sibugay,Services,695.99,4.0
+2023,3,Zamboanga Sibugay,Services,695.99,4.0
+2023,4,Zamboanga Sibugay,Services,695.99,4.0
+2024,1,Zamboanga Sibugay,Services,723.83,4.0
+2024,2,Zamboanga Sibugay,Services,723.83,4.0
+2024,3,Zamboanga Sibugay,Services,723.83,4.0
+2024,4,Zamboanga Sibugay,Services,723.83,4.0
+2025,1,Zamboanga Sibugay,Services,752.79,4.0
+2025,2,Zamboanga Sibugay,Services,752.79,4.0
+2025,3,Zamboanga Sibugay,Services,752.79,4.0
+2025,4,Zamboanga Sibugay,Services,752.79,4.0
+2018,1,Zamboanga Sibugay,Tourism,335.87,4.0
+2018,2,Zamboanga Sibugay,Tourism,335.87,4.0
+2018,3,Zamboanga Sibugay,Tourism,335.87,4.0
+2018,4,Zamboanga Sibugay,Tourism,335.87,4.0
+2019,1,Zamboanga Sibugay,Tourism,349.3,4.0
+2019,2,Zamboanga Sibugay,Tourism,349.3,4.0
+2019,3,Zamboanga Sibugay,Tourism,349.3,4.0
+2019,4,Zamboanga Sibugay,Tourism,349.3,4.0
+2020,1,Zamboanga Sibugay,Tourism,363.27,4.0
+2020,2,Zamboanga Sibugay,Tourism,363.27,4.0
+2020,3,Zamboanga Sibugay,Tourism,363.27,4.0
+2020,4,Zamboanga Sibugay,Tourism,363.27,4.0
+2021,1,Zamboanga Sibugay,Tourism,377.8,4.0
+2021,2,Zamboanga Sibugay,Tourism,377.8,4.0
+2021,3,Zamboanga Sibugay,Tourism,377.8,4.0
+2021,4,Zamboanga Sibugay,Tourism,377.8,4.0
+2022,1,Zamboanga Sibugay,Tourism,392.91,4.0
+2022,2,Zamboanga Sibugay,Tourism,392.91,4.0
+2022,3,Zamboanga Sibugay,Tourism,392.91,4.0
+2022,4,Zamboanga Sibugay,Tourism,392.91,4.0
+2023,1,Zamboanga Sibugay,Tourism,408.63,4.0
+2023,2,Zamboanga Sibugay,Tourism,408.63,4.0
+2023,3,Zamboanga Sibugay,Tourism,408.63,4.0
+2023,4,Zamboanga Sibugay,Tourism,408.63,4.0
+2024,1,Zamboanga Sibugay,Tourism,424.98,4.0
+2024,2,Zamboanga Sibugay,Tourism,424.98,4.0
+2024,3,Zamboanga Sibugay,Tourism,424.98,4.0
+2024,4,Zamboanga Sibugay,Tourism,424.98,4.0
+2025,1,Zamboanga Sibugay,Tourism,441.98,4.0
+2025,2,Zamboanga Sibugay,Tourism,441.98,4.0
+2025,3,Zamboanga Sibugay,Tourism,441.98,4.0
+2025,4,Zamboanga Sibugay,Tourism,441.98,4.0
+2018,1,Zamboanga Sibugay,ICT,581.54,4.0
+2018,2,Zamboanga Sibugay,ICT,581.54,4.0
+2018,3,Zamboanga Sibugay,ICT,581.54,4.0
+2018,4,Zamboanga Sibugay,ICT,581.54,4.0
+2019,1,Zamboanga Sibugay,ICT,604.8,4.0
+2019,2,Zamboanga Sibugay,ICT,604.8,4.0
+2019,3,Zamboanga Sibugay,ICT,604.8,4.0
+2019,4,Zamboanga Sibugay,ICT,604.8,4.0
+2020,1,Zamboanga Sibugay,ICT,629.0,4.0
+2020,2,Zamboanga Sibugay,ICT,629.0,4.0
+2020,3,Zamboanga Sibugay,ICT,629.0,4.0
+2020,4,Zamboanga Sibugay,ICT,629.0,4.0
+2021,1,Zamboanga Sibugay,ICT,654.16,4.0
+2021,2,Zamboanga Sibugay,ICT,654.16,4.0
+2021,3,Zamboanga Sibugay,ICT,654.16,4.0
+2021,4,Zamboanga Sibugay,ICT,654.16,4.0
+2022,1,Zamboanga Sibugay,ICT,680.32,4.0
+2022,2,Zamboanga Sibugay,ICT,680.32,4.0
+2022,3,Zamboanga Sibugay,ICT,680.32,4.0
+2022,4,Zamboanga Sibugay,ICT,680.32,4.0
+2023,1,Zamboanga Sibugay,ICT,707.54,4.0
+2023,2,Zamboanga Sibugay,ICT,707.54,4.0
+2023,3,Zamboanga Sibugay,ICT,707.54,4.0
+2023,4,Zamboanga Sibugay,ICT,707.54,4.0
+2024,1,Zamboanga Sibugay,ICT,735.84,4.0
+2024,2,Zamboanga Sibugay,ICT,735.84,4.0
+2024,3,Zamboanga Sibugay,ICT,735.84,4.0
+2024,4,Zamboanga Sibugay,ICT,735.84,4.0
+2025,1,Zamboanga Sibugay,ICT,765.27,4.0
+2025,2,Zamboanga Sibugay,ICT,765.27,4.0
+2025,3,Zamboanga Sibugay,ICT,765.27,4.0
+2025,4,Zamboanga Sibugay,ICT,765.27,4.0
+2018,1,Zamboanga Sibugay,Services,769.39,4.0
+2018,2,Zamboanga Sibugay,Services,769.39,4.0
+2018,3,Zamboanga Sibugay,Services,769.39,4.0
+2018,4,Zamboanga Sibugay,Services,769.39,4.0
+2019,1,Zamboanga Sibugay,Services,800.16,4.0
+2019,2,Zamboanga Sibugay,Services,800.16,4.0
+2019,3,Zamboanga Sibugay,Services,800.16,4.0
+2019,4,Zamboanga Sibugay,Services,800.16,4.0
+2020,1,Zamboanga Sibugay,Services,832.17,4.0
+2020,2,Zamboanga Sibugay,Services,832.17,4.0
+2020,3,Zamboanga Sibugay,Services,832.17,4.0
+2020,4,Zamboanga Sibugay,Services,832.17,4.0
+2021,1,Zamboanga Sibugay,Services,865.46,4.0
+2021,2,Zamboanga Sibugay,Services,865.46,4.0
+2021,3,Zamboanga Sibugay,Services,865.46,4.0
+2021,4,Zamboanga Sibugay,Services,865.46,4.0
+2022,1,Zamboanga Sibugay,Services,900.08,4.0
+2022,2,Zamboanga Sibugay,Services,900.08,4.0
+2022,3,Zamboanga Sibugay,Services,900.08,4.0
+2022,4,Zamboanga Sibugay,Services,900.08,4.0
+2023,1,Zamboanga Sibugay,Services,936.08,4.0
+2023,2,Zamboanga Sibugay,Services,936.08,4.0
+2023,3,Zamboanga Sibugay,Services,936.08,4.0
+2023,4,Zamboanga Sibugay,Services,936.08,4.0
+2024,1,Zamboanga Sibugay,Services,973.52,4.0
+2024,2,Zamboanga Sibugay,Services,973.52,4.0
+2024,3,Zamboanga Sibugay,Services,973.52,4.0
+2024,4,Zamboanga Sibugay,Services,973.52,4.0
+2025,1,Zamboanga Sibugay,Services,1012.46,4.0
+2025,2,Zamboanga Sibugay,Services,1012.46,4.0
+2025,3,Zamboanga Sibugay,Services,1012.46,4.0
+2025,4,Zamboanga Sibugay,Services,1012.46,4.0
+2018,1,Zamboanga Sibugay,Services,785.7,4.0
+2018,2,Zamboanga Sibugay,Services,785.7,4.0
+2018,3,Zamboanga Sibugay,Services,785.7,4.0
+2018,4,Zamboanga Sibugay,Services,785.7,4.0
+2019,1,Zamboanga Sibugay,Services,817.13,4.0
+2019,2,Zamboanga Sibugay,Services,817.13,4.0
+2019,3,Zamboanga Sibugay,Services,817.13,4.0
+2019,4,Zamboanga Sibugay,Services,817.13,4.0
+2020,1,Zamboanga Sibugay,Services,849.82,4.0
+2020,2,Zamboanga Sibugay,Services,849.82,4.0
+2020,3,Zamboanga Sibugay,Services,849.82,4.0
+2020,4,Zamboanga Sibugay,Services,849.82,4.0
+2021,1,Zamboanga Sibugay,Services,883.81,4.0
+2021,2,Zamboanga Sibugay,Services,883.81,4.0
+2021,3,Zamboanga Sibugay,Services,883.81,4.0
+2021,4,Zamboanga Sibugay,Services,883.81,4.0
+2022,1,Zamboanga Sibugay,Services,919.16,4.0
+2022,2,Zamboanga Sibugay,Services,919.16,4.0
+2022,3,Zamboanga Sibugay,Services,919.16,4.0
+2022,4,Zamboanga Sibugay,Services,919.16,4.0
+2023,1,Zamboanga Sibugay,Services,955.93,4.0
+2023,2,Zamboanga Sibugay,Services,955.93,4.0
+2023,3,Zamboanga Sibugay,Services,955.93,4.0
+2023,4,Zamboanga Sibugay,Services,955.93,4.0
+2024,1,Zamboanga Sibugay,Services,994.17,4.0
+2024,2,Zamboanga Sibugay,Services,994.17,4.0
+2024,3,Zamboanga Sibugay,Services,994.17,4.0
+2024,4,Zamboanga Sibugay,Services,994.17,4.0
+2025,1,Zamboanga Sibugay,Services,1033.93,4.0
+2025,2,Zamboanga Sibugay,Services,1033.93,4.0
+2025,3,Zamboanga Sibugay,Services,1033.93,4.0
+2025,4,Zamboanga Sibugay,Services,1033.93,4.0
+2018,1,Zamboanga Sibugay,Services,148.96,4.0
+2018,2,Zamboanga Sibugay,Services,148.96,4.0
+2018,3,Zamboanga Sibugay,Services,148.96,4.0
+2018,4,Zamboanga Sibugay,Services,148.96,4.0
+2019,1,Zamboanga Sibugay,Services,154.91,4.0
+2019,2,Zamboanga Sibugay,Services,154.91,4.0
+2019,3,Zamboanga Sibugay,Services,154.91,4.0
+2019,4,Zamboanga Sibugay,Services,154.91,4.0
+2020,1,Zamboanga Sibugay,Services,161.11,4.0
+2020,2,Zamboanga Sibugay,Services,161.11,4.0
+2020,3,Zamboanga Sibugay,Services,161.11,4.0
+2020,4,Zamboanga Sibugay,Services,161.11,4.0
+2021,1,Zamboanga Sibugay,Services,167.55,4.0
+2021,2,Zamboanga Sibugay,Services,167.55,4.0
+2021,3,Zamboanga Sibugay,Services,167.55,4.0
+2021,4,Zamboanga Sibugay,Services,167.55,4.0
+2022,1,Zamboanga Sibugay,Services,174.26,4.0
+2022,2,Zamboanga Sibugay,Services,174.26,4.0
+2022,3,Zamboanga Sibugay,Services,174.26,4.0
+2022,4,Zamboanga Sibugay,Services,174.26,4.0
+2023,1,Zamboanga Sibugay,Services,181.23,4.0
+2023,2,Zamboanga Sibugay,Services,181.23,4.0
+2023,3,Zamboanga Sibugay,Services,181.23,4.0
+2023,4,Zamboanga Sibugay,Services,181.23,4.0
+2024,1,Zamboanga Sibugay,Services,188.48,4.0
+2024,2,Zamboanga Sibugay,Services,188.48,4.0
+2024,3,Zamboanga Sibugay,Services,188.48,4.0
+2024,4,Zamboanga Sibugay,Services,188.48,4.0
+2025,1,Zamboanga Sibugay,Services,196.01,4.0
+2025,2,Zamboanga Sibugay,Services,196.01,4.0
+2025,3,Zamboanga Sibugay,Services,196.01,4.0
+2025,4,Zamboanga Sibugay,Services,196.01,4.0
+2018,1,Zamboanga Sibugay,Services,904.84,4.0
+2018,2,Zamboanga Sibugay,Services,904.84,4.0
+2018,3,Zamboanga Sibugay,Services,904.84,4.0
+2018,4,Zamboanga Sibugay,Services,904.84,4.0
+2019,1,Zamboanga Sibugay,Services,941.03,4.0
+2019,2,Zamboanga Sibugay,Services,941.03,4.0
+2019,3,Zamboanga Sibugay,Services,941.03,4.0
+2019,4,Zamboanga Sibugay,Services,941.03,4.0
+2020,1,Zamboanga Sibugay,Services,978.67,4.0
+2020,2,Zamboanga Sibugay,Services,978.67,4.0
+2020,3,Zamboanga Sibugay,Services,978.67,4.0
+2020,4,Zamboanga Sibugay,Services,978.67,4.0
+2021,1,Zamboanga Sibugay,Services,1017.82,4.0
+2021,2,Zamboanga Sibugay,Services,1017.82,4.0
+2021,3,Zamboanga Sibugay,Services,1017.82,4.0
+2021,4,Zamboanga Sibugay,Services,1017.82,4.0
+2022,1,Zamboanga Sibugay,Services,1058.53,4.0
+2022,2,Zamboanga Sibugay,Services,1058.53,4.0
+2022,3,Zamboanga Sibugay,Services,1058.53,4.0
+2022,4,Zamboanga Sibugay,Services,1058.53,4.0
+2023,1,Zamboanga Sibugay,Services,1100.87,4.0
+2023,2,Zamboanga Sibugay,Services,1100.87,4.0
+2023,3,Zamboanga Sibugay,Services,1100.87,4.0
+2023,4,Zamboanga Sibugay,Services,1100.87,4.0
+2024,1,Zamboanga Sibugay,Services,1144.91,4.0
+2024,2,Zamboanga Sibugay,Services,1144.91,4.0
+2024,3,Zamboanga Sibugay,Services,1144.91,4.0
+2024,4,Zamboanga Sibugay,Services,1144.91,4.0
+2025,1,Zamboanga Sibugay,Services,1190.7,4.0
+2025,2,Zamboanga Sibugay,Services,1190.7,4.0
+2025,3,Zamboanga Sibugay,Services,1190.7,4.0
+2025,4,Zamboanga Sibugay,Services,1190.7,4.0
+2018,1,Zamboanga Sibugay,Services,1768.37,4.0
+2018,2,Zamboanga Sibugay,Services,1768.37,4.0
+2018,3,Zamboanga Sibugay,Services,1768.37,4.0
+2018,4,Zamboanga Sibugay,Services,1768.37,4.0
+2019,1,Zamboanga Sibugay,Services,1839.1,4.0
+2019,2,Zamboanga Sibugay,Services,1839.1,4.0
+2019,3,Zamboanga Sibugay,Services,1839.1,4.0
+2019,4,Zamboanga Sibugay,Services,1839.1,4.0
+2020,1,Zamboanga Sibugay,Services,1912.67,4.0
+2020,2,Zamboanga Sibugay,Services,1912.67,4.0
+2020,3,Zamboanga Sibugay,Services,1912.67,4.0
+2020,4,Zamboanga Sibugay,Services,1912.67,4.0
+2021,1,Zamboanga Sibugay,Services,1989.17,4.0
+2021,2,Zamboanga Sibugay,Services,1989.17,4.0
+2021,3,Zamboanga Sibugay,Services,1989.17,4.0
+2021,4,Zamboanga Sibugay,Services,1989.17,4.0
+2022,1,Zamboanga Sibugay,Services,2068.74,4.0
+2022,2,Zamboanga Sibugay,Services,2068.74,4.0
+2022,3,Zamboanga Sibugay,Services,2068.74,4.0
+2022,4,Zamboanga Sibugay,Services,2068.74,4.0
+2023,1,Zamboanga Sibugay,Services,2151.49,4.0
+2023,2,Zamboanga Sibugay,Services,2151.49,4.0
+2023,3,Zamboanga Sibugay,Services,2151.49,4.0
+2023,4,Zamboanga Sibugay,Services,2151.49,4.0
+2024,1,Zamboanga Sibugay,Services,2237.55,4.0
+2024,2,Zamboanga Sibugay,Services,2237.55,4.0
+2024,3,Zamboanga Sibugay,Services,2237.55,4.0
+2024,4,Zamboanga Sibugay,Services,2237.55,4.0
+2025,1,Zamboanga Sibugay,Services,2327.05,4.0
+2025,2,Zamboanga Sibugay,Services,2327.05,4.0
+2025,3,Zamboanga Sibugay,Services,2327.05,4.0
+2025,4,Zamboanga Sibugay,Services,2327.05,4.0
+2018,1,Zamboanga Sibugay,Services,511.97,4.0
+2018,2,Zamboanga Sibugay,Services,511.97,4.0
+2018,3,Zamboanga Sibugay,Services,511.97,4.0
+2018,4,Zamboanga Sibugay,Services,511.97,4.0
+2019,1,Zamboanga Sibugay,Services,532.45,4.0
+2019,2,Zamboanga Sibugay,Services,532.45,4.0
+2019,3,Zamboanga Sibugay,Services,532.45,4.0
+2019,4,Zamboanga Sibugay,Services,532.45,4.0
+2020,1,Zamboanga Sibugay,Services,553.75,4.0
+2020,2,Zamboanga Sibugay,Services,553.75,4.0
+2020,3,Zamboanga Sibugay,Services,553.75,4.0
+2020,4,Zamboanga Sibugay,Services,553.75,4.0
+2021,1,Zamboanga Sibugay,Services,575.9,4.0
+2021,2,Zamboanga Sibugay,Services,575.9,4.0
+2021,3,Zamboanga Sibugay,Services,575.9,4.0
+2021,4,Zamboanga Sibugay,Services,575.9,4.0
+2022,1,Zamboanga Sibugay,Services,598.94,4.0
+2022,2,Zamboanga Sibugay,Services,598.94,4.0
+2022,3,Zamboanga Sibugay,Services,598.94,4.0
+2022,4,Zamboanga Sibugay,Services,598.94,4.0
+2023,1,Zamboanga Sibugay,Services,622.89,4.0
+2023,2,Zamboanga Sibugay,Services,622.89,4.0
+2023,3,Zamboanga Sibugay,Services,622.89,4.0
+2023,4,Zamboanga Sibugay,Services,622.89,4.0
+2024,1,Zamboanga Sibugay,Services,647.81,4.0
+2024,2,Zamboanga Sibugay,Services,647.81,4.0
+2024,3,Zamboanga Sibugay,Services,647.81,4.0
+2024,4,Zamboanga Sibugay,Services,647.81,4.0
+2025,1,Zamboanga Sibugay,Services,673.72,4.0
+2025,2,Zamboanga Sibugay,Services,673.72,4.0
+2025,3,Zamboanga Sibugay,Services,673.72,4.0
+2025,4,Zamboanga Sibugay,Services,673.72,4.0
+2018,1,Zamboanga Sibugay,Services,128.44,4.0
+2018,2,Zamboanga Sibugay,Services,128.44,4.0
+2018,3,Zamboanga Sibugay,Services,128.44,4.0
+2018,4,Zamboanga Sibugay,Services,128.44,4.0
+2019,1,Zamboanga Sibugay,Services,133.58,4.0
+2019,2,Zamboanga Sibugay,Services,133.58,4.0
+2019,3,Zamboanga Sibugay,Services,133.58,4.0
+2019,4,Zamboanga Sibugay,Services,133.58,4.0
+2020,1,Zamboanga Sibugay,Services,138.92,4.0
+2020,2,Zamboanga Sibugay,Services,138.92,4.0
+2020,3,Zamboanga Sibugay,Services,138.92,4.0
+2020,4,Zamboanga Sibugay,Services,138.92,4.0
+2021,1,Zamboanga Sibugay,Services,144.48,4.0
+2021,2,Zamboanga Sibugay,Services,144.48,4.0
+2021,3,Zamboanga Sibugay,Services,144.48,4.0
+2021,4,Zamboanga Sibugay,Services,144.48,4.0
+2022,1,Zamboanga Sibugay,Services,150.26,4.0
+2022,2,Zamboanga Sibugay,Services,150.26,4.0
+2022,3,Zamboanga Sibugay,Services,150.26,4.0
+2022,4,Zamboanga Sibugay,Services,150.26,4.0
+2023,1,Zamboanga Sibugay,Services,156.27,4.0
+2023,2,Zamboanga Sibugay,Services,156.27,4.0
+2023,3,Zamboanga Sibugay,Services,156.27,4.0
+2023,4,Zamboanga Sibugay,Services,156.27,4.0
+2024,1,Zamboanga Sibugay,Services,162.52,4.0
+2024,2,Zamboanga Sibugay,Services,162.52,4.0
+2024,3,Zamboanga Sibugay,Services,162.52,4.0
+2024,4,Zamboanga Sibugay,Services,162.52,4.0
+2025,1,Zamboanga Sibugay,Services,169.02,4.0
+2025,2,Zamboanga Sibugay,Services,169.02,4.0
+2025,3,Zamboanga Sibugay,Services,169.02,4.0
+2025,4,Zamboanga Sibugay,Services,169.02,4.0
+2018,1,Zamboanga City (HUC),Agriculture,5537.17,4.0
+2018,2,Zamboanga City (HUC),Agriculture,5537.17,4.0
+2018,3,Zamboanga City (HUC),Agriculture,5537.17,4.0
+2018,4,Zamboanga City (HUC),Agriculture,5537.17,4.0
+2019,1,Zamboanga City (HUC),Agriculture,5758.66,4.0
+2019,2,Zamboanga City (HUC),Agriculture,5758.66,4.0
+2019,3,Zamboanga City (HUC),Agriculture,5758.66,4.0
+2019,4,Zamboanga City (HUC),Agriculture,5758.66,4.0
+2020,1,Zamboanga City (HUC),Agriculture,5989.01,4.0
+2020,2,Zamboanga City (HUC),Agriculture,5989.01,4.0
+2020,3,Zamboanga City (HUC),Agriculture,5989.01,4.0
+2020,4,Zamboanga City (HUC),Agriculture,5989.01,4.0
+2021,1,Zamboanga City (HUC),Agriculture,6228.57,4.0
+2021,2,Zamboanga City (HUC),Agriculture,6228.57,4.0
+2021,3,Zamboanga City (HUC),Agriculture,6228.57,4.0
+2021,4,Zamboanga City (HUC),Agriculture,6228.57,4.0
+2022,1,Zamboanga City (HUC),Agriculture,6477.71,4.0
+2022,2,Zamboanga City (HUC),Agriculture,6477.71,4.0
+2022,3,Zamboanga City (HUC),Agriculture,6477.71,4.0
+2022,4,Zamboanga City (HUC),Agriculture,6477.71,4.0
+2023,1,Zamboanga City (HUC),Agriculture,6736.82,4.0
+2023,2,Zamboanga City (HUC),Agriculture,6736.82,4.0
+2023,3,Zamboanga City (HUC),Agriculture,6736.82,4.0
+2023,4,Zamboanga City (HUC),Agriculture,6736.82,4.0
+2024,1,Zamboanga City (HUC),Agriculture,7006.29,4.0
+2024,2,Zamboanga City (HUC),Agriculture,7006.29,4.0
+2024,3,Zamboanga City (HUC),Agriculture,7006.29,4.0
+2024,4,Zamboanga City (HUC),Agriculture,7006.29,4.0
+2025,1,Zamboanga City (HUC),Agriculture,7286.54,4.0
+2025,2,Zamboanga City (HUC),Agriculture,7286.54,4.0
+2025,3,Zamboanga City (HUC),Agriculture,7286.54,4.0
+2025,4,Zamboanga City (HUC),Agriculture,7286.54,4.0
+2018,1,Zamboanga City (HUC),Industry,59.53,4.0
+2018,2,Zamboanga City (HUC),Industry,59.53,4.0
+2018,3,Zamboanga City (HUC),Industry,59.53,4.0
+2018,4,Zamboanga City (HUC),Industry,59.53,4.0
+2019,1,Zamboanga City (HUC),Industry,61.91,4.0
+2019,2,Zamboanga City (HUC),Industry,61.91,4.0
+2019,3,Zamboanga City (HUC),Industry,61.91,4.0
+2019,4,Zamboanga City (HUC),Industry,61.91,4.0
+2020,1,Zamboanga City (HUC),Industry,64.39,4.0
+2020,2,Zamboanga City (HUC),Industry,64.39,4.0
+2020,3,Zamboanga City (HUC),Industry,64.39,4.0
+2020,4,Zamboanga City (HUC),Industry,64.39,4.0
+2021,1,Zamboanga City (HUC),Industry,66.96,4.0
+2021,2,Zamboanga City (HUC),Industry,66.96,4.0
+2021,3,Zamboanga City (HUC),Industry,66.96,4.0
+2021,4,Zamboanga City (HUC),Industry,66.96,4.0
+2022,1,Zamboanga City (HUC),Industry,69.64,4.0
+2022,2,Zamboanga City (HUC),Industry,69.64,4.0
+2022,3,Zamboanga City (HUC),Industry,69.64,4.0
+2022,4,Zamboanga City (HUC),Industry,69.64,4.0
+2023,1,Zamboanga City (HUC),Industry,72.43,4.0
+2023,2,Zamboanga City (HUC),Industry,72.43,4.0
+2023,3,Zamboanga City (HUC),Industry,72.43,4.0
+2023,4,Zamboanga City (HUC),Industry,72.43,4.0
+2024,1,Zamboanga City (HUC),Industry,75.32,4.0
+2024,2,Zamboanga City (HUC),Industry,75.32,4.0
+2024,3,Zamboanga City (HUC),Industry,75.32,4.0
+2024,4,Zamboanga City (HUC),Industry,75.32,4.0
+2025,1,Zamboanga City (HUC),Industry,78.34,4.0
+2025,2,Zamboanga City (HUC),Industry,78.34,4.0
+2025,3,Zamboanga City (HUC),Industry,78.34,4.0
+2025,4,Zamboanga City (HUC),Industry,78.34,4.0
+2018,1,Zamboanga City (HUC),Manufacturing,6703.07,4.0
+2018,2,Zamboanga City (HUC),Manufacturing,6703.07,4.0
+2018,3,Zamboanga City (HUC),Manufacturing,6703.07,4.0
+2018,4,Zamboanga City (HUC),Manufacturing,6703.07,4.0
+2019,1,Zamboanga City (HUC),Manufacturing,6971.19,4.0
+2019,2,Zamboanga City (HUC),Manufacturing,6971.19,4.0
+2019,3,Zamboanga City (HUC),Manufacturing,6971.19,4.0
+2019,4,Zamboanga City (HUC),Manufacturing,6971.19,4.0
+2020,1,Zamboanga City (HUC),Manufacturing,7250.04,4.0
+2020,2,Zamboanga City (HUC),Manufacturing,7250.04,4.0
+2020,3,Zamboanga City (HUC),Manufacturing,7250.04,4.0
+2020,4,Zamboanga City (HUC),Manufacturing,7250.04,4.0
+2021,1,Zamboanga City (HUC),Manufacturing,7540.04,4.0
+2021,2,Zamboanga City (HUC),Manufacturing,7540.04,4.0
+2021,3,Zamboanga City (HUC),Manufacturing,7540.04,4.0
+2021,4,Zamboanga City (HUC),Manufacturing,7540.04,4.0
+2022,1,Zamboanga City (HUC),Manufacturing,7841.64,4.0
+2022,2,Zamboanga City (HUC),Manufacturing,7841.64,4.0
+2022,3,Zamboanga City (HUC),Manufacturing,7841.64,4.0
+2022,4,Zamboanga City (HUC),Manufacturing,7841.64,4.0
+2023,1,Zamboanga City (HUC),Manufacturing,8155.31,4.0
+2023,2,Zamboanga City (HUC),Manufacturing,8155.31,4.0
+2023,3,Zamboanga City (HUC),Manufacturing,8155.31,4.0
+2023,4,Zamboanga City (HUC),Manufacturing,8155.31,4.0
+2024,1,Zamboanga City (HUC),Manufacturing,8481.52,4.0
+2024,2,Zamboanga City (HUC),Manufacturing,8481.52,4.0
+2024,3,Zamboanga City (HUC),Manufacturing,8481.52,4.0
+2024,4,Zamboanga City (HUC),Manufacturing,8481.52,4.0
+2025,1,Zamboanga City (HUC),Manufacturing,8820.78,4.0
+2025,2,Zamboanga City (HUC),Manufacturing,8820.78,4.0
+2025,3,Zamboanga City (HUC),Manufacturing,8820.78,4.0
+2025,4,Zamboanga City (HUC),Manufacturing,8820.78,4.0
+2018,1,Zamboanga City (HUC),Industry,394.3,4.0
+2018,2,Zamboanga City (HUC),Industry,394.3,4.0
+2018,3,Zamboanga City (HUC),Industry,394.3,4.0
+2018,4,Zamboanga City (HUC),Industry,394.3,4.0
+2019,1,Zamboanga City (HUC),Industry,410.07,4.0
+2019,2,Zamboanga City (HUC),Industry,410.07,4.0
+2019,3,Zamboanga City (HUC),Industry,410.07,4.0
+2019,4,Zamboanga City (HUC),Industry,410.07,4.0
+2020,1,Zamboanga City (HUC),Industry,426.47,4.0
+2020,2,Zamboanga City (HUC),Industry,426.47,4.0
+2020,3,Zamboanga City (HUC),Industry,426.47,4.0
+2020,4,Zamboanga City (HUC),Industry,426.47,4.0
+2021,1,Zamboanga City (HUC),Industry,443.53,4.0
+2021,2,Zamboanga City (HUC),Industry,443.53,4.0
+2021,3,Zamboanga City (HUC),Industry,443.53,4.0
+2021,4,Zamboanga City (HUC),Industry,443.53,4.0
+2022,1,Zamboanga City (HUC),Industry,461.27,4.0
+2022,2,Zamboanga City (HUC),Industry,461.27,4.0
+2022,3,Zamboanga City (HUC),Industry,461.27,4.0
+2022,4,Zamboanga City (HUC),Industry,461.27,4.0
+2023,1,Zamboanga City (HUC),Industry,479.73,4.0
+2023,2,Zamboanga City (HUC),Industry,479.73,4.0
+2023,3,Zamboanga City (HUC),Industry,479.73,4.0
+2023,4,Zamboanga City (HUC),Industry,479.73,4.0
+2024,1,Zamboanga City (HUC),Industry,498.91,4.0
+2024,2,Zamboanga City (HUC),Industry,498.91,4.0
+2024,3,Zamboanga City (HUC),Industry,498.91,4.0
+2024,4,Zamboanga City (HUC),Industry,498.91,4.0
+2025,1,Zamboanga City (HUC),Industry,518.87,4.0
+2025,2,Zamboanga City (HUC),Industry,518.87,4.0
+2025,3,Zamboanga City (HUC),Industry,518.87,4.0
+2025,4,Zamboanga City (HUC),Industry,518.87,4.0
+2018,1,Zamboanga City (HUC),Construction,6080.46,4.0
+2018,2,Zamboanga City (HUC),Construction,6080.46,4.0
+2018,3,Zamboanga City (HUC),Construction,6080.46,4.0
+2018,4,Zamboanga City (HUC),Construction,6080.46,4.0
+2019,1,Zamboanga City (HUC),Construction,6323.68,4.0
+2019,2,Zamboanga City (HUC),Construction,6323.68,4.0
+2019,3,Zamboanga City (HUC),Construction,6323.68,4.0
+2019,4,Zamboanga City (HUC),Construction,6323.68,4.0
+2020,1,Zamboanga City (HUC),Construction,6576.63,4.0
+2020,2,Zamboanga City (HUC),Construction,6576.63,4.0
+2020,3,Zamboanga City (HUC),Construction,6576.63,4.0
+2020,4,Zamboanga City (HUC),Construction,6576.63,4.0
+2021,1,Zamboanga City (HUC),Construction,6839.69,4.0
+2021,2,Zamboanga City (HUC),Construction,6839.69,4.0
+2021,3,Zamboanga City (HUC),Construction,6839.69,4.0
+2021,4,Zamboanga City (HUC),Construction,6839.69,4.0
+2022,1,Zamboanga City (HUC),Construction,7113.28,4.0
+2022,2,Zamboanga City (HUC),Construction,7113.28,4.0
+2022,3,Zamboanga City (HUC),Construction,7113.28,4.0
+2022,4,Zamboanga City (HUC),Construction,7113.28,4.0
+2023,1,Zamboanga City (HUC),Construction,7397.81,4.0
+2023,2,Zamboanga City (HUC),Construction,7397.81,4.0
+2023,3,Zamboanga City (HUC),Construction,7397.81,4.0
+2023,4,Zamboanga City (HUC),Construction,7397.81,4.0
+2024,1,Zamboanga City (HUC),Construction,7693.72,4.0
+2024,2,Zamboanga City (HUC),Construction,7693.72,4.0
+2024,3,Zamboanga City (HUC),Construction,7693.72,4.0
+2024,4,Zamboanga City (HUC),Construction,7693.72,4.0
+2025,1,Zamboanga City (HUC),Construction,8001.47,4.0
+2025,2,Zamboanga City (HUC),Construction,8001.47,4.0
+2025,3,Zamboanga City (HUC),Construction,8001.47,4.0
+2025,4,Zamboanga City (HUC),Construction,8001.47,4.0
+2018,1,Zamboanga City (HUC),Trade,7536.96,4.0
+2018,2,Zamboanga City (HUC),Trade,7536.96,4.0
+2018,3,Zamboanga City (HUC),Trade,7536.96,4.0
+2018,4,Zamboanga City (HUC),Trade,7536.96,4.0
+2019,1,Zamboanga City (HUC),Trade,7838.44,4.0
+2019,2,Zamboanga City (HUC),Trade,7838.44,4.0
+2019,3,Zamboanga City (HUC),Trade,7838.44,4.0
+2019,4,Zamboanga City (HUC),Trade,7838.44,4.0
+2020,1,Zamboanga City (HUC),Trade,8151.97,4.0
+2020,2,Zamboanga City (HUC),Trade,8151.97,4.0
+2020,3,Zamboanga City (HUC),Trade,8151.97,4.0
+2020,4,Zamboanga City (HUC),Trade,8151.97,4.0
+2021,1,Zamboanga City (HUC),Trade,8478.05,4.0
+2021,2,Zamboanga City (HUC),Trade,8478.05,4.0
+2021,3,Zamboanga City (HUC),Trade,8478.05,4.0
+2021,4,Zamboanga City (HUC),Trade,8478.05,4.0
+2022,1,Zamboanga City (HUC),Trade,8817.17,4.0
+2022,2,Zamboanga City (HUC),Trade,8817.17,4.0
+2022,3,Zamboanga City (HUC),Trade,8817.17,4.0
+2022,4,Zamboanga City (HUC),Trade,8817.17,4.0
+2023,1,Zamboanga City (HUC),Trade,9169.86,4.0
+2023,2,Zamboanga City (HUC),Trade,9169.86,4.0
+2023,3,Zamboanga City (HUC),Trade,9169.86,4.0
+2023,4,Zamboanga City (HUC),Trade,9169.86,4.0
+2024,1,Zamboanga City (HUC),Trade,9536.66,4.0
+2024,2,Zamboanga City (HUC),Trade,9536.66,4.0
+2024,3,Zamboanga City (HUC),Trade,9536.66,4.0
+2024,4,Zamboanga City (HUC),Trade,9536.66,4.0
+2025,1,Zamboanga City (HUC),Trade,9918.12,4.0
+2025,2,Zamboanga City (HUC),Trade,9918.12,4.0
+2025,3,Zamboanga City (HUC),Trade,9918.12,4.0
+2025,4,Zamboanga City (HUC),Trade,9918.12,4.0
+2018,1,Zamboanga City (HUC),Services,980.67,4.0
+2018,2,Zamboanga City (HUC),Services,980.67,4.0
+2018,3,Zamboanga City (HUC),Services,980.67,4.0
+2018,4,Zamboanga City (HUC),Services,980.67,4.0
+2019,1,Zamboanga City (HUC),Services,1019.89,4.0
+2019,2,Zamboanga City (HUC),Services,1019.89,4.0
+2019,3,Zamboanga City (HUC),Services,1019.89,4.0
+2019,4,Zamboanga City (HUC),Services,1019.89,4.0
+2020,1,Zamboanga City (HUC),Services,1060.69,4.0
+2020,2,Zamboanga City (HUC),Services,1060.69,4.0
+2020,3,Zamboanga City (HUC),Services,1060.69,4.0
+2020,4,Zamboanga City (HUC),Services,1060.69,4.0
+2021,1,Zamboanga City (HUC),Services,1103.12,4.0
+2021,2,Zamboanga City (HUC),Services,1103.12,4.0
+2021,3,Zamboanga City (HUC),Services,1103.12,4.0
+2021,4,Zamboanga City (HUC),Services,1103.12,4.0
+2022,1,Zamboanga City (HUC),Services,1147.24,4.0
+2022,2,Zamboanga City (HUC),Services,1147.24,4.0
+2022,3,Zamboanga City (HUC),Services,1147.24,4.0
+2022,4,Zamboanga City (HUC),Services,1147.24,4.0
+2023,1,Zamboanga City (HUC),Services,1193.13,4.0
+2023,2,Zamboanga City (HUC),Services,1193.13,4.0
+2023,3,Zamboanga City (HUC),Services,1193.13,4.0
+2023,4,Zamboanga City (HUC),Services,1193.13,4.0
+2024,1,Zamboanga City (HUC),Services,1240.85,4.0
+2024,2,Zamboanga City (HUC),Services,1240.85,4.0
+2024,3,Zamboanga City (HUC),Services,1240.85,4.0
+2024,4,Zamboanga City (HUC),Services,1240.85,4.0
+2025,1,Zamboanga City (HUC),Services,1290.49,4.0
+2025,2,Zamboanga City (HUC),Services,1290.49,4.0
+2025,3,Zamboanga City (HUC),Services,1290.49,4.0
+2025,4,Zamboanga City (HUC),Services,1290.49,4.0
+2018,1,Zamboanga City (HUC),Tourism,575.77,4.0
+2018,2,Zamboanga City (HUC),Tourism,575.77,4.0
+2018,3,Zamboanga City (HUC),Tourism,575.77,4.0
+2018,4,Zamboanga City (HUC),Tourism,575.77,4.0
+2019,1,Zamboanga City (HUC),Tourism,598.8,4.0
+2019,2,Zamboanga City (HUC),Tourism,598.8,4.0
+2019,3,Zamboanga City (HUC),Tourism,598.8,4.0
+2019,4,Zamboanga City (HUC),Tourism,598.8,4.0
+2020,1,Zamboanga City (HUC),Tourism,622.75,4.0
+2020,2,Zamboanga City (HUC),Tourism,622.75,4.0
+2020,3,Zamboanga City (HUC),Tourism,622.75,4.0
+2020,4,Zamboanga City (HUC),Tourism,622.75,4.0
+2021,1,Zamboanga City (HUC),Tourism,647.66,4.0
+2021,2,Zamboanga City (HUC),Tourism,647.66,4.0
+2021,3,Zamboanga City (HUC),Tourism,647.66,4.0
+2021,4,Zamboanga City (HUC),Tourism,647.66,4.0
+2022,1,Zamboanga City (HUC),Tourism,673.57,4.0
+2022,2,Zamboanga City (HUC),Tourism,673.57,4.0
+2022,3,Zamboanga City (HUC),Tourism,673.57,4.0
+2022,4,Zamboanga City (HUC),Tourism,673.57,4.0
+2023,1,Zamboanga City (HUC),Tourism,700.51,4.0
+2023,2,Zamboanga City (HUC),Tourism,700.51,4.0
+2023,3,Zamboanga City (HUC),Tourism,700.51,4.0
+2023,4,Zamboanga City (HUC),Tourism,700.51,4.0
+2024,1,Zamboanga City (HUC),Tourism,728.53,4.0
+2024,2,Zamboanga City (HUC),Tourism,728.53,4.0
+2024,3,Zamboanga City (HUC),Tourism,728.53,4.0
+2024,4,Zamboanga City (HUC),Tourism,728.53,4.0
+2025,1,Zamboanga City (HUC),Tourism,757.67,4.0
+2025,2,Zamboanga City (HUC),Tourism,757.67,4.0
+2025,3,Zamboanga City (HUC),Tourism,757.67,4.0
+2025,4,Zamboanga City (HUC),Tourism,757.67,4.0
+2018,1,Zamboanga City (HUC),ICT,996.93,4.0
+2018,2,Zamboanga City (HUC),ICT,996.93,4.0
+2018,3,Zamboanga City (HUC),ICT,996.93,4.0
+2018,4,Zamboanga City (HUC),ICT,996.93,4.0
+2019,1,Zamboanga City (HUC),ICT,1036.81,4.0
+2019,2,Zamboanga City (HUC),ICT,1036.81,4.0
+2019,3,Zamboanga City (HUC),ICT,1036.81,4.0
+2019,4,Zamboanga City (HUC),ICT,1036.81,4.0
+2020,1,Zamboanga City (HUC),ICT,1078.28,4.0
+2020,2,Zamboanga City (HUC),ICT,1078.28,4.0
+2020,3,Zamboanga City (HUC),ICT,1078.28,4.0
+2020,4,Zamboanga City (HUC),ICT,1078.28,4.0
+2021,1,Zamboanga City (HUC),ICT,1121.41,4.0
+2021,2,Zamboanga City (HUC),ICT,1121.41,4.0
+2021,3,Zamboanga City (HUC),ICT,1121.41,4.0
+2021,4,Zamboanga City (HUC),ICT,1121.41,4.0
+2022,1,Zamboanga City (HUC),ICT,1166.27,4.0
+2022,2,Zamboanga City (HUC),ICT,1166.27,4.0
+2022,3,Zamboanga City (HUC),ICT,1166.27,4.0
+2022,4,Zamboanga City (HUC),ICT,1166.27,4.0
+2023,1,Zamboanga City (HUC),ICT,1212.92,4.0
+2023,2,Zamboanga City (HUC),ICT,1212.92,4.0
+2023,3,Zamboanga City (HUC),ICT,1212.92,4.0
+2023,4,Zamboanga City (HUC),ICT,1212.92,4.0
+2024,1,Zamboanga City (HUC),ICT,1261.44,4.0
+2024,2,Zamboanga City (HUC),ICT,1261.44,4.0
+2024,3,Zamboanga City (HUC),ICT,1261.44,4.0
+2024,4,Zamboanga City (HUC),ICT,1261.44,4.0
+2025,1,Zamboanga City (HUC),ICT,1311.89,4.0
+2025,2,Zamboanga City (HUC),ICT,1311.89,4.0
+2025,3,Zamboanga City (HUC),ICT,1311.89,4.0
+2025,4,Zamboanga City (HUC),ICT,1311.89,4.0
+2018,1,Zamboanga City (HUC),Services,1318.95,4.0
+2018,2,Zamboanga City (HUC),Services,1318.95,4.0
+2018,3,Zamboanga City (HUC),Services,1318.95,4.0
+2018,4,Zamboanga City (HUC),Services,1318.95,4.0
+2019,1,Zamboanga City (HUC),Services,1371.71,4.0
+2019,2,Zamboanga City (HUC),Services,1371.71,4.0
+2019,3,Zamboanga City (HUC),Services,1371.71,4.0
+2019,4,Zamboanga City (HUC),Services,1371.71,4.0
+2020,1,Zamboanga City (HUC),Services,1426.58,4.0
+2020,2,Zamboanga City (HUC),Services,1426.58,4.0
+2020,3,Zamboanga City (HUC),Services,1426.58,4.0
+2020,4,Zamboanga City (HUC),Services,1426.58,4.0
+2021,1,Zamboanga City (HUC),Services,1483.64,4.0
+2021,2,Zamboanga City (HUC),Services,1483.64,4.0
+2021,3,Zamboanga City (HUC),Services,1483.64,4.0
+2021,4,Zamboanga City (HUC),Services,1483.64,4.0
+2022,1,Zamboanga City (HUC),Services,1542.99,4.0
+2022,2,Zamboanga City (HUC),Services,1542.99,4.0
+2022,3,Zamboanga City (HUC),Services,1542.99,4.0
+2022,4,Zamboanga City (HUC),Services,1542.99,4.0
+2023,1,Zamboanga City (HUC),Services,1604.71,4.0
+2023,2,Zamboanga City (HUC),Services,1604.71,4.0
+2023,3,Zamboanga City (HUC),Services,1604.71,4.0
+2023,4,Zamboanga City (HUC),Services,1604.71,4.0
+2024,1,Zamboanga City (HUC),Services,1668.89,4.0
+2024,2,Zamboanga City (HUC),Services,1668.89,4.0
+2024,3,Zamboanga City (HUC),Services,1668.89,4.0
+2024,4,Zamboanga City (HUC),Services,1668.89,4.0
+2025,1,Zamboanga City (HUC),Services,1735.65,4.0
+2025,2,Zamboanga City (HUC),Services,1735.65,4.0
+2025,3,Zamboanga City (HUC),Services,1735.65,4.0
+2025,4,Zamboanga City (HUC),Services,1735.65,4.0
+2018,1,Zamboanga City (HUC),Services,1346.92,4.0
+2018,2,Zamboanga City (HUC),Services,1346.92,4.0
+2018,3,Zamboanga City (HUC),Services,1346.92,4.0
+2018,4,Zamboanga City (HUC),Services,1346.92,4.0
+2019,1,Zamboanga City (HUC),Services,1400.8,4.0
+2019,2,Zamboanga City (HUC),Services,1400.8,4.0
+2019,3,Zamboanga City (HUC),Services,1400.8,4.0
+2019,4,Zamboanga City (HUC),Services,1400.8,4.0
+2020,1,Zamboanga City (HUC),Services,1456.83,4.0
+2020,2,Zamboanga City (HUC),Services,1456.83,4.0
+2020,3,Zamboanga City (HUC),Services,1456.83,4.0
+2020,4,Zamboanga City (HUC),Services,1456.83,4.0
+2021,1,Zamboanga City (HUC),Services,1515.1,4.0
+2021,2,Zamboanga City (HUC),Services,1515.1,4.0
+2021,3,Zamboanga City (HUC),Services,1515.1,4.0
+2021,4,Zamboanga City (HUC),Services,1515.1,4.0
+2022,1,Zamboanga City (HUC),Services,1575.71,4.0
+2022,2,Zamboanga City (HUC),Services,1575.71,4.0
+2022,3,Zamboanga City (HUC),Services,1575.71,4.0
+2022,4,Zamboanga City (HUC),Services,1575.71,4.0
+2023,1,Zamboanga City (HUC),Services,1638.73,4.0
+2023,2,Zamboanga City (HUC),Services,1638.73,4.0
+2023,3,Zamboanga City (HUC),Services,1638.73,4.0
+2023,4,Zamboanga City (HUC),Services,1638.73,4.0
+2024,1,Zamboanga City (HUC),Services,1704.28,4.0
+2024,2,Zamboanga City (HUC),Services,1704.28,4.0
+2024,3,Zamboanga City (HUC),Services,1704.28,4.0
+2024,4,Zamboanga City (HUC),Services,1704.28,4.0
+2025,1,Zamboanga City (HUC),Services,1772.46,4.0
+2025,2,Zamboanga City (HUC),Services,1772.46,4.0
+2025,3,Zamboanga City (HUC),Services,1772.46,4.0
+2025,4,Zamboanga City (HUC),Services,1772.46,4.0
+2018,1,Zamboanga City (HUC),Services,255.35,4.0
+2018,2,Zamboanga City (HUC),Services,255.35,4.0
+2018,3,Zamboanga City (HUC),Services,255.35,4.0
+2018,4,Zamboanga City (HUC),Services,255.35,4.0
+2019,1,Zamboanga City (HUC),Services,265.57,4.0
+2019,2,Zamboanga City (HUC),Services,265.57,4.0
+2019,3,Zamboanga City (HUC),Services,265.57,4.0
+2019,4,Zamboanga City (HUC),Services,265.57,4.0
+2020,1,Zamboanga City (HUC),Services,276.19,4.0
+2020,2,Zamboanga City (HUC),Services,276.19,4.0
+2020,3,Zamboanga City (HUC),Services,276.19,4.0
+2020,4,Zamboanga City (HUC),Services,276.19,4.0
+2021,1,Zamboanga City (HUC),Services,287.24,4.0
+2021,2,Zamboanga City (HUC),Services,287.24,4.0
+2021,3,Zamboanga City (HUC),Services,287.24,4.0
+2021,4,Zamboanga City (HUC),Services,287.24,4.0
+2022,1,Zamboanga City (HUC),Services,298.73,4.0
+2022,2,Zamboanga City (HUC),Services,298.73,4.0
+2022,3,Zamboanga City (HUC),Services,298.73,4.0
+2022,4,Zamboanga City (HUC),Services,298.73,4.0
+2023,1,Zamboanga City (HUC),Services,310.67,4.0
+2023,2,Zamboanga City (HUC),Services,310.67,4.0
+2023,3,Zamboanga City (HUC),Services,310.67,4.0
+2023,4,Zamboanga City (HUC),Services,310.67,4.0
+2024,1,Zamboanga City (HUC),Services,323.1,4.0
+2024,2,Zamboanga City (HUC),Services,323.1,4.0
+2024,3,Zamboanga City (HUC),Services,323.1,4.0
+2024,4,Zamboanga City (HUC),Services,323.1,4.0
+2025,1,Zamboanga City (HUC),Services,336.03,4.0
+2025,2,Zamboanga City (HUC),Services,336.03,4.0
+2025,3,Zamboanga City (HUC),Services,336.03,4.0
+2025,4,Zamboanga City (HUC),Services,336.03,4.0
+2018,1,Zamboanga City (HUC),Services,1551.15,4.0
+2018,2,Zamboanga City (HUC),Services,1551.15,4.0
+2018,3,Zamboanga City (HUC),Services,1551.15,4.0
+2018,4,Zamboanga City (HUC),Services,1551.15,4.0
+2019,1,Zamboanga City (HUC),Services,1613.19,4.0
+2019,2,Zamboanga City (HUC),Services,1613.19,4.0
+2019,3,Zamboanga City (HUC),Services,1613.19,4.0
+2019,4,Zamboanga City (HUC),Services,1613.19,4.0
+2020,1,Zamboanga City (HUC),Services,1677.72,4.0
+2020,2,Zamboanga City (HUC),Services,1677.72,4.0
+2020,3,Zamboanga City (HUC),Services,1677.72,4.0
+2020,4,Zamboanga City (HUC),Services,1677.72,4.0
+2021,1,Zamboanga City (HUC),Services,1744.83,4.0
+2021,2,Zamboanga City (HUC),Services,1744.83,4.0
+2021,3,Zamboanga City (HUC),Services,1744.83,4.0
+2021,4,Zamboanga City (HUC),Services,1744.83,4.0
+2022,1,Zamboanga City (HUC),Services,1814.62,4.0
+2022,2,Zamboanga City (HUC),Services,1814.62,4.0
+2022,3,Zamboanga City (HUC),Services,1814.62,4.0
+2022,4,Zamboanga City (HUC),Services,1814.62,4.0
+2023,1,Zamboanga City (HUC),Services,1887.21,4.0
+2023,2,Zamboanga City (HUC),Services,1887.21,4.0
+2023,3,Zamboanga City (HUC),Services,1887.21,4.0
+2023,4,Zamboanga City (HUC),Services,1887.21,4.0
+2024,1,Zamboanga City (HUC),Services,1962.7,4.0
+2024,2,Zamboanga City (HUC),Services,1962.7,4.0
+2024,3,Zamboanga City (HUC),Services,1962.7,4.0
+2024,4,Zamboanga City (HUC),Services,1962.7,4.0
+2025,1,Zamboanga City (HUC),Services,2041.2,4.0
+2025,2,Zamboanga City (HUC),Services,2041.2,4.0
+2025,3,Zamboanga City (HUC),Services,2041.2,4.0
+2025,4,Zamboanga City (HUC),Services,2041.2,4.0
+2018,1,Zamboanga City (HUC),Services,3031.49,4.0
+2018,2,Zamboanga City (HUC),Services,3031.49,4.0
+2018,3,Zamboanga City (HUC),Services,3031.49,4.0
+2018,4,Zamboanga City (HUC),Services,3031.49,4.0
+2019,1,Zamboanga City (HUC),Services,3152.75,4.0
+2019,2,Zamboanga City (HUC),Services,3152.75,4.0
+2019,3,Zamboanga City (HUC),Services,3152.75,4.0
+2019,4,Zamboanga City (HUC),Services,3152.75,4.0
+2020,1,Zamboanga City (HUC),Services,3278.86,4.0
+2020,2,Zamboanga City (HUC),Services,3278.86,4.0
+2020,3,Zamboanga City (HUC),Services,3278.86,4.0
+2020,4,Zamboanga City (HUC),Services,3278.86,4.0
+2021,1,Zamboanga City (HUC),Services,3410.01,4.0
+2021,2,Zamboanga City (HUC),Services,3410.01,4.0
+2021,3,Zamboanga City (HUC),Services,3410.01,4.0
+2021,4,Zamboanga City (HUC),Services,3410.01,4.0
+2022,1,Zamboanga City (HUC),Services,3546.41,4.0
+2022,2,Zamboanga City (HUC),Services,3546.41,4.0
+2022,3,Zamboanga City (HUC),Services,3546.41,4.0
+2022,4,Zamboanga City (HUC),Services,3546.41,4.0
+2023,1,Zamboanga City (HUC),Services,3688.27,4.0
+2023,2,Zamboanga City (HUC),Services,3688.27,4.0
+2023,3,Zamboanga City (HUC),Services,3688.27,4.0
+2023,4,Zamboanga City (HUC),Services,3688.27,4.0
+2024,1,Zamboanga City (HUC),Services,3835.8,4.0
+2024,2,Zamboanga City (HUC),Services,3835.8,4.0
+2024,3,Zamboanga City (HUC),Services,3835.8,4.0
+2024,4,Zamboanga City (HUC),Services,3835.8,4.0
+2025,1,Zamboanga City (HUC),Services,3989.23,4.0
+2025,2,Zamboanga City (HUC),Services,3989.23,4.0
+2025,3,Zamboanga City (HUC),Services,3989.23,4.0
+2025,4,Zamboanga City (HUC),Services,3989.23,4.0
+2018,1,Zamboanga City (HUC),Services,877.67,4.0
+2018,2,Zamboanga City (HUC),Services,877.67,4.0
+2018,3,Zamboanga City (HUC),Services,877.67,4.0
+2018,4,Zamboanga City (HUC),Services,877.67,4.0
+2019,1,Zamboanga City (HUC),Services,912.77,4.0
+2019,2,Zamboanga City (HUC),Services,912.77,4.0
+2019,3,Zamboanga City (HUC),Services,912.77,4.0
+2019,4,Zamboanga City (HUC),Services,912.77,4.0
+2020,1,Zamboanga City (HUC),Services,949.28,4.0
+2020,2,Zamboanga City (HUC),Services,949.28,4.0
+2020,3,Zamboanga City (HUC),Services,949.28,4.0
+2020,4,Zamboanga City (HUC),Services,949.28,4.0
+2021,1,Zamboanga City (HUC),Services,987.26,4.0
+2021,2,Zamboanga City (HUC),Services,987.26,4.0
+2021,3,Zamboanga City (HUC),Services,987.26,4.0
+2021,4,Zamboanga City (HUC),Services,987.26,4.0
+2022,1,Zamboanga City (HUC),Services,1026.75,4.0
+2022,2,Zamboanga City (HUC),Services,1026.75,4.0
+2022,3,Zamboanga City (HUC),Services,1026.75,4.0
+2022,4,Zamboanga City (HUC),Services,1026.75,4.0
+2023,1,Zamboanga City (HUC),Services,1067.82,4.0
+2023,2,Zamboanga City (HUC),Services,1067.82,4.0
+2023,3,Zamboanga City (HUC),Services,1067.82,4.0
+2023,4,Zamboanga City (HUC),Services,1067.82,4.0
+2024,1,Zamboanga City (HUC),Services,1110.53,4.0
+2024,2,Zamboanga City (HUC),Services,1110.53,4.0
+2024,3,Zamboanga City (HUC),Services,1110.53,4.0
+2024,4,Zamboanga City (HUC),Services,1110.53,4.0
+2025,1,Zamboanga City (HUC),Services,1154.95,4.0
+2025,2,Zamboanga City (HUC),Services,1154.95,4.0
+2025,3,Zamboanga City (HUC),Services,1154.95,4.0
+2025,4,Zamboanga City (HUC),Services,1154.95,4.0
+2018,1,Zamboanga City (HUC),Services,220.18,4.0
+2018,2,Zamboanga City (HUC),Services,220.18,4.0
+2018,3,Zamboanga City (HUC),Services,220.18,4.0
+2018,4,Zamboanga City (HUC),Services,220.18,4.0
+2019,1,Zamboanga City (HUC),Services,228.99,4.0
+2019,2,Zamboanga City (HUC),Services,228.99,4.0
+2019,3,Zamboanga City (HUC),Services,228.99,4.0
+2019,4,Zamboanga City (HUC),Services,228.99,4.0
+2020,1,Zamboanga City (HUC),Services,238.15,4.0
+2020,2,Zamboanga City (HUC),Services,238.15,4.0
+2020,3,Zamboanga City (HUC),Services,238.15,4.0
+2020,4,Zamboanga City (HUC),Services,238.15,4.0
+2021,1,Zamboanga City (HUC),Services,247.68,4.0
+2021,2,Zamboanga City (HUC),Services,247.68,4.0
+2021,3,Zamboanga City (HUC),Services,247.68,4.0
+2021,4,Zamboanga City (HUC),Services,247.68,4.0
+2022,1,Zamboanga City (HUC),Services,257.58,4.0
+2022,2,Zamboanga City (HUC),Services,257.58,4.0
+2022,3,Zamboanga City (HUC),Services,257.58,4.0
+2022,4,Zamboanga City (HUC),Services,257.58,4.0
+2023,1,Zamboanga City (HUC),Services,267.89,4.0
+2023,2,Zamboanga City (HUC),Services,267.89,4.0
+2023,3,Zamboanga City (HUC),Services,267.89,4.0
+2023,4,Zamboanga City (HUC),Services,267.89,4.0
+2024,1,Zamboanga City (HUC),Services,278.6,4.0
+2024,2,Zamboanga City (HUC),Services,278.6,4.0
+2024,3,Zamboanga City (HUC),Services,278.6,4.0
+2024,4,Zamboanga City (HUC),Services,278.6,4.0
+2025,1,Zamboanga City (HUC),Services,289.74,4.0
+2025,2,Zamboanga City (HUC),Services,289.74,4.0
+2025,3,Zamboanga City (HUC),Services,289.74,4.0
+2025,4,Zamboanga City (HUC),Services,289.74,4.0
+2018,1,Isabela City,Agriculture,3230.02,4.0
+2018,2,Isabela City,Agriculture,3230.02,4.0
+2018,3,Isabela City,Agriculture,3230.02,4.0
+2018,4,Isabela City,Agriculture,3230.02,4.0
+2019,1,Isabela City,Agriculture,3359.22,4.0
+2019,2,Isabela City,Agriculture,3359.22,4.0
+2019,3,Isabela City,Agriculture,3359.22,4.0
+2019,4,Isabela City,Agriculture,3359.22,4.0
+2020,1,Isabela City,Agriculture,3493.59,4.0
+2020,2,Isabela City,Agriculture,3493.59,4.0
+2020,3,Isabela City,Agriculture,3493.59,4.0
+2020,4,Isabela City,Agriculture,3493.59,4.0
+2021,1,Isabela City,Agriculture,3633.33,4.0
+2021,2,Isabela City,Agriculture,3633.33,4.0
+2021,3,Isabela City,Agriculture,3633.33,4.0
+2021,4,Isabela City,Agriculture,3633.33,4.0
+2022,1,Isabela City,Agriculture,3778.66,4.0
+2022,2,Isabela City,Agriculture,3778.66,4.0
+2022,3,Isabela City,Agriculture,3778.66,4.0
+2022,4,Isabela City,Agriculture,3778.66,4.0
+2023,1,Isabela City,Agriculture,3929.81,4.0
+2023,2,Isabela City,Agriculture,3929.81,4.0
+2023,3,Isabela City,Agriculture,3929.81,4.0
+2023,4,Isabela City,Agriculture,3929.81,4.0
+2024,1,Isabela City,Agriculture,4087.0,4.0
+2024,2,Isabela City,Agriculture,4087.0,4.0
+2024,3,Isabela City,Agriculture,4087.0,4.0
+2024,4,Isabela City,Agriculture,4087.0,4.0
+2025,1,Isabela City,Agriculture,4250.48,4.0
+2025,2,Isabela City,Agriculture,4250.48,4.0
+2025,3,Isabela City,Agriculture,4250.48,4.0
+2025,4,Isabela City,Agriculture,4250.48,4.0
+2018,1,Isabela City,Industry,34.72,4.0
+2018,2,Isabela City,Industry,34.72,4.0
+2018,3,Isabela City,Industry,34.72,4.0
+2018,4,Isabela City,Industry,34.72,4.0
+2019,1,Isabela City,Industry,36.11,4.0
+2019,2,Isabela City,Industry,36.11,4.0
+2019,3,Isabela City,Industry,36.11,4.0
+2019,4,Isabela City,Industry,36.11,4.0
+2020,1,Isabela City,Industry,37.56,4.0
+2020,2,Isabela City,Industry,37.56,4.0
+2020,3,Isabela City,Industry,37.56,4.0
+2020,4,Isabela City,Industry,37.56,4.0
+2021,1,Isabela City,Industry,39.06,4.0
+2021,2,Isabela City,Industry,39.06,4.0
+2021,3,Isabela City,Industry,39.06,4.0
+2021,4,Isabela City,Industry,39.06,4.0
+2022,1,Isabela City,Industry,40.62,4.0
+2022,2,Isabela City,Industry,40.62,4.0
+2022,3,Isabela City,Industry,40.62,4.0
+2022,4,Isabela City,Industry,40.62,4.0
+2023,1,Isabela City,Industry,42.25,4.0
+2023,2,Isabela City,Industry,42.25,4.0
+2023,3,Isabela City,Industry,42.25,4.0
+2023,4,Isabela City,Industry,42.25,4.0
+2024,1,Isabela City,Industry,43.94,4.0
+2024,2,Isabela City,Industry,43.94,4.0
+2024,3,Isabela City,Industry,43.94,4.0
+2024,4,Isabela City,Industry,43.94,4.0
+2025,1,Isabela City,Industry,45.7,4.0
+2025,2,Isabela City,Industry,45.7,4.0
+2025,3,Isabela City,Industry,45.7,4.0
+2025,4,Isabela City,Industry,45.7,4.0
+2018,1,Isabela City,Manufacturing,3910.12,4.0
+2018,2,Isabela City,Manufacturing,3910.12,4.0
+2018,3,Isabela City,Manufacturing,3910.12,4.0
+2018,4,Isabela City,Manufacturing,3910.12,4.0
+2019,1,Isabela City,Manufacturing,4066.53,4.0
+2019,2,Isabela City,Manufacturing,4066.53,4.0
+2019,3,Isabela City,Manufacturing,4066.53,4.0
+2019,4,Isabela City,Manufacturing,4066.53,4.0
+2020,1,Isabela City,Manufacturing,4229.19,4.0
+2020,2,Isabela City,Manufacturing,4229.19,4.0
+2020,3,Isabela City,Manufacturing,4229.19,4.0
+2020,4,Isabela City,Manufacturing,4229.19,4.0
+2021,1,Isabela City,Manufacturing,4398.36,4.0
+2021,2,Isabela City,Manufacturing,4398.36,4.0
+2021,3,Isabela City,Manufacturing,4398.36,4.0
+2021,4,Isabela City,Manufacturing,4398.36,4.0
+2022,1,Isabela City,Manufacturing,4574.29,4.0
+2022,2,Isabela City,Manufacturing,4574.29,4.0
+2022,3,Isabela City,Manufacturing,4574.29,4.0
+2022,4,Isabela City,Manufacturing,4574.29,4.0
+2023,1,Isabela City,Manufacturing,4757.26,4.0
+2023,2,Isabela City,Manufacturing,4757.26,4.0
+2023,3,Isabela City,Manufacturing,4757.26,4.0
+2023,4,Isabela City,Manufacturing,4757.26,4.0
+2024,1,Isabela City,Manufacturing,4947.55,4.0
+2024,2,Isabela City,Manufacturing,4947.55,4.0
+2024,3,Isabela City,Manufacturing,4947.55,4.0
+2024,4,Isabela City,Manufacturing,4947.55,4.0
+2025,1,Isabela City,Manufacturing,5145.46,4.0
+2025,2,Isabela City,Manufacturing,5145.46,4.0
+2025,3,Isabela City,Manufacturing,5145.46,4.0
+2025,4,Isabela City,Manufacturing,5145.46,4.0
+2018,1,Isabela City,Industry,230.01,4.0
+2018,2,Isabela City,Industry,230.01,4.0
+2018,3,Isabela City,Industry,230.01,4.0
+2018,4,Isabela City,Industry,230.01,4.0
+2019,1,Isabela City,Industry,239.21,4.0
+2019,2,Isabela City,Industry,239.21,4.0
+2019,3,Isabela City,Industry,239.21,4.0
+2019,4,Isabela City,Industry,239.21,4.0
+2020,1,Isabela City,Industry,248.78,4.0
+2020,2,Isabela City,Industry,248.78,4.0
+2020,3,Isabela City,Industry,248.78,4.0
+2020,4,Isabela City,Industry,248.78,4.0
+2021,1,Isabela City,Industry,258.73,4.0
+2021,2,Isabela City,Industry,258.73,4.0
+2021,3,Isabela City,Industry,258.73,4.0
+2021,4,Isabela City,Industry,258.73,4.0
+2022,1,Isabela City,Industry,269.08,4.0
+2022,2,Isabela City,Industry,269.08,4.0
+2022,3,Isabela City,Industry,269.08,4.0
+2022,4,Isabela City,Industry,269.08,4.0
+2023,1,Isabela City,Industry,279.84,4.0
+2023,2,Isabela City,Industry,279.84,4.0
+2023,3,Isabela City,Industry,279.84,4.0
+2023,4,Isabela City,Industry,279.84,4.0
+2024,1,Isabela City,Industry,291.03,4.0
+2024,2,Isabela City,Industry,291.03,4.0
+2024,3,Isabela City,Industry,291.03,4.0
+2024,4,Isabela City,Industry,291.03,4.0
+2025,1,Isabela City,Industry,302.67,4.0
+2025,2,Isabela City,Industry,302.67,4.0
+2025,3,Isabela City,Industry,302.67,4.0
+2025,4,Isabela City,Industry,302.67,4.0
+2018,1,Isabela City,Construction,3546.94,4.0
+2018,2,Isabela City,Construction,3546.94,4.0
+2018,3,Isabela City,Construction,3546.94,4.0
+2018,4,Isabela City,Construction,3546.94,4.0
+2019,1,Isabela City,Construction,3688.81,4.0
+2019,2,Isabela City,Construction,3688.81,4.0
+2019,3,Isabela City,Construction,3688.81,4.0
+2019,4,Isabela City,Construction,3688.81,4.0
+2020,1,Isabela City,Construction,3836.37,4.0
+2020,2,Isabela City,Construction,3836.37,4.0
+2020,3,Isabela City,Construction,3836.37,4.0
+2020,4,Isabela City,Construction,3836.37,4.0
+2021,1,Isabela City,Construction,3989.82,4.0
+2021,2,Isabela City,Construction,3989.82,4.0
+2021,3,Isabela City,Construction,3989.82,4.0
+2021,4,Isabela City,Construction,3989.82,4.0
+2022,1,Isabela City,Construction,4149.41,4.0
+2022,2,Isabela City,Construction,4149.41,4.0
+2022,3,Isabela City,Construction,4149.41,4.0
+2022,4,Isabela City,Construction,4149.41,4.0
+2023,1,Isabela City,Construction,4315.39,4.0
+2023,2,Isabela City,Construction,4315.39,4.0
+2023,3,Isabela City,Construction,4315.39,4.0
+2023,4,Isabela City,Construction,4315.39,4.0
+2024,1,Isabela City,Construction,4488.0,4.0
+2024,2,Isabela City,Construction,4488.0,4.0
+2024,3,Isabela City,Construction,4488.0,4.0
+2024,4,Isabela City,Construction,4488.0,4.0
+2025,1,Isabela City,Construction,4667.52,4.0
+2025,2,Isabela City,Construction,4667.52,4.0
+2025,3,Isabela City,Construction,4667.52,4.0
+2025,4,Isabela City,Construction,4667.52,4.0
+2018,1,Isabela City,Trade,4396.56,4.0
+2018,2,Isabela City,Trade,4396.56,4.0
+2018,3,Isabela City,Trade,4396.56,4.0
+2018,4,Isabela City,Trade,4396.56,4.0
+2019,1,Isabela City,Trade,4572.42,4.0
+2019,2,Isabela City,Trade,4572.42,4.0
+2019,3,Isabela City,Trade,4572.42,4.0
+2019,4,Isabela City,Trade,4572.42,4.0
+2020,1,Isabela City,Trade,4755.32,4.0
+2020,2,Isabela City,Trade,4755.32,4.0
+2020,3,Isabela City,Trade,4755.32,4.0
+2020,4,Isabela City,Trade,4755.32,4.0
+2021,1,Isabela City,Trade,4945.53,4.0
+2021,2,Isabela City,Trade,4945.53,4.0
+2021,3,Isabela City,Trade,4945.53,4.0
+2021,4,Isabela City,Trade,4945.53,4.0
+2022,1,Isabela City,Trade,5143.35,4.0
+2022,2,Isabela City,Trade,5143.35,4.0
+2022,3,Isabela City,Trade,5143.35,4.0
+2022,4,Isabela City,Trade,5143.35,4.0
+2023,1,Isabela City,Trade,5349.09,4.0
+2023,2,Isabela City,Trade,5349.09,4.0
+2023,3,Isabela City,Trade,5349.09,4.0
+2023,4,Isabela City,Trade,5349.09,4.0
+2024,1,Isabela City,Trade,5563.05,4.0
+2024,2,Isabela City,Trade,5563.05,4.0
+2024,3,Isabela City,Trade,5563.05,4.0
+2024,4,Isabela City,Trade,5563.05,4.0
+2025,1,Isabela City,Trade,5785.57,4.0
+2025,2,Isabela City,Trade,5785.57,4.0
+2025,3,Isabela City,Trade,5785.57,4.0
+2025,4,Isabela City,Trade,5785.57,4.0
+2018,1,Isabela City,Services,572.05,4.0
+2018,2,Isabela City,Services,572.05,4.0
+2018,3,Isabela City,Services,572.05,4.0
+2018,4,Isabela City,Services,572.05,4.0
+2019,1,Isabela City,Services,594.94,4.0
+2019,2,Isabela City,Services,594.94,4.0
+2019,3,Isabela City,Services,594.94,4.0
+2019,4,Isabela City,Services,594.94,4.0
+2020,1,Isabela City,Services,618.73,4.0
+2020,2,Isabela City,Services,618.73,4.0
+2020,3,Isabela City,Services,618.73,4.0
+2020,4,Isabela City,Services,618.73,4.0
+2021,1,Isabela City,Services,643.48,4.0
+2021,2,Isabela City,Services,643.48,4.0
+2021,3,Isabela City,Services,643.48,4.0
+2021,4,Isabela City,Services,643.48,4.0
+2022,1,Isabela City,Services,669.22,4.0
+2022,2,Isabela City,Services,669.22,4.0
+2022,3,Isabela City,Services,669.22,4.0
+2022,4,Isabela City,Services,669.22,4.0
+2023,1,Isabela City,Services,695.99,4.0
+2023,2,Isabela City,Services,695.99,4.0
+2023,3,Isabela City,Services,695.99,4.0
+2023,4,Isabela City,Services,695.99,4.0
+2024,1,Isabela City,Services,723.83,4.0
+2024,2,Isabela City,Services,723.83,4.0
+2024,3,Isabela City,Services,723.83,4.0
+2024,4,Isabela City,Services,723.83,4.0
+2025,1,Isabela City,Services,752.79,4.0
+2025,2,Isabela City,Services,752.79,4.0
+2025,3,Isabela City,Services,752.79,4.0
+2025,4,Isabela City,Services,752.79,4.0
+2018,1,Isabela City,Tourism,335.87,4.0
+2018,2,Isabela City,Tourism,335.87,4.0
+2018,3,Isabela City,Tourism,335.87,4.0
+2018,4,Isabela City,Tourism,335.87,4.0
+2019,1,Isabela City,Tourism,349.3,4.0
+2019,2,Isabela City,Tourism,349.3,4.0
+2019,3,Isabela City,Tourism,349.3,4.0
+2019,4,Isabela City,Tourism,349.3,4.0
+2020,1,Isabela City,Tourism,363.27,4.0
+2020,2,Isabela City,Tourism,363.27,4.0
+2020,3,Isabela City,Tourism,363.27,4.0
+2020,4,Isabela City,Tourism,363.27,4.0
+2021,1,Isabela City,Tourism,377.8,4.0
+2021,2,Isabela City,Tourism,377.8,4.0
+2021,3,Isabela City,Tourism,377.8,4.0
+2021,4,Isabela City,Tourism,377.8,4.0
+2022,1,Isabela City,Tourism,392.91,4.0
+2022,2,Isabela City,Tourism,392.91,4.0
+2022,3,Isabela City,Tourism,392.91,4.0
+2022,4,Isabela City,Tourism,392.91,4.0
+2023,1,Isabela City,Tourism,408.63,4.0
+2023,2,Isabela City,Tourism,408.63,4.0
+2023,3,Isabela City,Tourism,408.63,4.0
+2023,4,Isabela City,Tourism,408.63,4.0
+2024,1,Isabela City,Tourism,424.98,4.0
+2024,2,Isabela City,Tourism,424.98,4.0
+2024,3,Isabela City,Tourism,424.98,4.0
+2024,4,Isabela City,Tourism,424.98,4.0
+2025,1,Isabela City,Tourism,441.98,4.0
+2025,2,Isabela City,Tourism,441.98,4.0
+2025,3,Isabela City,Tourism,441.98,4.0
+2025,4,Isabela City,Tourism,441.98,4.0
+2018,1,Isabela City,ICT,581.54,4.0
+2018,2,Isabela City,ICT,581.54,4.0
+2018,3,Isabela City,ICT,581.54,4.0
+2018,4,Isabela City,ICT,581.54,4.0
+2019,1,Isabela City,ICT,604.8,4.0
+2019,2,Isabela City,ICT,604.8,4.0
+2019,3,Isabela City,ICT,604.8,4.0
+2019,4,Isabela City,ICT,604.8,4.0
+2020,1,Isabela City,ICT,629.0,4.0
+2020,2,Isabela City,ICT,629.0,4.0
+2020,3,Isabela City,ICT,629.0,4.0
+2020,4,Isabela City,ICT,629.0,4.0
+2021,1,Isabela City,ICT,654.16,4.0
+2021,2,Isabela City,ICT,654.16,4.0
+2021,3,Isabela City,ICT,654.16,4.0
+2021,4,Isabela City,ICT,654.16,4.0
+2022,1,Isabela City,ICT,680.32,4.0
+2022,2,Isabela City,ICT,680.32,4.0
+2022,3,Isabela City,ICT,680.32,4.0
+2022,4,Isabela City,ICT,680.32,4.0
+2023,1,Isabela City,ICT,707.54,4.0
+2023,2,Isabela City,ICT,707.54,4.0
+2023,3,Isabela City,ICT,707.54,4.0
+2023,4,Isabela City,ICT,707.54,4.0
+2024,1,Isabela City,ICT,735.84,4.0
+2024,2,Isabela City,ICT,735.84,4.0
+2024,3,Isabela City,ICT,735.84,4.0
+2024,4,Isabela City,ICT,735.84,4.0
+2025,1,Isabela City,ICT,765.27,4.0
+2025,2,Isabela City,ICT,765.27,4.0
+2025,3,Isabela City,ICT,765.27,4.0
+2025,4,Isabela City,ICT,765.27,4.0
+2018,1,Isabela City,Services,769.39,4.0
+2018,2,Isabela City,Services,769.39,4.0
+2018,3,Isabela City,Services,769.39,4.0
+2018,4,Isabela City,Services,769.39,4.0
+2019,1,Isabela City,Services,800.16,4.0
+2019,2,Isabela City,Services,800.16,4.0
+2019,3,Isabela City,Services,800.16,4.0
+2019,4,Isabela City,Services,800.16,4.0
+2020,1,Isabela City,Services,832.17,4.0
+2020,2,Isabela City,Services,832.17,4.0
+2020,3,Isabela City,Services,832.17,4.0
+2020,4,Isabela City,Services,832.17,4.0
+2021,1,Isabela City,Services,865.46,4.0
+2021,2,Isabela City,Services,865.46,4.0
+2021,3,Isabela City,Services,865.46,4.0
+2021,4,Isabela City,Services,865.46,4.0
+2022,1,Isabela City,Services,900.08,4.0
+2022,2,Isabela City,Services,900.08,4.0
+2022,3,Isabela City,Services,900.08,4.0
+2022,4,Isabela City,Services,900.08,4.0
+2023,1,Isabela City,Services,936.08,4.0
+2023,2,Isabela City,Services,936.08,4.0
+2023,3,Isabela City,Services,936.08,4.0
+2023,4,Isabela City,Services,936.08,4.0
+2024,1,Isabela City,Services,973.52,4.0
+2024,2,Isabela City,Services,973.52,4.0
+2024,3,Isabela City,Services,973.52,4.0
+2024,4,Isabela City,Services,973.52,4.0
+2025,1,Isabela City,Services,1012.46,4.0
+2025,2,Isabela City,Services,1012.46,4.0
+2025,3,Isabela City,Services,1012.46,4.0
+2025,4,Isabela City,Services,1012.46,4.0
+2018,1,Isabela City,Services,785.7,4.0
+2018,2,Isabela City,Services,785.7,4.0
+2018,3,Isabela City,Services,785.7,4.0
+2018,4,Isabela City,Services,785.7,4.0
+2019,1,Isabela City,Services,817.13,4.0
+2019,2,Isabela City,Services,817.13,4.0
+2019,3,Isabela City,Services,817.13,4.0
+2019,4,Isabela City,Services,817.13,4.0
+2020,1,Isabela City,Services,849.82,4.0
+2020,2,Isabela City,Services,849.82,4.0
+2020,3,Isabela City,Services,849.82,4.0
+2020,4,Isabela City,Services,849.82,4.0
+2021,1,Isabela City,Services,883.81,4.0
+2021,2,Isabela City,Services,883.81,4.0
+2021,3,Isabela City,Services,883.81,4.0
+2021,4,Isabela City,Services,883.81,4.0
+2022,1,Isabela City,Services,919.16,4.0
+2022,2,Isabela City,Services,919.16,4.0
+2022,3,Isabela City,Services,919.16,4.0
+2022,4,Isabela City,Services,919.16,4.0
+2023,1,Isabela City,Services,955.93,4.0
+2023,2,Isabela City,Services,955.93,4.0
+2023,3,Isabela City,Services,955.93,4.0
+2023,4,Isabela City,Services,955.93,4.0
+2024,1,Isabela City,Services,994.17,4.0
+2024,2,Isabela City,Services,994.17,4.0
+2024,3,Isabela City,Services,994.17,4.0
+2024,4,Isabela City,Services,994.17,4.0
+2025,1,Isabela City,Services,1033.93,4.0
+2025,2,Isabela City,Services,1033.93,4.0
+2025,3,Isabela City,Services,1033.93,4.0
+2025,4,Isabela City,Services,1033.93,4.0
+2018,1,Isabela City,Services,148.96,4.0
+2018,2,Isabela City,Services,148.96,4.0
+2018,3,Isabela City,Services,148.96,4.0
+2018,4,Isabela City,Services,148.96,4.0
+2019,1,Isabela City,Services,154.91,4.0
+2019,2,Isabela City,Services,154.91,4.0
+2019,3,Isabela City,Services,154.91,4.0
+2019,4,Isabela City,Services,154.91,4.0
+2020,1,Isabela City,Services,161.11,4.0
+2020,2,Isabela City,Services,161.11,4.0
+2020,3,Isabela City,Services,161.11,4.0
+2020,4,Isabela City,Services,161.11,4.0
+2021,1,Isabela City,Services,167.55,4.0
+2021,2,Isabela City,Services,167.55,4.0
+2021,3,Isabela City,Services,167.55,4.0
+2021,4,Isabela City,Services,167.55,4.0
+2022,1,Isabela City,Services,174.26,4.0
+2022,2,Isabela City,Services,174.26,4.0
+2022,3,Isabela City,Services,174.26,4.0
+2022,4,Isabela City,Services,174.26,4.0
+2023,1,Isabela City,Services,181.23,4.0
+2023,2,Isabela City,Services,181.23,4.0
+2023,3,Isabela City,Services,181.23,4.0
+2023,4,Isabela City,Services,181.23,4.0
+2024,1,Isabela City,Services,188.48,4.0
+2024,2,Isabela City,Services,188.48,4.0
+2024,3,Isabela City,Services,188.48,4.0
+2024,4,Isabela City,Services,188.48,4.0
+2025,1,Isabela City,Services,196.01,4.0
+2025,2,Isabela City,Services,196.01,4.0
+2025,3,Isabela City,Services,196.01,4.0
+2025,4,Isabela City,Services,196.01,4.0
+2018,1,Isabela City,Services,904.84,4.0
+2018,2,Isabela City,Services,904.84,4.0
+2018,3,Isabela City,Services,904.84,4.0
+2018,4,Isabela City,Services,904.84,4.0
+2019,1,Isabela City,Services,941.03,4.0
+2019,2,Isabela City,Services,941.03,4.0
+2019,3,Isabela City,Services,941.03,4.0
+2019,4,Isabela City,Services,941.03,4.0
+2020,1,Isabela City,Services,978.67,4.0
+2020,2,Isabela City,Services,978.67,4.0
+2020,3,Isabela City,Services,978.67,4.0
+2020,4,Isabela City,Services,978.67,4.0
+2021,1,Isabela City,Services,1017.82,4.0
+2021,2,Isabela City,Services,1017.82,4.0
+2021,3,Isabela City,Services,1017.82,4.0
+2021,4,Isabela City,Services,1017.82,4.0
+2022,1,Isabela City,Services,1058.53,4.0
+2022,2,Isabela City,Services,1058.53,4.0
+2022,3,Isabela City,Services,1058.53,4.0
+2022,4,Isabela City,Services,1058.53,4.0
+2023,1,Isabela City,Services,1100.87,4.0
+2023,2,Isabela City,Services,1100.87,4.0
+2023,3,Isabela City,Services,1100.87,4.0
+2023,4,Isabela City,Services,1100.87,4.0
+2024,1,Isabela City,Services,1144.91,4.0
+2024,2,Isabela City,Services,1144.91,4.0
+2024,3,Isabela City,Services,1144.91,4.0
+2024,4,Isabela City,Services,1144.91,4.0
+2025,1,Isabela City,Services,1190.7,4.0
+2025,2,Isabela City,Services,1190.7,4.0
+2025,3,Isabela City,Services,1190.7,4.0
+2025,4,Isabela City,Services,1190.7,4.0
+2018,1,Isabela City,Services,1768.37,4.0
+2018,2,Isabela City,Services,1768.37,4.0
+2018,3,Isabela City,Services,1768.37,4.0
+2018,4,Isabela City,Services,1768.37,4.0
+2019,1,Isabela City,Services,1839.1,4.0
+2019,2,Isabela City,Services,1839.1,4.0
+2019,3,Isabela City,Services,1839.1,4.0
+2019,4,Isabela City,Services,1839.1,4.0
+2020,1,Isabela City,Services,1912.67,4.0
+2020,2,Isabela City,Services,1912.67,4.0
+2020,3,Isabela City,Services,1912.67,4.0
+2020,4,Isabela City,Services,1912.67,4.0
+2021,1,Isabela City,Services,1989.17,4.0
+2021,2,Isabela City,Services,1989.17,4.0
+2021,3,Isabela City,Services,1989.17,4.0
+2021,4,Isabela City,Services,1989.17,4.0
+2022,1,Isabela City,Services,2068.74,4.0
+2022,2,Isabela City,Services,2068.74,4.0
+2022,3,Isabela City,Services,2068.74,4.0
+2022,4,Isabela City,Services,2068.74,4.0
+2023,1,Isabela City,Services,2151.49,4.0
+2023,2,Isabela City,Services,2151.49,4.0
+2023,3,Isabela City,Services,2151.49,4.0
+2023,4,Isabela City,Services,2151.49,4.0
+2024,1,Isabela City,Services,2237.55,4.0
+2024,2,Isabela City,Services,2237.55,4.0
+2024,3,Isabela City,Services,2237.55,4.0
+2024,4,Isabela City,Services,2237.55,4.0
+2025,1,Isabela City,Services,2327.05,4.0
+2025,2,Isabela City,Services,2327.05,4.0
+2025,3,Isabela City,Services,2327.05,4.0
+2025,4,Isabela City,Services,2327.05,4.0
+2018,1,Isabela City,Services,511.97,4.0
+2018,2,Isabela City,Services,511.97,4.0
+2018,3,Isabela City,Services,511.97,4.0
+2018,4,Isabela City,Services,511.97,4.0
+2019,1,Isabela City,Services,532.45,4.0
+2019,2,Isabela City,Services,532.45,4.0
+2019,3,Isabela City,Services,532.45,4.0
+2019,4,Isabela City,Services,532.45,4.0
+2020,1,Isabela City,Services,553.75,4.0
+2020,2,Isabela City,Services,553.75,4.0
+2020,3,Isabela City,Services,553.75,4.0
+2020,4,Isabela City,Services,553.75,4.0
+2021,1,Isabela City,Services,575.9,4.0
+2021,2,Isabela City,Services,575.9,4.0
+2021,3,Isabela City,Services,575.9,4.0
+2021,4,Isabela City,Services,575.9,4.0
+2022,1,Isabela City,Services,598.94,4.0
+2022,2,Isabela City,Services,598.94,4.0
+2022,3,Isabela City,Services,598.94,4.0
+2022,4,Isabela City,Services,598.94,4.0
+2023,1,Isabela City,Services,622.89,4.0
+2023,2,Isabela City,Services,622.89,4.0
+2023,3,Isabela City,Services,622.89,4.0
+2023,4,Isabela City,Services,622.89,4.0
+2024,1,Isabela City,Services,647.81,4.0
+2024,2,Isabela City,Services,647.81,4.0
+2024,3,Isabela City,Services,647.81,4.0
+2024,4,Isabela City,Services,647.81,4.0
+2025,1,Isabela City,Services,673.72,4.0
+2025,2,Isabela City,Services,673.72,4.0
+2025,3,Isabela City,Services,673.72,4.0
+2025,4,Isabela City,Services,673.72,4.0
+2018,1,Isabela City,Services,128.44,4.0
+2018,2,Isabela City,Services,128.44,4.0
+2018,3,Isabela City,Services,128.44,4.0
+2018,4,Isabela City,Services,128.44,4.0
+2019,1,Isabela City,Services,133.58,4.0
+2019,2,Isabela City,Services,133.58,4.0
+2019,3,Isabela City,Services,133.58,4.0
+2019,4,Isabela City,Services,133.58,4.0
+2020,1,Isabela City,Services,138.92,4.0
+2020,2,Isabela City,Services,138.92,4.0
+2020,3,Isabela City,Services,138.92,4.0
+2020,4,Isabela City,Services,138.92,4.0
+2021,1,Isabela City,Services,144.48,4.0
+2021,2,Isabela City,Services,144.48,4.0
+2021,3,Isabela City,Services,144.48,4.0
+2021,4,Isabela City,Services,144.48,4.0
+2022,1,Isabela City,Services,150.26,4.0
+2022,2,Isabela City,Services,150.26,4.0
+2022,3,Isabela City,Services,150.26,4.0
+2022,4,Isabela City,Services,150.26,4.0
+2023,1,Isabela City,Services,156.27,4.0
+2023,2,Isabela City,Services,156.27,4.0
+2023,3,Isabela City,Services,156.27,4.0
+2023,4,Isabela City,Services,156.27,4.0
+2024,1,Isabela City,Services,162.52,4.0
+2024,2,Isabela City,Services,162.52,4.0
+2024,3,Isabela City,Services,162.52,4.0
+2024,4,Isabela City,Services,162.52,4.0
+2025,1,Isabela City,Services,169.02,4.0
+2025,2,Isabela City,Services,169.02,4.0
+2025,3,Isabela City,Services,169.02,4.0
+2025,4,Isabela City,Services,169.02,4.0

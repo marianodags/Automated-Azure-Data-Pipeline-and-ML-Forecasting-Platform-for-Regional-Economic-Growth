@@ -1,5 +1,8 @@
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Depends, HTTPException, Query
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+import os
 from sqlalchemy.orm import Session
 from typing import List, Dict, Any, Optional
 from database.connection import get_db, init_db
@@ -25,14 +28,29 @@ app = FastAPI(
 )
 
 
+# Serve dashboard static assets
+if os.path.exists("dashboard"):
+    app.mount("/static", StaticFiles(directory="dashboard"), name="static")
+
+
 @app.get("/")
 def read_root():
     return {
         "platform": "AI-Powered Regional Economic Intelligence Platform",
         "region": "Region IX (Zamboanga Peninsula)",
         "status": "Online",
-        "docs_url": "/docs"
+        "docs_url": "/docs",
+        "dashboard_url": "/dashboard"
     }
+
+
+@app.get("/dashboard")
+def get_dashboard():
+    """Serves the interactive web dashboard HTML UI."""
+    dashboard_path = os.path.join("dashboard", "index.html")
+    if os.path.exists(dashboard_path):
+        return FileResponse(dashboard_path)
+    raise HTTPException(status_code=404, detail="Dashboard UI file not found")
 
 
 @app.get("/api/provinces")
