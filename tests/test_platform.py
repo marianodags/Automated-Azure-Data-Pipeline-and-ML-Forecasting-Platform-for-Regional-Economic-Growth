@@ -106,3 +106,9 @@ def test_api_endpoints():
     res_sim = client.post("/api/scenario/simulate?target_year=2026&agri_growth_delta_pct=5.0")
     assert res_sim.status_code == 200
     assert res_sim.json()["gdp_difference_m_php"] > 0
+
+    # 6. Web Dashboard UI
+    res_dash = client.get("/dashboard")
+    assert res_dash.status_code == 200
+    assert "text/html" in res_dash.headers["content-type"]
+    assert "Region IX Economic Intelligence Dashboard" in res_dash.text
