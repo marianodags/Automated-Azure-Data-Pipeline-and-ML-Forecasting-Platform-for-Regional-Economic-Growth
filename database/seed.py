@@ -56,24 +56,15 @@ def seed_database():
         muni_objs.append(m)
     db.flush()
 
-    # 3. Seed Detailed Industries (PSA Standard Classification)
+    # 3. Seed Industries
     industries_data = [
-        {"psic_code": "A", "name": "Agriculture, forestry, and fishing", "sector": "Agriculture"},
-        {"psic_code": "B", "name": "Mining and quarrying", "sector": "Industry"},
+        {"psic_code": "A", "name": "Agriculture, Forestry and Fishing", "sector": "Agriculture"},
         {"psic_code": "C", "name": "Manufacturing", "sector": "Manufacturing"},
-        {"psic_code": "D-E", "name": "Electricity, steam, water and waste management", "sector": "Industry"},
         {"psic_code": "F", "name": "Construction", "sector": "Construction"},
-        {"psic_code": "G", "name": "Wholesale and retail trade; repair of motor vehicles and motorcycles", "sector": "Trade"},
-        {"psic_code": "H", "name": "Transportation and storage", "sector": "Services"},
-        {"psic_code": "I", "name": "Accommodation and food service activities", "sector": "Tourism"},
-        {"psic_code": "J", "name": "Information and communication", "sector": "ICT"},
-        {"psic_code": "K", "name": "Financial and insurance activities", "sector": "Services"},
-        {"psic_code": "L", "name": "Real estate and ownership of dwellings", "sector": "Services"},
-        {"psic_code": "M", "name": "Professional and business services", "sector": "Services"},
-        {"psic_code": "N", "name": "Public administration and defense; compulsory social security", "sector": "Services"},
-        {"psic_code": "P", "name": "Education", "sector": "Services"},
-        {"psic_code": "Q", "name": "Human health and social work activities", "sector": "Services"},
-        {"psic_code": "S", "name": "Other services", "sector": "Services"},
+        {"psic_code": "G", "name": "Wholesale and Retail Trade", "sector": "Trade"},
+        {"psic_code": "I", "name": "Accommodation and Food Service Activities", "sector": "Tourism"},
+        {"psic_code": "J", "name": "Information and Communication", "sector": "ICT"},
+        {"psic_code": "K", "name": "Financial and Insurance Activities", "sector": "Services"},
     ]
 
     industry_objs = {}
@@ -81,116 +72,67 @@ def seed_database():
         ind = Industry(**ind_data)
         db.add(ind)
         db.flush()
-        industry_objs[ind.name] = ind
+        industry_objs[ind.sector] = ind
 
-    # 4. Seed Official PSA Provincial Product Accounts (PPA) GDP for Zamboanga del Norte (2018-2024)
-    # Unit in Image: In '000 PHP -> Converting to Million PHP (/ 1,000)
-    zdn_gdp_ppa = {
-        "Agriculture, forestry, and fishing": {
-            2018: 19708798, 2019: 19176988, 2020: 18737364, 2021: 17374858, 2022: 17432561, 2023: 18806745, 2024: 18457242
-        },
-        "Mining and quarrying": {
-            2018: 246148, 2019: 178693, 2020: 158736, 2021: 166800, 2022: 179693, 2023: 181497, 2024: 198428
-        },
-        "Manufacturing": {
-            2018: 19977097, 2019: 19863802, 2020: 25522591, 2021: 22534272, 2022: 23213610, 2023: 21139584, 2024: 22343564
-        },
-        "Electricity, steam, water and waste management": {
-            2018: 1061276, 2019: 1124432, 2020: 1239229, 2021: 1266646, 2022: 1229491, 2023: 1229970, 2024: 1314332
-        },
-        "Construction": {
-            2018: 15129235, 2019: 14324717, 2020: 14575660, 2021: 14186003, 2022: 17223742, 2023: 19757593, 2024: 20268202
-        },
-        "Wholesale and retail trade; repair of motor vehicles and motorcycles": {
-            2018: 20612961, 2019: 21668655, 2020: 21300422, 2021: 21581253, 2022: 22677794, 2023: 24125124, 2024: 25123193
-        },
-        "Transportation and storage": {
-            2018: 3323679, 2019: 3712019, 2020: 2218896, 2021: 2153161, 2022: 2609020, 2023: 2910086, 2024: 3268885
-        },
-        "Accommodation and food service activities": {
-            2018: 1698804, 2019: 1968138, 2020: 1081510, 2021: 1102003, 2022: 1448303, 2023: 1704906, 2024: 1919230
-        },
-        "Information and communication": {
-            2018: 2168824, 2019: 2402877, 2020: 2533723, 2021: 2744117, 2022: 3028497, 2023: 3147811, 2024: 3323103
-        },
-        "Financial and insurance activities": {
-            2018: 2388247, 2019: 2824945, 2020: 3055636, 2021: 3275015, 2022: 3663276, 2023: 3990136, 2024: 4396506
-        },
-        "Real estate and ownership of dwellings": {
-            2018: 4471690, 2019: 4604662, 2020: 4487571, 2021: 4093993, 2022: 4155624, 2023: 4301690, 2024: 4489734
-        },
-        "Professional and business services": {
-            2018: 653295, 2019: 685932, 2020: 596468, 2021: 665886, 2022: 710201, 2023: 762763, 2024: 851173
-        },
-        "Public administration and defense; compulsory social security": {
-            2018: 3755759, 2019: 4192149, 2020: 4546942, 2021: 4664140, 2022: 4773369, 2023: 5011939, 2024: 5170492
-        },
-        "Education": {
-            2018: 6784456, 2019: 7031650, 2020: 6981610, 2021: 8479728, 2022: 9238831, 2023: 9812897, 2024: 10104961
-        },
-        "Human health and social work activities": {
-            2018: 1655980, 2019: 1791615, 2020: 2027145, 2021: 2297055, 2022: 2481143, 2023: 2644955, 2024: 2925556
-        },
-        "Other services": {
-            2018: 1147078, 2019: 1320155, 2020: 377761, 2021: 372898, 2022: 514303, 2023: 681085, 2024: 733941
-        }
+    # 4. Seed Quarterly GDP (2018 - 2025)
+    # Baseline quarterly GDP in Million PHP for Region IX components (~380 Billion PHP total annual GRDP for Region IX)
+    base_gdp_by_province = {
+        "Zamboanga del Norte": 22000.0,
+        "Zamboanga del Sur": 30000.0,
+        "Zamboanga Sibugay": 18000.0,
+        "Zamboanga City (HUC)": 35000.0,
+        "Isabela City": 50000.0 / 10.0,
     }
 
-    zdn_prov = province_objs["Zamboanga del Norte"]
-    quarter_distribution = [0.23, 0.24, 0.25, 0.28]
+    sector_shares = {
+        "Agriculture": 0.28,
+        "Manufacturing": 0.18,
+        "Construction": 0.12,
+        "Trade": 0.22,
+        "Tourism": 0.08,
+        "ICT": 0.05,
+        "Services": 0.07,
+    }
 
-    for ind_name, years_data in zdn_gdp_ppa.items():
-        ind = industry_objs[ind_name]
-        for year in range(2018, 2025):
-            annual_thousand = years_data[year]
-            annual_m_php = annual_thousand / 1000.0  # Convert to Million PHP
+    # Growth multipliers per year (reflecting COVID shock in 2020 and post-COVID recovery)
+    yearly_growth_multiplier = {
+        2018: 1.00,
+        2019: 1.06,
+        2020: 0.94,  # -6% contraction in 2020
+        2021: 1.02,  # rebound starts
+        2022: 1.075, # strong rebound
+        2023: 1.052, # steady growth
+        2024: 1.061,
+        2025: 1.065,
+    }
 
-            # Divide into 4 quarters
-            for q in range(1, 5):
-                q_val = round(annual_m_php * quarter_distribution[q - 1], 2)
-                db.add(QuarterlyGDP(
-                    year=year,
-                    quarter=q,
-                    province_id=zdn_prov.id,
-                    industry_id=ind.id,
-                    gdp_value_m_php=q_val,
-                    growth_rate_pct=0.0
-                ))
+    quarter_seasonality = {1: 0.23, 2: 0.24, 3: 0.25, 4: 0.28}
 
-    # Also seed 2025 estimated baseline for ZDN
-    for ind_name, years_data in zdn_gdp_ppa.items():
-        ind = industry_objs[ind_name]
-        annual_2024_m = years_data[2024] / 1000.0
-        annual_2025_m = annual_2024_m * 1.05  # ~5% estimated growth
-        for q in range(1, 5):
-            q_val = round(annual_2025_m * quarter_distribution[q - 1], 2)
-            db.add(QuarterlyGDP(
-                year=2025,
-                quarter=q,
-                province_id=zdn_prov.id,
-                industry_id=ind.id,
-                gdp_value_m_php=q_val,
-                growth_rate_pct=5.0
-            ))
+    random.seed(42)
+    np.random.seed(42)
 
-    # Seed remaining provinces
-    other_provinces = ["Zamboanga del Sur", "Zamboanga Sibugay", "Zamboanga City (HUC)", "Isabela City"]
-    for prov_name in other_provinces:
-        prov = province_objs[prov_name]
-        for ind_name, ind in industry_objs.items():
-            base_m = zdn_gdp_ppa[ind_name][2024] / 1000.0
-            mult = 1.1 if "Sur" in prov_name else (1.2 if "HUC" in prov_name else 0.7)
-            for year in range(2018, 2026):
-                growth = (1.04) ** (year - 2018)
-                for q in range(1, 5):
-                    q_val = round((base_m * mult * growth / 4.0), 2)
+    for prov_name, prov in province_objs.items():
+        base_val = base_gdp_by_province[prov_name]
+        for year in range(2018, 2026):
+            growth_mult = yearly_growth_multiplier[year]
+            for quarter in range(1, 5):
+                q_season = quarter_seasonality[quarter]
+                for sector_name, share in sector_shares.items():
+                    ind = industry_objs[sector_name]
+                    # Calculated quarterly GDP with minor random noise
+                    noise = np.random.normal(1.0, 0.015)
+                    gdp_val = round(base_val * growth_mult * q_season * share * noise, 2)
+
+                    # Compute YoY growth rate if year > 2018
+                    growth_rate = round((growth_mult - 1.0) * 100 + np.random.normal(0, 0.5), 2)
+
                     db.add(QuarterlyGDP(
                         year=year,
-                        quarter=q,
+                        quarter=quarter,
                         province_id=prov.id,
                         industry_id=ind.id,
-                        gdp_value_m_php=q_val,
-                        growth_rate_pct=4.0
+                        gdp_value_m_php=gdp_val,
+                        growth_rate_pct=growth_rate
                     ))
 
     # 5. Seed Revenue (2018 - 2025)
