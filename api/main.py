@@ -47,6 +47,11 @@ if os.path.exists("dashboard"):
     app.mount("/static", StaticFiles(directory="dashboard"), name="static")
 
 
+# Serve dashboard static assets
+if os.path.exists("dashboard"):
+    app.mount("/static", StaticFiles(directory="dashboard"), name="static")
+
+
 @app.get("/")
 def read_root():
     return {

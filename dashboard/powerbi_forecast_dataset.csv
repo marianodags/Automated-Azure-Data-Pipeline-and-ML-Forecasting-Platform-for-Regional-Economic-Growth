@@ -1,0 +1,836 @@
+metric_type,year,province_name,sector_name,model_used,forecast_value,lower_bound_95,upper_bound_95
+GDP,2026,Zamboanga del Norte,Agriculture,XGBoost,19030.01,18948.61,19111.4
+Industry_Growth,2026,Zamboanga del Norte,Agriculture,XGBoost,4.03,3.25,4.81
+GDP,2027,Zamboanga del Norte,Agriculture,XGBoost,19421.44,19306.33,19536.55
+Industry_Growth,2027,Zamboanga del Norte,Agriculture,XGBoost,4.31,3.21,5.4
+GDP,2028,Zamboanga del Norte,Agriculture,XGBoost,19520.29,19379.31,19661.27
+Industry_Growth,2028,Zamboanga del Norte,Agriculture,XGBoost,4.61,3.26,5.95
+GDP,2029,Zamboanga del Norte,Agriculture,XGBoost,19620.12,19457.33,19782.92
+Industry_Growth,2029,Zamboanga del Norte,Agriculture,XGBoost,4.94,3.39,6.49
+GDP,2030,Zamboanga del Norte,Agriculture,XGBoost,19720.96,19538.95,19902.97
+Industry_Growth,2030,Zamboanga del Norte,Agriculture,XGBoost,5.31,3.57,7.04
+GDP,2026,Zamboanga del Norte,Industry,XGBoost,208.37,206.1,210.63
+Industry_Growth,2026,Zamboanga del Norte,Industry,XGBoost,7.27,6.86,7.68
+GDP,2027,Zamboanga del Norte,Industry,XGBoost,209.42,206.21,212.62
+Industry_Growth,2027,Zamboanga del Norte,Industry,XGBoost,6.85,6.27,7.44
+GDP,2028,Zamboanga del Norte,Industry,XGBoost,210.48,206.55,214.41
+Industry_Growth,2028,Zamboanga del Norte,Industry,XGBoost,7.16,6.44,7.87
+GDP,2029,Zamboanga del Norte,Industry,XGBoost,211.55,207.02,216.09
+Industry_Growth,2029,Zamboanga del Norte,Industry,XGBoost,7.49,6.67,8.31
+GDP,2030,Zamboanga del Norte,Industry,XGBoost,212.64,207.57,217.71
+Industry_Growth,2030,Zamboanga del Norte,Industry,XGBoost,7.85,6.93,8.78
+GDP,2026,Zamboanga del Norte,Manufacturing,XGBoost,22726.49,22526.61,22926.36
+Industry_Growth,2026,Zamboanga del Norte,Manufacturing,XGBoost,4.98,4.18,5.78
+GDP,2027,Zamboanga del Norte,Manufacturing,XGBoost,23088.74,22806.07,23371.41
+Industry_Growth,2027,Zamboanga del Norte,Manufacturing,XGBoost,5.0,3.87,6.13
+GDP,2028,Zamboanga del Norte,Manufacturing,XGBoost,23461.86,23115.66,23808.05
+Industry_Growth,2028,Zamboanga del Norte,Manufacturing,XGBoost,5.03,3.65,6.41
+GDP,2029,Zamboanga del Norte,Manufacturing,XGBoost,23846.16,23446.4,24245.91
+Industry_Growth,2029,Zamboanga del Norte,Manufacturing,XGBoost,5.06,3.46,6.65
+GDP,2030,Zamboanga del Norte,Manufacturing,XGBoost,24241.98,23795.05,24688.92
+Industry_Growth,2030,Zamboanga del Norte,Manufacturing,XGBoost,5.08,3.29,6.87
+GDP,2026,Zamboanga del Norte,Industry,XGBoost,1402.91,1395.84,1409.97
+Industry_Growth,2026,Zamboanga del Norte,Industry,XGBoost,3.24,2.74,3.73
+GDP,2027,Zamboanga del Norte,Industry,XGBoost,1430.9,1420.92,1440.89
+Industry_Growth,2027,Zamboanga del Norte,Industry,XGBoost,3.51,2.81,4.21
+GDP,2028,Zamboanga del Norte,Industry,XGBoost,1460.0,1447.77,1472.23
+Industry_Growth,2028,Zamboanga del Norte,Industry,XGBoost,3.81,2.96,4.67
+GDP,2029,Zamboanga del Norte,Industry,XGBoost,1490.22,1476.1,1504.35
+Industry_Growth,2029,Zamboanga del Norte,Industry,XGBoost,4.15,3.16,5.14
+GDP,2030,Zamboanga del Norte,Industry,XGBoost,1521.63,1505.85,1537.42
+Industry_Growth,2030,Zamboanga del Norte,Industry,XGBoost,4.51,3.41,5.62
+GDP,2026,Zamboanga del Norte,Construction,XGBoost,21717.8,21424.91,22010.69
+Industry_Growth,2026,Zamboanga del Norte,Construction,XGBoost,5.66,4.42,6.89
+GDP,2027,Zamboanga del Norte,Construction,XGBoost,22317.88,21903.67,22732.09
+Industry_Growth,2027,Zamboanga del Norte,Construction,XGBoost,5.68,3.94,7.43
+GDP,2028,Zamboanga del Norte,Construction,XGBoost,22950.08,22442.78,23457.38
+Industry_Growth,2028,Zamboanga del Norte,Construction,XGBoost,5.71,3.57,7.85
+GDP,2029,Zamboanga del Norte,Construction,XGBoost,23616.12,23030.35,24201.9
+Industry_Growth,2029,Zamboanga del Norte,Construction,XGBoost,5.73,3.26,8.21
+GDP,2030,Zamboanga del Norte,Construction,XGBoost,24317.82,23662.9,24972.74
+Industry_Growth,2030,Zamboanga del Norte,Construction,XGBoost,5.76,3.0,8.52
+GDP,2026,Zamboanga del Norte,Trade,XGBoost,26744.02,26522.0,26966.04
+Industry_Growth,2026,Zamboanga del Norte,Trade,XGBoost,5.37,5.12,5.63
+GDP,2027,Zamboanga del Norte,Trade,XGBoost,27238.78,26924.8,27552.77
+Industry_Growth,2027,Zamboanga del Norte,Trade,XGBoost,5.66,5.31,6.02
+GDP,2028,Zamboanga del Norte,Trade,XGBoost,27751.46,27366.91,28136.01
+Industry_Growth,2028,Zamboanga del Norte,Trade,XGBoost,5.19,4.75,5.63
+GDP,2029,Zamboanga del Norte,Trade,XGBoost,28282.69,27838.65,28726.74
+Industry_Growth,2029,Zamboanga del Norte,Trade,XGBoost,5.22,4.71,5.72
+GDP,2030,Zamboanga del Norte,Trade,XGBoost,28833.16,28336.71,29329.62
+Industry_Growth,2030,Zamboanga del Norte,Trade,XGBoost,5.24,4.68,5.81
+GDP,2026,Zamboanga del Norte,Services,XGBoost,3453.01,3400.79,3505.22
+Industry_Growth,2026,Zamboanga del Norte,Services,XGBoost,9.2,7.99,10.4
+GDP,2027,Zamboanga del Norte,Services,XGBoost,3499.66,3425.82,3573.5
+Industry_Growth,2027,Zamboanga del Norte,Services,XGBoost,10.34,8.63,12.04
+GDP,2028,Zamboanga del Norte,Services,XGBoost,3547.55,3457.11,3637.98
+Industry_Growth,2028,Zamboanga del Norte,Services,XGBoost,10.36,8.28,12.45
+GDP,2029,Zamboanga del Norte,Services,XGBoost,3596.7,3492.27,3701.13
+Industry_Growth,2029,Zamboanga del Norte,Services,XGBoost,10.39,7.98,12.8
+GDP,2030,Zamboanga del Norte,Services,XGBoost,3647.16,3530.4,3763.91
+Industry_Growth,2030,Zamboanga del Norte,Services,XGBoost,10.41,7.72,13.11
+GDP,2026,Zamboanga del Norte,Tourism,XGBoost,2054.64,2019.56,2089.71
+Industry_Growth,2026,Zamboanga del Norte,Tourism,XGBoost,17.78,16.33,19.23
+GDP,2027,Zamboanga del Norte,Tourism,XGBoost,2114.56,2064.95,2164.17
+Industry_Growth,2027,Zamboanga del Norte,Tourism,XGBoost,11.73,9.68,13.78
+GDP,2028,Zamboanga del Norte,Tourism,XGBoost,2177.86,2117.1,2238.62
+Industry_Growth,2028,Zamboanga del Norte,Tourism,XGBoost,5.94,3.43,8.46
+GDP,2029,Zamboanga del Norte,Tourism,XGBoost,2244.73,2174.57,2314.89
+Industry_Growth,2029,Zamboanga del Norte,Tourism,XGBoost,18.69,15.79,21.6
+GDP,2030,Zamboanga del Norte,Tourism,XGBoost,2315.36,2236.92,2393.8
+Industry_Growth,2030,Zamboanga del Norte,Tourism,XGBoost,12.73,9.48,15.98
+GDP,2026,Zamboanga del Norte,ICT,XGBoost,3595.12,3551.32,3638.92
+Industry_Growth,2026,Zamboanga del Norte,ICT,XGBoost,5.32,4.99,5.65
+GDP,2027,Zamboanga del Norte,ICT,XGBoost,3726.96,3665.02,3788.91
+Industry_Growth,2027,Zamboanga del Norte,ICT,XGBoost,5.34,4.87,5.81
+GDP,2028,Zamboanga del Norte,ICT,XGBoost,3868.11,3792.24,3943.98
+Industry_Growth,2028,Zamboanga del Norte,ICT,XGBoost,5.37,4.8,5.94
+GDP,2029,Zamboanga del Norte,ICT,XGBoost,4019.22,3931.62,4106.83
+Industry_Growth,2029,Zamboanga del Norte,ICT,XGBoost,5.39,4.73,6.05
+GDP,2030,Zamboanga del Norte,ICT,XGBoost,4181.0,4083.06,4278.95
+Industry_Growth,2030,Zamboanga del Norte,ICT,XGBoost,5.42,4.68,6.16
+GDP,2026,Zamboanga del Norte,Services,XGBoost,4816.08,4747.14,4885.01
+Industry_Growth,2026,Zamboanga del Norte,Services,XGBoost,5.84,5.49,6.19
+GDP,2027,Zamboanga del Norte,Services,XGBoost,5068.36,4970.88,5165.85
+Industry_Growth,2027,Zamboanga del Norte,Services,XGBoost,7.35,6.85,7.84
+GDP,2028,Zamboanga del Norte,Services,XGBoost,5345.74,5226.34,5465.13
+Industry_Growth,2028,Zamboanga del Norte,Services,XGBoost,7.37,6.76,7.98
+GDP,2029,Zamboanga del Norte,Services,XGBoost,5650.68,5512.81,5788.55
+Industry_Growth,2029,Zamboanga del Norte,Services,XGBoost,7.4,6.69,8.1
+GDP,2030,Zamboanga del Norte,Services,XGBoost,5985.95,5831.81,6140.09
+Industry_Growth,2030,Zamboanga del Norte,Services,XGBoost,7.42,6.64,8.21
+GDP,2026,Zamboanga del Norte,Services,XGBoost,4585.52,4557.39,4613.66
+Industry_Growth,2026,Zamboanga del Norte,Services,XGBoost,5.11,4.41,5.81
+GDP,2027,Zamboanga del Norte,Services,XGBoost,4609.33,4569.54,4649.12
+Industry_Growth,2027,Zamboanga del Norte,Services,XGBoost,5.39,4.4,6.37
+GDP,2028,Zamboanga del Norte,Services,XGBoost,4633.37,4584.64,4682.1
+Industry_Growth,2028,Zamboanga del Norte,Services,XGBoost,5.69,4.48,6.9
+GDP,2029,Zamboanga del Norte,Services,XGBoost,4657.66,4601.39,4713.93
+Industry_Growth,2029,Zamboanga del Norte,Services,XGBoost,6.02,4.62,7.42
+GDP,2030,Zamboanga del Norte,Services,XGBoost,4682.19,4619.28,4745.1
+Industry_Growth,2030,Zamboanga del Norte,Services,XGBoost,6.39,4.83,7.95
+GDP,2026,Zamboanga del Norte,Services,XGBoost,909.96,896.5,923.43
+Industry_Growth,2026,Zamboanga del Norte,Services,XGBoost,6.26,5.99,6.54
+GDP,2027,Zamboanga del Norte,Services,XGBoost,932.89,913.84,951.93
+Industry_Growth,2027,Zamboanga del Norte,Services,XGBoost,8.31,7.92,8.69
+GDP,2028,Zamboanga del Norte,Services,XGBoost,956.94,933.61,980.26
+Industry_Growth,2028,Zamboanga del Norte,Services,XGBoost,8.33,7.86,8.81
+GDP,2029,Zamboanga del Norte,Services,XGBoost,982.16,955.23,1009.09
+Industry_Growth,2029,Zamboanga del Norte,Services,XGBoost,5.65,5.1,6.2
+GDP,2030,Zamboanga del Norte,Services,XGBoost,1008.62,978.51,1038.73
+Industry_Growth,2030,Zamboanga del Norte,Services,XGBoost,6.36,5.75,6.98
+GDP,2026,Zamboanga del Norte,Services,XGBoost,5557.24,5516.3,5598.18
+Industry_Growth,2026,Zamboanga del Norte,Services,XGBoost,4.22,4.12,4.32
+GDP,2027,Zamboanga del Norte,Services,XGBoost,5713.3,5655.4,5771.2
+Industry_Growth,2027,Zamboanga del Norte,Services,XGBoost,5.22,5.08,5.37
+GDP,2028,Zamboanga del Norte,Services,XGBoost,5877.87,5806.96,5948.78
+Industry_Growth,2028,Zamboanga del Norte,Services,XGBoost,4.48,4.3,4.65
+GDP,2029,Zamboanga del Norte,Services,XGBoost,6051.41,5969.53,6133.29
+Industry_Growth,2029,Zamboanga del Norte,Services,XGBoost,5.5,5.3,5.7
+GDP,2030,Zamboanga del Norte,Services,XGBoost,6234.41,6142.87,6325.95
+Industry_Growth,2030,Zamboanga del Norte,Services,XGBoost,4.76,4.54,4.99
+GDP,2026,Zamboanga del Norte,Services,XGBoost,10914.64,10745.37,11083.92
+Industry_Growth,2026,Zamboanga del Norte,Services,XGBoost,5.07,4.12,6.02
+GDP,2027,Zamboanga del Norte,Services,XGBoost,11299.34,11059.94,11538.73
+Industry_Growth,2027,Zamboanga del Norte,Services,XGBoost,5.1,3.76,6.44
+GDP,2028,Zamboanga del Norte,Services,XGBoost,11710.15,11416.95,12003.35
+Industry_Growth,2028,Zamboanga del Norte,Services,XGBoost,5.12,3.48,6.76
+GDP,2029,Zamboanga del Norte,Services,XGBoost,12148.86,11810.3,12487.41
+Industry_Growth,2029,Zamboanga del Norte,Services,XGBoost,5.15,3.25,7.04
+GDP,2030,Zamboanga del Norte,Services,XGBoost,12617.36,12238.84,12995.87
+Industry_Growth,2030,Zamboanga del Norte,Services,XGBoost,5.17,3.06,7.29
+GDP,2026,Zamboanga del Norte,Services,XGBoost,3195.23,3147.54,3242.93
+Industry_Growth,2026,Zamboanga del Norte,Services,XGBoost,7.79,7.37,8.22
+GDP,2027,Zamboanga del Norte,Services,XGBoost,3350.77,3283.32,3418.22
+Industry_Growth,2027,Zamboanga del Norte,Services,XGBoost,7.4,6.8,8.0
+GDP,2028,Zamboanga del Norte,Services,XGBoost,3520.73,3438.12,3603.34
+Industry_Growth,2028,Zamboanga del Norte,Services,XGBoost,7.45,6.71,8.19
+GDP,2029,Zamboanga del Norte,Services,XGBoost,3706.44,3611.05,3801.83
+Industry_Growth,2029,Zamboanga del Norte,Services,XGBoost,7.51,6.65,8.36
+GDP,2030,Zamboanga del Norte,Services,XGBoost,3909.36,3802.71,4016.01
+Industry_Growth,2030,Zamboanga del Norte,Services,XGBoost,7.56,6.61,8.51
+GDP,2026,Zamboanga del Norte,Services,XGBoost,777.47,763.03,791.91
+Industry_Growth,2026,Zamboanga del Norte,Services,XGBoost,20.68,18.75,22.62
+GDP,2027,Zamboanga del Norte,Services,XGBoost,792.03,771.61,812.46
+Industry_Growth,2027,Zamboanga del Norte,Services,XGBoost,18.55,15.81,21.29
+GDP,2028,Zamboanga del Norte,Services,XGBoost,807.13,782.11,832.14
+Industry_Growth,2028,Zamboanga del Norte,Services,XGBoost,5.25,1.9,8.6
+GDP,2029,Zamboanga del Norte,Services,XGBoost,822.77,793.89,851.66
+Industry_Growth,2029,Zamboanga del Norte,Services,XGBoost,5.27,1.4,9.14
+GDP,2030,Zamboanga del Norte,Services,XGBoost,838.99,806.69,871.28
+Industry_Growth,2030,Zamboanga del Norte,Services,XGBoost,20.78,16.46,25.11
+GDP,2026,Zamboanga del Sur,Agriculture,XGBoost,27155.13,26936.43,27373.83
+Industry_Growth,2026,Zamboanga del Sur,Agriculture,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Agriculture,XGBoost,27710.85,27401.56,28020.14
+Industry_Growth,2027,Zamboanga del Sur,Agriculture,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Agriculture,XGBoost,28288.8,27909.99,28667.61
+Industry_Growth,2028,Zamboanga del Sur,Agriculture,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Agriculture,XGBoost,28889.87,28452.46,29327.27
+Industry_Growth,2029,Zamboanga del Sur,Agriculture,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Agriculture,XGBoost,29514.98,29025.94,30004.01
+Industry_Growth,2030,Zamboanga del Sur,Agriculture,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Industry,XGBoost,291.95,289.6,294.3
+Industry_Growth,2026,Zamboanga del Sur,Industry,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Industry,XGBoost,297.92,294.6,301.25
+Industry_Growth,2027,Zamboanga del Sur,Industry,XGBoost,4.04,4.03,4.04
+GDP,2028,Zamboanga del Sur,Industry,XGBoost,304.13,300.06,308.21
+Industry_Growth,2028,Zamboanga del Sur,Industry,XGBoost,4.06,4.05,4.06
+GDP,2029,Zamboanga del Sur,Industry,XGBoost,310.6,305.89,315.3
+Industry_Growth,2029,Zamboanga del Sur,Industry,XGBoost,4.08,4.07,4.08
+GDP,2030,Zamboanga del Sur,Industry,XGBoost,317.32,312.06,322.58
+Industry_Growth,2030,Zamboanga del Sur,Industry,XGBoost,4.1,4.09,4.1
+GDP,2026,Zamboanga del Sur,Manufacturing,XGBoost,32872.87,32608.12,33137.63
+Industry_Growth,2026,Zamboanga del Sur,Manufacturing,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Manufacturing,XGBoost,33545.61,33171.19,33920.03
+Industry_Growth,2027,Zamboanga del Sur,Manufacturing,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Manufacturing,XGBoost,34245.25,33786.68,34703.82
+Industry_Growth,2028,Zamboanga del Sur,Manufacturing,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Manufacturing,XGBoost,34972.88,34443.37,35502.39
+Industry_Growth,2029,Zamboanga del Sur,Manufacturing,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Manufacturing,XGBoost,35729.61,35137.6,36321.62
+Industry_Growth,2030,Zamboanga del Sur,Manufacturing,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Industry,XGBoost,1933.7,1918.12,1949.27
+Industry_Growth,2026,Zamboanga del Sur,Industry,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Industry,XGBoost,1973.27,1951.24,1995.29
+Industry_Growth,2027,Zamboanga del Sur,Industry,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Industry,XGBoost,2014.42,1987.45,2041.4
+Industry_Growth,2028,Zamboanga del Sur,Industry,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Industry,XGBoost,2057.23,2026.08,2088.37
+Industry_Growth,2029,Zamboanga del Sur,Industry,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Industry,XGBoost,2101.74,2066.91,2136.56
+Industry_Growth,2030,Zamboanga del Sur,Industry,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Construction,XGBoost,29819.48,29579.32,30059.64
+Industry_Growth,2026,Zamboanga del Sur,Construction,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Construction,XGBoost,30429.73,30090.09,30769.37
+Industry_Growth,2027,Zamboanga del Sur,Construction,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Construction,XGBoost,31064.38,30648.41,31480.35
+Industry_Growth,2028,Zamboanga del Sur,Construction,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Construction,XGBoost,31724.42,31244.09,32204.74
+Industry_Growth,2029,Zamboanga del Sur,Construction,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Construction,XGBoost,32410.86,31873.84,32947.87
+Industry_Growth,2030,Zamboanga del Sur,Construction,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Trade,XGBoost,36962.36,36664.67,37260.06
+Industry_Growth,2026,Zamboanga del Sur,Trade,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Trade,XGBoost,37718.78,37297.78,38139.78
+Industry_Growth,2027,Zamboanga del Sur,Trade,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Trade,XGBoost,38505.46,37989.84,39021.08
+Industry_Growth,2028,Zamboanga del Sur,Trade,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Trade,XGBoost,39323.61,38728.22,39918.99
+Industry_Growth,2029,Zamboanga del Sur,Trade,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Trade,XGBoost,40174.48,39508.82,40840.14
+Industry_Growth,2030,Zamboanga del Sur,Trade,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Services,XGBoost,4809.34,4770.61,4848.07
+Industry_Growth,2026,Zamboanga del Sur,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Services,XGBoost,4907.76,4852.99,4962.54
+Industry_Growth,2027,Zamboanga del Sur,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Services,XGBoost,5010.12,4943.04,5077.21
+Industry_Growth,2028,Zamboanga del Sur,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Services,XGBoost,5116.58,5039.11,5194.05
+Industry_Growth,2029,Zamboanga del Sur,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Services,XGBoost,5227.29,5140.68,5313.9
+Industry_Growth,2030,Zamboanga del Sur,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Tourism,XGBoost,2823.64,2800.9,2846.38
+Industry_Growth,2026,Zamboanga del Sur,Tourism,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Tourism,XGBoost,2881.43,2849.27,2913.59
+Industry_Growth,2027,Zamboanga del Sur,Tourism,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Tourism,XGBoost,2941.52,2902.13,2980.91
+Industry_Growth,2028,Zamboanga del Sur,Tourism,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Tourism,XGBoost,3004.02,2958.54,3049.5
+Industry_Growth,2029,Zamboanga del Sur,Tourism,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Tourism,XGBoost,3069.02,3018.17,3119.86
+Industry_Growth,2030,Zamboanga del Sur,Tourism,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,ICT,XGBoost,4889.11,4849.73,4928.48
+Industry_Growth,2026,Zamboanga del Sur,ICT,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,ICT,XGBoost,4989.16,4933.47,5044.85
+Industry_Growth,2027,Zamboanga del Sur,ICT,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,ICT,XGBoost,5093.22,5025.01,5161.42
+Industry_Growth,2028,Zamboanga del Sur,ICT,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,ICT,XGBoost,5201.44,5122.68,5280.2
+Industry_Growth,2029,Zamboanga del Sur,ICT,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,ICT,XGBoost,5313.99,5225.94,5402.04
+Industry_Growth,2030,Zamboanga del Sur,ICT,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Services,XGBoost,6468.32,6416.23,6520.42
+Industry_Growth,2026,Zamboanga del Sur,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Services,XGBoost,6600.7,6527.02,6674.37
+Industry_Growth,2027,Zamboanga del Sur,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Services,XGBoost,6738.36,6648.13,6828.59
+Industry_Growth,2028,Zamboanga del Sur,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Services,XGBoost,6881.53,6777.35,6985.72
+Industry_Growth,2029,Zamboanga del Sur,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Services,XGBoost,7030.43,6913.95,7146.92
+Industry_Growth,2030,Zamboanga del Sur,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Services,XGBoost,6605.5,6552.3,6658.69
+Industry_Growth,2026,Zamboanga del Sur,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Services,XGBoost,6740.67,6665.44,6815.91
+Industry_Growth,2027,Zamboanga del Sur,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Services,XGBoost,6881.26,6789.11,6973.4
+Industry_Growth,2028,Zamboanga del Sur,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Services,XGBoost,7027.47,6921.07,7133.86
+Industry_Growth,2029,Zamboanga del Sur,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Services,XGBoost,7179.52,7060.57,7298.48
+Industry_Growth,2030,Zamboanga del Sur,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Services,XGBoost,1252.27,1242.19,1262.36
+Industry_Growth,2026,Zamboanga del Sur,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Services,XGBoost,1277.9,1263.64,1292.16
+Industry_Growth,2027,Zamboanga del Sur,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Services,XGBoost,1304.55,1287.08,1322.02
+Industry_Growth,2028,Zamboanga del Sur,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Services,XGBoost,1332.27,1312.1,1352.44
+Industry_Growth,2029,Zamboanga del Sur,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Services,XGBoost,1361.1,1338.54,1383.65
+Industry_Growth,2030,Zamboanga del Sur,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Services,XGBoost,7607.04,7545.78,7668.31
+Industry_Growth,2026,Zamboanga del Sur,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Services,XGBoost,7762.71,7676.07,7849.36
+Industry_Growth,2027,Zamboanga del Sur,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Services,XGBoost,7924.61,7818.5,8030.73
+Industry_Growth,2028,Zamboanga del Sur,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Services,XGBoost,8092.99,7970.46,8215.52
+Industry_Growth,2029,Zamboanga del Sur,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Services,XGBoost,8268.1,8131.1,8405.09
+Industry_Growth,2030,Zamboanga del Sur,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Services,XGBoost,14866.89,14747.16,14986.63
+Industry_Growth,2026,Zamboanga del Sur,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Services,XGBoost,15171.14,15001.81,15340.48
+Industry_Growth,2027,Zamboanga del Sur,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Services,XGBoost,15487.56,15280.17,15694.95
+Industry_Growth,2028,Zamboanga del Sur,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Services,XGBoost,15816.64,15577.17,16056.11
+Industry_Growth,2029,Zamboanga del Sur,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Services,XGBoost,16158.88,15891.14,16426.62
+Industry_Growth,2030,Zamboanga del Sur,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Services,XGBoost,4304.19,4269.53,4338.86
+Industry_Growth,2026,Zamboanga del Sur,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Services,XGBoost,4392.27,4343.25,4441.3
+Industry_Growth,2027,Zamboanga del Sur,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Services,XGBoost,4483.88,4423.84,4543.92
+Industry_Growth,2028,Zamboanga del Sur,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Services,XGBoost,4579.15,4509.82,4648.48
+Industry_Growth,2029,Zamboanga del Sur,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Services,XGBoost,4678.23,4600.71,4755.74
+Industry_Growth,2030,Zamboanga del Sur,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga del Sur,Services,XGBoost,1079.81,1071.11,1088.51
+Industry_Growth,2026,Zamboanga del Sur,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga del Sur,Services,XGBoost,1101.91,1089.61,1114.21
+Industry_Growth,2027,Zamboanga del Sur,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga del Sur,Services,XGBoost,1124.89,1109.83,1139.96
+Industry_Growth,2028,Zamboanga del Sur,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga del Sur,Services,XGBoost,1148.8,1131.4,1166.19
+Industry_Growth,2029,Zamboanga del Sur,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga del Sur,Services,XGBoost,1173.66,1154.21,1193.1
+Industry_Growth,2030,Zamboanga del Sur,Services,XGBoost,4.1,4.1,4.11
+GDP,2026,Zamboanga Sibugay,Agriculture,XGBoost,17280.53,17141.35,17419.7
+Industry_Growth,2026,Zamboanga Sibugay,Agriculture,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Agriculture,XGBoost,17634.16,17437.35,17830.98
+Industry_Growth,2027,Zamboanga Sibugay,Agriculture,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Agriculture,XGBoost,18001.95,17760.9,18243.0
+Industry_Growth,2028,Zamboanga Sibugay,Agriculture,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Agriculture,XGBoost,18384.44,18106.1,18662.79
+Industry_Growth,2029,Zamboanga Sibugay,Agriculture,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Agriculture,XGBoost,18782.24,18471.04,19093.43
+Industry_Growth,2030,Zamboanga Sibugay,Agriculture,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Industry,XGBoost,185.8,184.3,187.29
+Industry_Growth,2026,Zamboanga Sibugay,Industry,XGBoost,4.03,4.02,4.03
+GDP,2027,Zamboanga Sibugay,Industry,XGBoost,189.6,187.49,191.72
+Industry_Growth,2027,Zamboanga Sibugay,Industry,XGBoost,4.04,4.04,4.05
+GDP,2028,Zamboanga Sibugay,Industry,XGBoost,193.56,190.97,196.15
+Industry_Growth,2028,Zamboanga Sibugay,Industry,XGBoost,4.06,4.06,4.07
+GDP,2029,Zamboanga Sibugay,Industry,XGBoost,197.68,194.69,200.67
+Industry_Growth,2029,Zamboanga Sibugay,Industry,XGBoost,4.08,4.08,4.09
+GDP,2030,Zamboanga Sibugay,Industry,XGBoost,201.96,198.61,205.31
+Industry_Growth,2030,Zamboanga Sibugay,Industry,XGBoost,4.11,4.1,4.11
+GDP,2026,Zamboanga Sibugay,Manufacturing,XGBoost,20919.11,20750.63,21087.59
+Industry_Growth,2026,Zamboanga Sibugay,Manufacturing,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Manufacturing,XGBoost,21347.22,21108.95,21585.48
+Industry_Growth,2027,Zamboanga Sibugay,Manufacturing,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Manufacturing,XGBoost,21792.44,21500.63,22084.26
+Industry_Growth,2028,Zamboanga Sibugay,Manufacturing,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Manufacturing,XGBoost,22255.48,21918.52,22592.45
+Industry_Growth,2029,Zamboanga Sibugay,Manufacturing,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Manufacturing,XGBoost,22737.04,22360.31,23113.78
+Industry_Growth,2030,Zamboanga Sibugay,Manufacturing,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Industry,XGBoost,1230.52,1220.61,1240.43
+Industry_Growth,2026,Zamboanga Sibugay,Industry,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Industry,XGBoost,1255.7,1241.68,1269.71
+Industry_Growth,2027,Zamboanga Sibugay,Industry,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Industry,XGBoost,1281.88,1264.72,1299.05
+Industry_Growth,2028,Zamboanga Sibugay,Industry,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Industry,XGBoost,1309.12,1289.3,1328.94
+Industry_Growth,2029,Zamboanga Sibugay,Industry,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Industry,XGBoost,1337.44,1315.28,1359.6
+Industry_Growth,2030,Zamboanga Sibugay,Industry,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Construction,XGBoost,18976.02,18823.19,19128.85
+Industry_Growth,2026,Zamboanga Sibugay,Construction,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Construction,XGBoost,19364.35,19148.22,19580.48
+Industry_Growth,2027,Zamboanga Sibugay,Construction,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Construction,XGBoost,19768.22,19503.52,20032.92
+Industry_Growth,2028,Zamboanga Sibugay,Construction,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Construction,XGBoost,20188.24,19882.59,20493.9
+Industry_Growth,2029,Zamboanga Sibugay,Construction,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Construction,XGBoost,20625.07,20283.33,20966.8
+Industry_Growth,2030,Zamboanga Sibugay,Construction,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Trade,XGBoost,23521.51,23332.07,23710.94
+Industry_Growth,2026,Zamboanga Sibugay,Trade,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Trade,XGBoost,24002.86,23734.96,24270.77
+Industry_Growth,2027,Zamboanga Sibugay,Trade,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Trade,XGBoost,24503.48,24175.36,24831.59
+Industry_Growth,2028,Zamboanga Sibugay,Trade,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Trade,XGBoost,25024.11,24645.24,25402.99
+Industry_Growth,2029,Zamboanga Sibugay,Trade,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Trade,XGBoost,25565.58,25141.98,25989.17
+Industry_Growth,2030,Zamboanga Sibugay,Trade,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Services,XGBoost,3060.5,3035.85,3085.16
+Industry_Growth,2026,Zamboanga Sibugay,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Services,XGBoost,3123.14,3088.28,3158.0
+Industry_Growth,2027,Zamboanga Sibugay,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Services,XGBoost,3188.28,3145.59,3230.98
+Industry_Growth,2028,Zamboanga Sibugay,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Services,XGBoost,3256.03,3206.73,3305.33
+Industry_Growth,2029,Zamboanga Sibugay,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Services,XGBoost,3326.49,3271.37,3381.61
+Industry_Growth,2030,Zamboanga Sibugay,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Tourism,XGBoost,1796.89,1782.42,1811.36
+Industry_Growth,2026,Zamboanga Sibugay,Tourism,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Tourism,XGBoost,1833.66,1813.19,1854.13
+Industry_Growth,2027,Zamboanga Sibugay,Tourism,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Tourism,XGBoost,1871.9,1846.84,1896.97
+Industry_Growth,2028,Zamboanga Sibugay,Tourism,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Tourism,XGBoost,1911.68,1882.73,1940.62
+Industry_Growth,2029,Zamboanga Sibugay,Tourism,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Tourism,XGBoost,1953.04,1920.68,1985.4
+Industry_Growth,2030,Zamboanga Sibugay,Tourism,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,ICT,XGBoost,3111.24,3086.19,3136.3
+Industry_Growth,2026,Zamboanga Sibugay,ICT,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,ICT,XGBoost,3174.91,3139.48,3210.35
+Industry_Growth,2027,Zamboanga Sibugay,ICT,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,ICT,XGBoost,3241.13,3197.73,3284.53
+Industry_Growth,2028,Zamboanga Sibugay,ICT,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,ICT,XGBoost,3310.0,3259.89,3360.11
+Industry_Growth,2029,Zamboanga Sibugay,ICT,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,ICT,XGBoost,3381.62,3325.59,3437.65
+Industry_Growth,2030,Zamboanga Sibugay,ICT,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Services,XGBoost,4116.2,4083.05,4149.35
+Industry_Growth,2026,Zamboanga Sibugay,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Services,XGBoost,4200.44,4153.56,4247.32
+Industry_Growth,2027,Zamboanga Sibugay,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Services,XGBoost,4288.04,4230.62,4345.46
+Industry_Growth,2028,Zamboanga Sibugay,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Services,XGBoost,4379.15,4312.85,4445.45
+Industry_Growth,2029,Zamboanga Sibugay,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Services,XGBoost,4473.9,4399.78,4548.03
+Industry_Growth,2030,Zamboanga Sibugay,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Services,XGBoost,4203.49,4169.64,4237.35
+Industry_Growth,2026,Zamboanga Sibugay,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Services,XGBoost,4289.52,4241.64,4337.39
+Industry_Growth,2027,Zamboanga Sibugay,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Services,XGBoost,4378.98,4320.35,4437.62
+Industry_Growth,2028,Zamboanga Sibugay,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Services,XGBoost,4472.02,4404.32,4539.73
+Industry_Growth,2029,Zamboanga Sibugay,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Services,XGBoost,4568.79,4493.09,4644.49
+Industry_Growth,2030,Zamboanga Sibugay,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Services,XGBoost,796.89,790.47,803.3
+Industry_Growth,2026,Zamboanga Sibugay,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Services,XGBoost,813.19,804.12,822.26
+Industry_Growth,2027,Zamboanga Sibugay,Services,XGBoost,4.04,4.03,4.04
+GDP,2028,Zamboanga Sibugay,Services,XGBoost,830.15,819.03,841.26
+Industry_Growth,2028,Zamboanga Sibugay,Services,XGBoost,4.06,4.05,4.06
+GDP,2029,Zamboanga Sibugay,Services,XGBoost,847.78,834.95,860.61
+Industry_Growth,2029,Zamboanga Sibugay,Services,XGBoost,4.08,4.07,4.08
+GDP,2030,Zamboanga Sibugay,Services,XGBoost,866.12,851.77,880.47
+Industry_Growth,2030,Zamboanga Sibugay,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Services,XGBoost,4840.85,4801.86,4879.83
+Industry_Growth,2026,Zamboanga Sibugay,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Services,XGBoost,4939.91,4884.77,4995.05
+Industry_Growth,2027,Zamboanga Sibugay,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Services,XGBoost,5042.94,4975.41,5110.46
+Industry_Growth,2028,Zamboanga Sibugay,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Services,XGBoost,5150.08,5072.11,5228.06
+Industry_Growth,2029,Zamboanga Sibugay,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Services,XGBoost,5261.52,5174.34,5348.69
+Industry_Growth,2030,Zamboanga Sibugay,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Services,XGBoost,9460.73,9384.54,9536.92
+Industry_Growth,2026,Zamboanga Sibugay,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Services,XGBoost,9654.34,9546.58,9762.09
+Industry_Growth,2027,Zamboanga Sibugay,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Services,XGBoost,9855.69,9723.72,9987.67
+Industry_Growth,2028,Zamboanga Sibugay,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Services,XGBoost,10065.1,9912.71,10217.49
+Industry_Growth,2029,Zamboanga Sibugay,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Services,XGBoost,10282.88,10112.51,10453.26
+Industry_Growth,2030,Zamboanga Sibugay,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Services,XGBoost,2739.04,2716.98,2761.1
+Industry_Growth,2026,Zamboanga Sibugay,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Services,XGBoost,2795.1,2763.9,2826.29
+Industry_Growth,2027,Zamboanga Sibugay,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Services,XGBoost,2853.39,2815.18,2891.6
+Industry_Growth,2028,Zamboanga Sibugay,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Services,XGBoost,2914.02,2869.9,2958.14
+Industry_Growth,2029,Zamboanga Sibugay,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Services,XGBoost,2977.07,2927.75,3026.4
+Industry_Growth,2030,Zamboanga Sibugay,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga Sibugay,Services,XGBoost,687.16,681.62,692.69
+Industry_Growth,2026,Zamboanga Sibugay,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga Sibugay,Services,XGBoost,701.22,693.4,709.05
+Industry_Growth,2027,Zamboanga Sibugay,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga Sibugay,Services,XGBoost,715.85,706.26,725.43
+Industry_Growth,2028,Zamboanga Sibugay,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga Sibugay,Services,XGBoost,731.06,719.99,742.13
+Industry_Growth,2029,Zamboanga Sibugay,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga Sibugay,Services,XGBoost,746.88,734.5,759.25
+Industry_Growth,2030,Zamboanga Sibugay,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),Agriculture,XGBoost,29623.77,29385.19,29862.36
+Industry_Growth,2026,Zamboanga City (HUC),Agriculture,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Agriculture,XGBoost,30230.01,29892.6,30567.42
+Industry_Growth,2027,Zamboanga City (HUC),Agriculture,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Agriculture,XGBoost,30860.5,30447.26,31273.74
+Industry_Growth,2028,Zamboanga City (HUC),Agriculture,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Agriculture,XGBoost,31516.21,31039.04,31993.38
+Industry_Growth,2029,Zamboanga City (HUC),Agriculture,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Agriculture,XGBoost,32198.15,31664.66,32731.64
+Industry_Growth,2030,Zamboanga City (HUC),Agriculture,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),Industry,XGBoost,318.49,315.93,321.06
+Industry_Growth,2026,Zamboanga City (HUC),Industry,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Industry,XGBoost,325.01,321.39,328.64
+Industry_Growth,2027,Zamboanga City (HUC),Industry,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Industry,XGBoost,331.79,327.35,336.24
+Industry_Growth,2028,Zamboanga City (HUC),Industry,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Industry,XGBoost,338.84,333.71,343.97
+Industry_Growth,2029,Zamboanga City (HUC),Industry,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Industry,XGBoost,346.18,340.44,351.91
+Industry_Growth,2030,Zamboanga City (HUC),Industry,XGBoost,4.1,4.1,4.11
+GDP,2026,Zamboanga City (HUC),Manufacturing,XGBoost,35861.3,35572.48,36150.11
+Industry_Growth,2026,Zamboanga City (HUC),Manufacturing,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Manufacturing,XGBoost,36595.18,36186.73,37003.63
+Industry_Growth,2027,Zamboanga City (HUC),Manufacturing,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Manufacturing,XGBoost,37358.43,36858.18,37858.68
+Industry_Growth,2028,Zamboanga City (HUC),Manufacturing,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Manufacturing,XGBoost,38152.2,37574.56,38729.84
+Industry_Growth,2029,Zamboanga City (HUC),Manufacturing,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Manufacturing,XGBoost,38977.72,38331.91,39623.54
+Industry_Growth,2030,Zamboanga City (HUC),Manufacturing,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),Industry,XGBoost,2109.49,2092.5,2126.48
+Industry_Growth,2026,Zamboanga City (HUC),Industry,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Industry,XGBoost,2152.66,2128.63,2176.69
+Industry_Growth,2027,Zamboanga City (HUC),Industry,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Industry,XGBoost,2197.55,2168.13,2226.98
+Industry_Growth,2028,Zamboanga City (HUC),Industry,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Industry,XGBoost,2244.25,2210.27,2278.23
+Industry_Growth,2029,Zamboanga City (HUC),Industry,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Industry,XGBoost,2292.81,2254.82,2330.8
+Industry_Growth,2030,Zamboanga City (HUC),Industry,XGBoost,4.1,4.1,4.11
+GDP,2026,Zamboanga City (HUC),Construction,XGBoost,32530.35,32268.36,32792.34
+Industry_Growth,2026,Zamboanga City (HUC),Construction,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Construction,XGBoost,33196.07,32825.56,33566.59
+Industry_Growth,2027,Zamboanga City (HUC),Construction,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Construction,XGBoost,33888.42,33434.64,34342.21
+Industry_Growth,2028,Zamboanga City (HUC),Construction,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Construction,XGBoost,34608.47,34084.49,35132.45
+Industry_Growth,2029,Zamboanga City (HUC),Construction,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Construction,XGBoost,35357.32,34771.48,35943.15
+Industry_Growth,2030,Zamboanga City (HUC),Construction,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),Trade,XGBoost,40322.58,39997.83,40647.34
+Industry_Growth,2026,Zamboanga City (HUC),Trade,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Trade,XGBoost,41147.77,40688.5,41607.04
+Industry_Growth,2027,Zamboanga City (HUC),Trade,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Trade,XGBoost,42005.96,41443.47,42568.45
+Industry_Growth,2028,Zamboanga City (HUC),Trade,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Trade,XGBoost,42898.48,42248.98,43547.99
+Industry_Growth,2029,Zamboanga City (HUC),Trade,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Trade,XGBoost,43826.7,43100.53,44552.87
+Industry_Growth,2030,Zamboanga City (HUC),Trade,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),Services,XGBoost,5246.55,5204.29,5288.8
+Industry_Growth,2026,Zamboanga City (HUC),Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Services,XGBoost,5353.91,5294.16,5413.67
+Industry_Growth,2027,Zamboanga City (HUC),Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Services,XGBoost,5465.57,5392.39,5538.76
+Industry_Growth,2028,Zamboanga City (HUC),Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Services,XGBoost,5581.7,5497.19,5666.21
+Industry_Growth,2029,Zamboanga City (HUC),Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Services,XGBoost,5702.48,5607.99,5796.96
+Industry_Growth,2030,Zamboanga City (HUC),Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),Tourism,XGBoost,3080.34,3055.53,3105.15
+Industry_Growth,2026,Zamboanga City (HUC),Tourism,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Tourism,XGBoost,3143.38,3108.29,3178.46
+Industry_Growth,2027,Zamboanga City (HUC),Tourism,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Tourism,XGBoost,3208.94,3165.97,3251.91
+Industry_Growth,2028,Zamboanga City (HUC),Tourism,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Tourism,XGBoost,3277.12,3227.5,3326.73
+Industry_Growth,2029,Zamboanga City (HUC),Tourism,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Tourism,XGBoost,3348.03,3292.55,3403.5
+Industry_Growth,2030,Zamboanga City (HUC),Tourism,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),ICT,XGBoost,5333.55,5290.59,5376.51
+Industry_Growth,2026,Zamboanga City (HUC),ICT,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),ICT,XGBoost,5442.7,5381.95,5503.45
+Industry_Growth,2027,Zamboanga City (HUC),ICT,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),ICT,XGBoost,5556.21,5481.81,5630.62
+Industry_Growth,2028,Zamboanga City (HUC),ICT,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),ICT,XGBoost,5674.27,5588.36,5760.18
+Industry_Growth,2029,Zamboanga City (HUC),ICT,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),ICT,XGBoost,5797.05,5700.99,5893.1
+Industry_Growth,2030,Zamboanga City (HUC),ICT,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),Services,XGBoost,7056.37,6999.54,7113.2
+Industry_Growth,2026,Zamboanga City (HUC),Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Services,XGBoost,7200.77,7120.4,7281.14
+Industry_Growth,2027,Zamboanga City (HUC),Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Services,XGBoost,7350.96,7252.52,7449.39
+Industry_Growth,2028,Zamboanga City (HUC),Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Services,XGBoost,7507.15,7393.49,7620.81
+Industry_Growth,2029,Zamboanga City (HUC),Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Services,XGBoost,7669.58,7542.51,7796.66
+Industry_Growth,2030,Zamboanga City (HUC),Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),Services,XGBoost,7206.02,7147.98,7264.06
+Industry_Growth,2026,Zamboanga City (HUC),Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Services,XGBoost,7353.49,7271.41,7435.57
+Industry_Growth,2027,Zamboanga City (HUC),Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Services,XGBoost,7506.86,7406.34,7607.38
+Industry_Growth,2028,Zamboanga City (HUC),Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Services,XGBoost,7666.36,7550.29,7782.44
+Industry_Growth,2029,Zamboanga City (HUC),Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Services,XGBoost,7832.25,7702.47,7962.02
+Industry_Growth,2030,Zamboanga City (HUC),Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),Services,XGBoost,1366.15,1355.14,1377.15
+Industry_Growth,2026,Zamboanga City (HUC),Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Services,XGBoost,1394.11,1378.55,1409.67
+Industry_Growth,2027,Zamboanga City (HUC),Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Services,XGBoost,1423.19,1404.13,1442.24
+Industry_Growth,2028,Zamboanga City (HUC),Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Services,XGBoost,1453.43,1431.42,1475.43
+Industry_Growth,2029,Zamboanga City (HUC),Services,XGBoost,4.08,4.08,4.09
+GDP,2030,Zamboanga City (HUC),Services,XGBoost,1484.88,1460.27,1509.48
+Industry_Growth,2030,Zamboanga City (HUC),Services,XGBoost,4.1,4.1,4.11
+GDP,2026,Zamboanga City (HUC),Services,XGBoost,8298.59,8231.76,8365.43
+Industry_Growth,2026,Zamboanga City (HUC),Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Services,XGBoost,8468.42,8373.9,8562.94
+Industry_Growth,2027,Zamboanga City (HUC),Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Services,XGBoost,8645.04,8529.28,8760.8
+Industry_Growth,2028,Zamboanga City (HUC),Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Services,XGBoost,8828.72,8695.05,8962.39
+Industry_Growth,2029,Zamboanga City (HUC),Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Services,XGBoost,9019.75,8870.3,9169.2
+Industry_Growth,2030,Zamboanga City (HUC),Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),Services,XGBoost,16218.4,16087.78,16349.02
+Industry_Growth,2026,Zamboanga City (HUC),Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Services,XGBoost,16550.3,16365.58,16735.03
+Industry_Growth,2027,Zamboanga City (HUC),Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Services,XGBoost,16895.48,16669.24,17121.72
+Industry_Growth,2028,Zamboanga City (HUC),Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Services,XGBoost,17254.47,16993.23,17515.71
+Industry_Growth,2029,Zamboanga City (HUC),Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Services,XGBoost,17627.81,17335.74,17919.89
+Industry_Growth,2030,Zamboanga City (HUC),Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),Services,XGBoost,4695.5,4657.68,4733.32
+Industry_Growth,2026,Zamboanga City (HUC),Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Services,XGBoost,4791.59,4738.11,4845.08
+Industry_Growth,2027,Zamboanga City (HUC),Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Services,XGBoost,4891.53,4826.02,4957.03
+Industry_Growth,2028,Zamboanga City (HUC),Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Services,XGBoost,4995.46,4919.82,5071.09
+Industry_Growth,2029,Zamboanga City (HUC),Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Services,XGBoost,5103.55,5018.98,5188.11
+Industry_Growth,2030,Zamboanga City (HUC),Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Zamboanga City (HUC),Services,XGBoost,1177.95,1168.47,1187.44
+Industry_Growth,2026,Zamboanga City (HUC),Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Zamboanga City (HUC),Services,XGBoost,1202.06,1188.64,1215.47
+Industry_Growth,2027,Zamboanga City (HUC),Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Zamboanga City (HUC),Services,XGBoost,1227.13,1210.7,1243.56
+Industry_Growth,2028,Zamboanga City (HUC),Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Zamboanga City (HUC),Services,XGBoost,1253.2,1234.23,1272.17
+Industry_Growth,2029,Zamboanga City (HUC),Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Zamboanga City (HUC),Services,XGBoost,1280.32,1259.1,1301.53
+Industry_Growth,2030,Zamboanga City (HUC),Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Agriculture,XGBoost,17280.53,17141.35,17419.7
+Industry_Growth,2026,Isabela City,Agriculture,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Agriculture,XGBoost,17634.16,17437.35,17830.98
+Industry_Growth,2027,Isabela City,Agriculture,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Agriculture,XGBoost,18001.95,17760.9,18243.0
+Industry_Growth,2028,Isabela City,Agriculture,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Agriculture,XGBoost,18384.44,18106.1,18662.79
+Industry_Growth,2029,Isabela City,Agriculture,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Agriculture,XGBoost,18782.24,18471.04,19093.43
+Industry_Growth,2030,Isabela City,Agriculture,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Industry,XGBoost,185.8,184.3,187.29
+Industry_Growth,2026,Isabela City,Industry,XGBoost,4.03,4.02,4.03
+GDP,2027,Isabela City,Industry,XGBoost,189.6,187.49,191.72
+Industry_Growth,2027,Isabela City,Industry,XGBoost,4.04,4.04,4.05
+GDP,2028,Isabela City,Industry,XGBoost,193.56,190.97,196.15
+Industry_Growth,2028,Isabela City,Industry,XGBoost,4.06,4.06,4.07
+GDP,2029,Isabela City,Industry,XGBoost,197.68,194.69,200.67
+Industry_Growth,2029,Isabela City,Industry,XGBoost,4.08,4.08,4.09
+GDP,2030,Isabela City,Industry,XGBoost,201.96,198.61,205.31
+Industry_Growth,2030,Isabela City,Industry,XGBoost,4.11,4.1,4.11
+GDP,2026,Isabela City,Manufacturing,XGBoost,20919.11,20750.63,21087.59
+Industry_Growth,2026,Isabela City,Manufacturing,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Manufacturing,XGBoost,21347.22,21108.95,21585.48
+Industry_Growth,2027,Isabela City,Manufacturing,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Manufacturing,XGBoost,21792.44,21500.63,22084.26
+Industry_Growth,2028,Isabela City,Manufacturing,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Manufacturing,XGBoost,22255.48,21918.52,22592.45
+Industry_Growth,2029,Isabela City,Manufacturing,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Manufacturing,XGBoost,22737.04,22360.31,23113.78
+Industry_Growth,2030,Isabela City,Manufacturing,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Industry,XGBoost,1230.52,1220.61,1240.43
+Industry_Growth,2026,Isabela City,Industry,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Industry,XGBoost,1255.7,1241.68,1269.71
+Industry_Growth,2027,Isabela City,Industry,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Industry,XGBoost,1281.88,1264.72,1299.05
+Industry_Growth,2028,Isabela City,Industry,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Industry,XGBoost,1309.12,1289.3,1328.94
+Industry_Growth,2029,Isabela City,Industry,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Industry,XGBoost,1337.44,1315.28,1359.6
+Industry_Growth,2030,Isabela City,Industry,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Construction,XGBoost,18976.02,18823.19,19128.85
+Industry_Growth,2026,Isabela City,Construction,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Construction,XGBoost,19364.35,19148.22,19580.48
+Industry_Growth,2027,Isabela City,Construction,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Construction,XGBoost,19768.22,19503.52,20032.92
+Industry_Growth,2028,Isabela City,Construction,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Construction,XGBoost,20188.24,19882.59,20493.9
+Industry_Growth,2029,Isabela City,Construction,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Construction,XGBoost,20625.07,20283.33,20966.8
+Industry_Growth,2030,Isabela City,Construction,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Trade,XGBoost,23521.51,23332.07,23710.94
+Industry_Growth,2026,Isabela City,Trade,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Trade,XGBoost,24002.86,23734.96,24270.77
+Industry_Growth,2027,Isabela City,Trade,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Trade,XGBoost,24503.48,24175.36,24831.59
+Industry_Growth,2028,Isabela City,Trade,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Trade,XGBoost,25024.11,24645.24,25402.99
+Industry_Growth,2029,Isabela City,Trade,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Trade,XGBoost,25565.58,25141.98,25989.17
+Industry_Growth,2030,Isabela City,Trade,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Services,XGBoost,3060.5,3035.85,3085.16
+Industry_Growth,2026,Isabela City,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Services,XGBoost,3123.14,3088.28,3158.0
+Industry_Growth,2027,Isabela City,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Services,XGBoost,3188.28,3145.59,3230.98
+Industry_Growth,2028,Isabela City,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Services,XGBoost,3256.03,3206.73,3305.33
+Industry_Growth,2029,Isabela City,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Services,XGBoost,3326.49,3271.37,3381.61
+Industry_Growth,2030,Isabela City,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Tourism,XGBoost,1796.89,1782.42,1811.36
+Industry_Growth,2026,Isabela City,Tourism,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Tourism,XGBoost,1833.66,1813.19,1854.13
+Industry_Growth,2027,Isabela City,Tourism,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Tourism,XGBoost,1871.9,1846.84,1896.97
+Industry_Growth,2028,Isabela City,Tourism,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Tourism,XGBoost,1911.68,1882.73,1940.62
+Industry_Growth,2029,Isabela City,Tourism,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Tourism,XGBoost,1953.04,1920.68,1985.4
+Industry_Growth,2030,Isabela City,Tourism,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,ICT,XGBoost,3111.24,3086.19,3136.3
+Industry_Growth,2026,Isabela City,ICT,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,ICT,XGBoost,3174.91,3139.48,3210.35
+Industry_Growth,2027,Isabela City,ICT,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,ICT,XGBoost,3241.13,3197.73,3284.53
+Industry_Growth,2028,Isabela City,ICT,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,ICT,XGBoost,3310.0,3259.89,3360.11
+Industry_Growth,2029,Isabela City,ICT,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,ICT,XGBoost,3381.62,3325.59,3437.65
+Industry_Growth,2030,Isabela City,ICT,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Services,XGBoost,4116.2,4083.05,4149.35
+Industry_Growth,2026,Isabela City,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Services,XGBoost,4200.44,4153.56,4247.32
+Industry_Growth,2027,Isabela City,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Services,XGBoost,4288.04,4230.62,4345.46
+Industry_Growth,2028,Isabela City,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Services,XGBoost,4379.15,4312.85,4445.45
+Industry_Growth,2029,Isabela City,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Services,XGBoost,4473.9,4399.78,4548.03
+Industry_Growth,2030,Isabela City,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Services,XGBoost,4203.49,4169.64,4237.35
+Industry_Growth,2026,Isabela City,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Services,XGBoost,4289.52,4241.64,4337.39
+Industry_Growth,2027,Isabela City,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Services,XGBoost,4378.98,4320.35,4437.62
+Industry_Growth,2028,Isabela City,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Services,XGBoost,4472.02,4404.32,4539.73
+Industry_Growth,2029,Isabela City,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Services,XGBoost,4568.79,4493.09,4644.49
+Industry_Growth,2030,Isabela City,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Services,XGBoost,796.89,790.47,803.3
+Industry_Growth,2026,Isabela City,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Services,XGBoost,813.19,804.12,822.26
+Industry_Growth,2027,Isabela City,Services,XGBoost,4.04,4.03,4.04
+GDP,2028,Isabela City,Services,XGBoost,830.15,819.03,841.26
+Industry_Growth,2028,Isabela City,Services,XGBoost,4.06,4.05,4.06
+GDP,2029,Isabela City,Services,XGBoost,847.78,834.95,860.61
+Industry_Growth,2029,Isabela City,Services,XGBoost,4.08,4.07,4.08
+GDP,2030,Isabela City,Services,XGBoost,866.12,851.77,880.47
+Industry_Growth,2030,Isabela City,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Services,XGBoost,4840.85,4801.86,4879.83
+Industry_Growth,2026,Isabela City,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Services,XGBoost,4939.91,4884.77,4995.05
+Industry_Growth,2027,Isabela City,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Services,XGBoost,5042.94,4975.41,5110.46
+Industry_Growth,2028,Isabela City,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Services,XGBoost,5150.08,5072.11,5228.06
+Industry_Growth,2029,Isabela City,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Services,XGBoost,5261.52,5174.34,5348.69
+Industry_Growth,2030,Isabela City,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Services,XGBoost,9460.73,9384.54,9536.92
+Industry_Growth,2026,Isabela City,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Services,XGBoost,9654.34,9546.58,9762.09
+Industry_Growth,2027,Isabela City,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Services,XGBoost,9855.69,9723.72,9987.67
+Industry_Growth,2028,Isabela City,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Services,XGBoost,10065.1,9912.71,10217.49
+Industry_Growth,2029,Isabela City,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Services,XGBoost,10282.88,10112.51,10453.26
+Industry_Growth,2030,Isabela City,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Services,XGBoost,2739.04,2716.98,2761.1
+Industry_Growth,2026,Isabela City,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Services,XGBoost,2795.1,2763.9,2826.29
+Industry_Growth,2027,Isabela City,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Services,XGBoost,2853.39,2815.18,2891.6
+Industry_Growth,2028,Isabela City,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Services,XGBoost,2914.02,2869.9,2958.14
+Industry_Growth,2029,Isabela City,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Services,XGBoost,2977.07,2927.75,3026.4
+Industry_Growth,2030,Isabela City,Services,XGBoost,4.1,4.1,4.1
+GDP,2026,Isabela City,Services,XGBoost,687.16,681.62,692.69
+Industry_Growth,2026,Isabela City,Services,XGBoost,4.02,4.02,4.02
+GDP,2027,Isabela City,Services,XGBoost,701.22,693.4,709.05
+Industry_Growth,2027,Isabela City,Services,XGBoost,4.04,4.04,4.04
+GDP,2028,Isabela City,Services,XGBoost,715.85,706.26,725.43
+Industry_Growth,2028,Isabela City,Services,XGBoost,4.06,4.06,4.06
+GDP,2029,Isabela City,Services,XGBoost,731.06,719.99,742.13
+Industry_Growth,2029,Isabela City,Services,XGBoost,4.08,4.08,4.08
+GDP,2030,Isabela City,Services,XGBoost,746.88,734.5,759.25
+Industry_Growth,2030,Isabela City,Services,XGBoost,4.1,4.1,4.1
+Revenue,2026,Zamboanga del Norte,,Random Forest,2902.64,2843.13,2962.15
+Revenue,2027,Zamboanga del Norte,,Random Forest,2983.03,2898.87,3067.19
+Revenue,2028,Zamboanga del Norte,,Random Forest,3067.73,2964.65,3170.81
+Revenue,2029,Zamboanga del Norte,,Random Forest,3156.97,3037.95,3275.99
+Revenue,2030,Zamboanga del Norte,,Random Forest,3251.0,3117.93,3384.07
+Revenue,2026,Zamboanga del Sur,,Random Forest,2858.56,2811.33,2905.79
+Revenue,2027,Zamboanga del Sur,,Random Forest,2935.39,2868.6,3002.18
+Revenue,2028,Zamboanga del Sur,,Random Forest,3016.21,2934.41,3098.02
+Revenue,2029,Zamboanga del Sur,,Random Forest,3101.26,3006.8,3195.71
+Revenue,2030,Zamboanga del Sur,,Random Forest,3190.73,3085.12,3296.33
+Revenue,2026,Zamboanga Sibugay,,Random Forest,2836.29,2760.27,2912.32
+Revenue,2027,Zamboanga Sibugay,,Random Forest,2908.89,2801.38,3016.4
+Revenue,2028,Zamboanga Sibugay,,Random Forest,2985.09,2853.41,3116.76
+Revenue,2029,Zamboanga Sibugay,,Random Forest,3065.06,2913.01,3217.1
+Revenue,2030,Zamboanga Sibugay,,Random Forest,3148.99,2979.0,3318.98
+Revenue,2026,Zamboanga City (HUC),,Random Forest,2906.57,2837.88,2975.25
+Revenue,2027,Zamboanga City (HUC),,Random Forest,2991.67,2894.54,3088.8
+Revenue,2028,Zamboanga City (HUC),,Random Forest,3081.58,2962.62,3200.55
+Revenue,2029,Zamboanga City (HUC),,Random Forest,3176.58,3039.21,3313.95
+Revenue,2030,Zamboanga City (HUC),,Random Forest,3276.95,3123.37,3430.53
+Revenue,2026,Isabela City,,Random Forest,2903.74,2828.12,2979.35
+Revenue,2027,Isabela City,,Random Forest,2977.86,2870.93,3084.8
+Revenue,2028,Isabela City,,Random Forest,3055.65,2924.69,3186.62
+Revenue,2029,Isabela City,,Random Forest,3137.28,2986.05,3288.5
+Revenue,2030,Isabela City,,Random Forest,3222.93,3053.86,3392.01
+Inflation,2026,,,ARIMA,4.18,2.35,6.01
+Inflation,2027,,,ARIMA,4.21,2.18,6.23
+Inflation,2028,,,ARIMA,4.21,2.14,6.29
+Inflation,2029,,,ARIMA,4.22,2.13,6.31
+Inflation,2030,,,ARIMA,4.22,2.13,6.31
+Employment,2026,,,XGBoost,95.73,95.5,95.95
+Employment,2027,,,XGBoost,96.06,95.74,96.38
+Employment,2028,,,XGBoost,94.6,94.21,95.0
+Employment,2029,,,XGBoost,95.1,94.64,95.55
+Employment,2030,,,XGBoost,97.57,97.06,98.07
